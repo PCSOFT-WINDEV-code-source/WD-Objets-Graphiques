@@ -1,0 +1,4029 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FI_ESPACE_TRAVAIL
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : FI_ESPACE_TRAVAIL
+ identifier : 0x263b393a07b80bef
+ internal_properties : CAAAAAgAAADbzOHxY7bl3VHEbTGaryCs8oFgvO3ZKR2kR6FcSRORV+JApS03Td5fZr0hD0rJtRF4WoCBVaTYw3ViguMV0/2TMJSYyv7aXQ1dKUbLY3ziyQ5Ykvj9b+dUVqB+WkefxGbU8P8wNDTtqbVeBatGw1cT8w/MGmQBC2/hiwU8ZKf57vZv9SA60Go8n5Ne5gePeK+zhsOP3tu/seMXsP7cjSvVsZCK5XWJUWhEIIORfmFlSubDjkCz1DAj7NF4lTePULet+qH3Qq4WUyfPZymcjZPnaawToYSXqt6xhc30N3gVxzjL54bQoJEHAZ37AsHrKfLWmSyPEPtLL3tzzDaXS1wGmld1QuhgjQ9FXODKpA18ZVoaNdW+hW5WWfYNPudGvA7KGfLPcZcVSlYL6mXyW0ehyzeaja9gACVZtWD/lmNyiZmxzHKAUI4a1mvRC18OH++djXQ7MSyxbb5h+EbSe3kzMaTeu/PfHCmS6eT6Xr+ulPTi77jNYzHZno8BduftMWQeGJneCyD8rWD5QplnDuYkQDycIC5NDqKdCjfvpm7d81gwI52HKVHtjGsKkPZBDiH/XXAOgjdgLSa7zilJffRbFqd6oEEVoB1nOVDhzm3pMwfcIqif6PBn0y2BOveeq5ZUCIda5CdsqiPIFd+xlZJPz5Sic9aqmST/pLr19A0vDIzBVryiWcVJsEt5hwdurBLd7xIo3A==
+ properties :
+  width : 640
+  height : 480
+ controls :
+  -
+    name : FI_ESPACE_TRAVAIL
+    identifier : 0x263b393a07b90bef
+    internal_properties : CAAAAAgAAABgCZOzxdcdkHcoEOsh7hHvEqcBhTFZh59MyR3mGHrcu3W6JzW17hLiRIEzDwPwQwYEP6VTio6+2cLIi5aljOteFcpq5AXzk3fIWVGyqHYgfD3YZ4JPESzzPWtEIN8lCEHLhnJ03pHA/fpP8BxB6YOq8PF58cLSuBFV5eUGWJIBDTinYRqBnHPD3w+VCRvb1RyUEDFW0a3YpF76PlphmaH2E5JgNhfZZ5Ut6elNk6oK7WHVffZyDsZqYsumOMlhNXJq8RAjuicbJoWB4CIuXUlHrZQsDh3LQi6EomEJwsndcevkCFKmvVXfwKwK2pkIaDFNnAKjP6+T5hHNf1IaemPn9ZGsdEgeybp4DcHLNNP7/bVsa7qLS1CZa5RGfuFA1oFsJANAVTgtJ7H1Sm90VeM11QAX2EEk4YmMimm4L4GBTMJKhLYxyEFKrKhmopVIetthmAQM8fjZAgtL6MHQYDYF5XZBH2L2WVBocS0taEmCQgSOCmDwLkXsrVgHGs1PjS400Q5Dd6ACyz5f2KIff5VCseq7aJsGzhMj2S0MuW2X
+    properties :
+     width : 640
+     height : 480
+    controls :
+     -
+       name : BTN_CTRL_A
+       identifier : 0x263b39be08070cfe
+       internal_properties : CAAAAAgAAAB3sx+iwr83M2RD444N1iQhNTFjgWAQu+0raI29RDZOzZ0FD8Didk0vnSXh6eq06aHOt009wFOjgX1tRyY0bJiKm8047Bkpb3dMcMgvVEzfpDl2y2x7vh1q4Td8wzoTMSsyA+Z+sNhF9V38l/cE/L0wt5wMc70T5XLurqwe6KdMhhdb4wVkPptbDgPMZv/I31wz4mH33VuFtK0h9YzZR2rL2FTLXD+hoeUfQSPMWCu4cl1145YZdy7f/ImmY2P2h6sieuTdAm1K7poVcBDONieMxUzmvg8c1syW4FYUvyJN7o3+NxXGV3XvROmfoMUo7w1K62mSZC3vK/d1aGEgT+o4Yw0tD3h30djNW/CFhJ8iTUbUMm5v6OWj2oqOYLW0nZvWU8eq3VqO9OPa3FITouX9t8XwupHh6nKNHmsDX0QoYx4WMUjqEn51UoIC7vHejGZymHw5XQry2h/7yqyle08ItTvE3RaZfAf37YnA4gEiQYJdyt1XWYjNK2tabXtkrInHlLA1nGK9EjvgMP49o6MFCrieuRJZbFgVxov47wWj3pXGLeTSD1JUYAMx9C5GHh0+Now1kbtg4oam/ZYSNuDfLg38UhS3eCeUK8Sl+HyQ+LTQQk2CqPmfAMs+SQwasmO/QOScpS5080G1arjo4WgojHLh4SqnvOXlJBF33gi2ihnvyc/YM7P2kEhZElm5S0L0qzClpJXegj4q4A1V7FYKImOBNCh6GxBroyY1xRJ13vC24yy6Y9z6Hh8MwRJMrxERnWSt4ydwHG7BoOtPnU1Fc4MB6gZUVtf/Sl62X+ausHan6E0QxY8wDzTs/e0jSlEMQK+9pGLjsgSPuYG/jzdPtYSKQDpmuAWvdQZPcFNbndOE4nF77wyz5Ti/dCXFQz9v1io1rBgqD41Fm1DPJaxAt3KKoFLoZUXMwXuYjBvJYpbIwfQa5kFwc6axLg==
+       properties :
+        y : -30
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Sélectionne tout
+            MGRSélectionneTout()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_SUPPR
+       identifier : 0x263cba5302585410
+       internal_properties : CAAAAAgAAABUb+Pk+cfRbEgVrh4Kr0ZCfiyCqrRTQ0yEXp3WhFLHJWdbEv7faPvr5tMFoE/Fnlt1wpm2ak5G9KYljhzPGRc10E3VK2U9KnnMG2kSsMky7U77v+yE5/Dhnkm7/TqsNMKVQGcZ3Wbj8szkTfrs+xw0fwTVJel5m7Wo39nV5FUEpugLgufzLel6wP5gKajyC+GYp/R72MZXnZKdZSa58L0XpWPTL15cCMp2ALbPAXvRU1rsMC65uFcZifQvF222zyEQ2Pmb4x9lRUW/mtp7YgC5CcSf/T3NflmKfyk4Tb4jGZ5eXjf1+wleSidhIl5mrZs+KwDB85gCDM3OGjoHw8Rpf6lw4B1/XDp7VonxL80/ywDULzzyJUw8FDLQS5HH4azt14IXYSVLxFUzvL7ZG8MFryp4KGnrmwETiQI7RNBN0axrvTawCVyUX+ShwvvcVufoA55pthvxa0lJ7gqc47e2foNP72U7uWnpQsBJPSsLX34Da2iwINiGFLLmIv97n3bAgsP6MRVjhako5aPg5eGMT6HWP9BUwKdsyi2JTi4yOUDI6foJG0IqC4skxc9+mCDm+k8t5ewG8VpgLGLDDecKoHl48oq/PGlePdAevUMrNMT4kvkbYzpLSNGu2MmedE2PByxUxWmsC5qdhhQhZUWKpPcX9H+ZjbuB/qE3nhDJqCkBUW3MHYJ+MyD11lR7xQ0BARCT5yRu86A5XCgx6QGQCnQe1jL69RCK5s+1fKHH8Nr6NHs2APO6260QTromBLPyr2nMhkuia+6eZ+/TpjrjZLeia0CUyeRpB6iUrSastT46TZAMWk6CO3q31kFMwBF1Y9/DWDzTkikVp/c03S3DiMk2Tr+tizXMLUW+rbGr6vrs5zLBIF/pkUQ25hkgYM/x0RiLiHKU8SqqTqyRWnRyO+hPaFxV1d7pZBCNFoBUMykXBwQ5m7pkpIIfW/n4rPebqfMMmfBH
+       properties :
+        x : 110
+        y : -30
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Supprime
+            MGRSupprimeSélection()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_D
+       identifier : 0x263cbfa8033926a1
+       internal_properties : CAAAAAgAAABhwGpHMUY+86DvPf9sNoArUKJg04Rph5OvedqcJYuMKjCsBbCgO5nQIaOk4dNH74pUh4HC7RB6zWufzvtregkJZplnzG3T9GgfeNQQy5hYzX9G0sG3d/bl+m96XmeoT45O0KcDOB11hlfr1KX3GFXu94Zf1H2O7sGkAP/o17NSGXlf77GW0gUY2gGDuR183m22Xe7KZ9DNGnVHKiCVgtOkq+9jwfcvRJH8iNnj6BIu9IqkHUF+ZZFuB+pWTMXLJvyAetfzdHRxMcJPmpI9HzrTAPEVKjf/VmRfnnG3ISTDWhrRCc+x8xS0KcYT7snueUHyHQ4XXUy6sTv/4i+3y/PgBCMHKXzxqzavrMNUfvGpFTbCYE6qS4Ec+HkhyIj+fwnZ8b9MNpN9yX6q/ftXUdskXwIN7CynRKchxQNycxpplp/ow08JMqq4In5SWSTFVlzN6yzHCvRQPsQZ1W55lt7kaNiBXLY3HKSCwoaWL8q3nXBZwHmU5DXlWvpstcvHz0CGejXF9JFt3tKsEzHWsppwyi0q0oxf1WtRnlIoEdfhAxXoqUd3hk8Kirl5dIYZxYrXtjOgUW+rhykwE2f2ln400VuyS1wm5XU5KYIt6NdT3UBj1nUwaXwklg32zI0FASACqMPvzlSTMf2zA7Qy/9E/DIn8vpgHTK/I6idpglf88Bm8dwkPmsW9+2NIoqVW2EbtzB9R5vX2UFLHMzlKx3DPlAMrIPVeVmdi2dnneE063ORxOag2z1gmbN+zHxd8egKS6brejkXCw8U/zm50of4zD/QfENbe7yZdfBA+cZYprT6lYw/rRfbht0ikrY8ebv8ejVCuLM0cNH93FMDun8kxniRNYOT3ZviBnAj64vnxE8omFxVFRsj/stWtYfiPP7e0G7AiZT2RgLTQTXvS//QcZMlqO8/nDD2qq2Cj2s0=
+       properties :
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Duplique la sélection
+            MGRDupliqueSélection()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_C
+       identifier : 0x26405116009739ff
+       internal_properties : CAAAAAgAAACLzTezPHDV70dXAHP/3xpzFEhHe8dpbkFDZ9mc0x9hYlcg8Km8IClCgNTeaQntZy3F/HYX9tLjRq8JBAmyMFyzD2ky1H5hR/KXFlewKk6V1kK0s9a+2kfu7r7uA9FH8tYEU8eSfS5Pnelr/HjKcd/SXpOnKIxLA7nllZXwsaVZbldt9yR/7dN0OZAPQlze5TsbFAzLe7EOO6HR8EXbON66mH4O3YUe5hhdnsAwqu29HpOs22bZOKYBXlMfg/aTaae+7V6uFq3is7V4KwR/sk3I0GLWvJXwVK2V3R95hpGJfOG+38YsDoP2QXPh9oVtyheXWMOjqHHZ7UWnVce+iZkIWfufvA4tfwTFDbyG/9gY1siQS0Euxb+cUdRA24vPq0KGLpISD2ZksYV9mOssirxb0e1rHWhb2XAWcyCUPQbTZgRwmlE1eBSJXB2y0tcjyfqup7wOzzOqCEBmQhKnLk8+ewT2zfpoCxYP1cC7Vo1FYO2HJHHAFmLXqPc9qKpVs9kZKJlQlc0G/1KxQ8NnGQye9YOH2Z3rI/WDznf1nCfpt/pl1GFRSePrVxqIlOogQLsjVekhXYfa8mgmxecVQ/wS1uR3mY7wgo8Mbx3QcT81RyJzenHJluG9Fm+I4sXRaXVxhiULEbMdgBIXzUyrpcJJKZaF21bevcpppwjfxJEtC1BTOyS+IqWG1YcI7yWL2bsxegJjnYaPj40s7mERcVEOPH0aPfOY84U/COGEd2i8eQ3iwr3XYaXTTl8w0zIo1oIWYUHkBIZDhsNSaOoAGGm2LCiDMls+fSRI7B5pugo04FvzDORwCVbqD7UndBOT0+eRbLIHGrh5jsWCGJ2XUkT7M9ZaCaF/kL5z8q+uk3tvab8hhIpcPszVhlncSYPsWlHxaHhzQkxXUSmZldBWn6gXsrFuanDKDO9fBldM
+       properties :
+        x : 55
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            // Copier
+            MGRCopieSélection()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_X
+       identifier : 0x2640518a00a9fec2
+       internal_properties : CAAAAAgAAACzVPOI3UbfPXxHnIX8d6JrjmvYVpxQRvkEd0it2CRLNdqcHLFnOkJh7xKH7D60Km+5R7rH7Hoax1kWRGLs6CgCIXhZpNg19AVt7dupgwd6f4aUf+xU+tY3tFUEIES2YOLH2vATYhmSoErFW9pNCSQY5kFKiOwdtXnuFzoFu5mEe+zhthLnTJeK0qgpVdSYBw4JmBPmRVvCDGZcRESsHMpUVLoSU4YUdHgcuniqArf0caESNVRcIJ8kFWNH9d0XqLotJp2ZZd8AQ8ryhdUZrIwjNlGI6vEYK7OsfrcFi+J7pvYthE5K7jAPzuKPJZsXZVhEP5hYVb1LhwKjSp5yEsvRnZJAZgltT2aU2jWnV1YOfbLiwp5qyem+azjAe70y/5uPoqQfqFu81qhv/U7hVGStN7+9+TIMf7CHuhS7BargdV/WX46JJA6iJSvgEgF0tBnTMPLKXkQ0SnvdrqlZ51fzNVh+AURwcGu3r8jFFCbUqi/X5eYtrj9H26wEwQRxsK2/dgxkUZltBg1YO1XFOAX/W8m/JxlNVwUgIMTi6DOW5CRA/Hb8irtu4Y2xAHdX7IV0RvYXYo3ZPfC627Mh3m/xDlEpYh+ESyMK95TCEs3aGBurjgYF2Uy+7USqhI4gcf8wytzDNwWy4rpxQwelM+xi99qrw+NzAjy4OptIjH1rsLVNiBffU4aRKvcubkJ26zUOUFDyFw7825FR2fNo3MkhdN7YzIYiV/KSAnD0UgwZrSaS139Tqc6uXUOLO46ZSBaGj4aY/xBpTZacBUZII5xCh6/xu4Ra9t6d/SrsgIw7ZThapgjcX0W99fOHD1hEgebcWhRkbJkQssYgHQvHkVSJAVrUiWtrj+zPfchz+zM2gnsbzKIS02fq8BJEr4AOB50WPk6u9g42ahWT/0w8sL/LnjxIDulp6+tbjgjZeaYr8IndgDhQRpdI4SxESE0rWVA2mzNhZkww9nHZ
+       properties :
+        x : 110
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Coupe
+            MGRCoupeSélection()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_V
+       identifier : 0x264051ac00bb820b
+       internal_properties : CAAAAAgAAAABYMonUaYe00APHV/MFuBLsAKAc2QJJzMP2fqQ0x1O3BqWq75KRdtW233O+/GhQRxGGadgjzpco3WR6AW5dMM7oFOt8u9lHtbp6r5qiRKad5HQ4G85gdiLBOFbSVJvJAu8zsEF9qvTqPUJ4utxVgMstYuxUONCxp2ESFUuMReKaTHPvzk8fhnYPjVBmxt8ApEqUXIiRaR59hUnlJr7au8QSz+rsSXT8GV0OJsx0n664HJcHfEs+RlqTyKIbhvTHoyYavvnOtg9eS5bKJxTp1K7PG1V8mn3+sx7mg+5PxSLoja9Mc8HV+i80d4tWHd+TXUiLW7veyAK6c87/C2xx2P4uFcbXVr9Q/qDMJU62N1JdfpmbGrYryUwfK1z3tLi043dRWdsBNedcXpmv8UFofOE/8pZYEbv/HvlsS2Ybf4FCvPs81+LsjJkXqKIY5odNlShR1zHpPTwWlzBH7wroraTs+MU2bXWsz15+c994i10SIdwf8pHLzgmgdE1nP4SvDOVEVwmq9AUBwmTCASNmb8bGfx5Dz/i6AQMuXvXnOr2Bmj75EwKKeqnJfS+vwlMSg1acbZ9dBJWKJzTMAoBac976DLZTLOFNMpYCNeQE5owuL/i9XJXYEO1jRSDZ3Rcqt91I0ZUPdNSruyyhDt1iq6a4+DLb2tqb1jP8bCQnVr13xhrlkbO2ayi8ppltbhxIY2ks8bySVAJHeUahKAhTq36U4J6HfRdnWzNZDIWt5wXL0sYAIHJYgubN8qs/jZDF50BkEG7CcgNTKhSs3PYWbrfV7w3bCru+3qVFDgu1f4Hjwb1c3MXdTplLxD8pVNGorOu1ShCmF1guMc/7GgSP/VdtnzFlEivskTBXMjyJnFFZ7pWN2GBZiyjag1V4TSXa9NcC9AChd0xIBRw7Zsyn1T8RCnKW6/H7B1KC8ADei0=
+       properties :
+        x : 165
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            // Colle
+            MGRColleDepuisPressePapier()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_CTRL_0
+       identifier : 0x2640a5130a694cb1
+       internal_properties : CAAAAAgAAADbD7/jOXccjVqEs6JoJnb8RcER+VjzhBQgTPy9hYtTFuk31fKqAD6QgMWJDQif1u78fY9Ms5aXwmS8nDGOXCph0s7J58aZ/Z9qJsnfmUPwq/Nx7XOu0RaPJKVYO2jNVIDj+bnNFEwBSn2ekEYQemqVRH3ggpVIcC5vsto1zLZvGz0b90sXtZIZwWRyGSi9zPZX/oD2q1P2PCtDJarb3/oXWCwzi/oid+p+F4awRswH9O91Whn0vkDh7PADyyMpYDW9K+IXK5ezLrFhB6PtA5ULiqAODcOyo0rqS9r/aXCvn0qEuuZg+hNJ0VwD2WOSGEXZNwbp9YsHK96dkj90LTCzbFTqOPng+ZNQJi/Fnhgl47gN4UyjA1EvudXu6ZtjligrWK9gQxL/t0sW3BDORJgJLSe0ZrzHi0mXAlhwCeQHyYI7fJr6PvNkx3K6Ruh/TGdmaIRC7rWBZ094Vfj78YmCORX4HmoZtSRNqvcftw58E2lWG2lgNNKtL8QXHIMjFjp7i5wDAEWq3K0kuuxM1OGIS5qpdoCVcIX+FmnX4f0cewJp0KtxvhBQDdlyCaL3bGC+YWx4q5kM6wCa1mr6uJX+jJL34whKbEm+m5sm7Mk6m3NST4Pi+70SXWkhr3dhtBrrFZbz0Eww7VyHwLGSpWAL65SN7s41B8kjWJ4kqMdLhthv7OH56EyTTGmVp6NQv+qsPxw7VjnPGsUVAN58ARUn1dDebBNi768XY7SaPou5joWOKMbSUTWyC0lMdEuUGd6v6hmejoGTiUiVlZasjaGTAFGeUnYUzrS8OFUzH7BcESt+Qtf3ExX33OofYGFAl9ebPkemerNpUGjkE3ALOmmgiEqFox2+mCtb87bC+6bVJGz8P2ZQT1iQFjyFfyNulU6MRxqRYmRT8xgRvy/jCLYcaNUcNMhQeOpA2/ZWvg==
+       properties :
+        x : 55
+        y : -30
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            // Adapte la taille du champ sélectionné
+            MGRAdapteTailleSélection()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_ALT_V
+       identifier : 0x26dd3cb100838f50
+       internal_properties : CAAAAAgAAACQk/pamolEjChpKxT8vIJrDPhZ1P/obJYT/qksjQbZyWRSaS+A4Ea9HJoZTKp53PvqfQauY4W+3xvuN30daVnmIP2aTG2Vk0qjaAKSKc86c4s9qJdRMecEfPHCmNZ5ID9ccYnHNM6xMbnTuEKhUZ8/HpM4675sQjgiwuMnDnAAxCNSM2/jHRoJxmik0BKBOIubvIa83UeV7M/7ZLsXXYGALWOSNXcWR/1b4/yVMDTa7UiqsdldR9gZ4BNU7In1LVtZCFMUFMwqQSoBrsj0FYkHk/fC5yykqsttbVs9BsK9LmCf0WeIEEI0ObJG0PP4NJnqaWpKVZjZXAzjyZXyPvk1yzbU2u5b3dVOnnnBFTYrmiSWKjI+kEDW7uh5zHCUYb4K8/vrXqtZ+U+Nik3DgkI5XagsKvwsyjYh4mVoqpRza6nF6BMKnoyuAEE/VE6cHlAUAxL1bN/Vn+6VPlXu/NnwdpW7qBZrD8qg4N7a/QjQ6sG5opbuuAsWvi/f2iqVmsuieC/U3etHjF8Ys/FdsaRh1y+5mppGgQLIBxfM4teVVqx9xoBoyhUIpvX+l2L+oKTlzWsuWnqHiE5IWLR9afBz9ED7iG9ntMInTl5UNDKeUefy+2XpAAWYghOG/ZFbIMc6COlCbyxu+tCWWtfYOr4BTLFlPpLaGFqhmIfxrLbqEGYb+fuZxdPwjDlr7bgiSAw71ngKtppQxd/1HBp1wAdjvvAxx7WJwa7ev5XA1DFiC4zpW43pH437iXCy0ZTE9C0KmWZgaXqVBA4kgZMMHuFQKu1W52763hKDcOchxtYVenkwHfpgWmYfd42nfthuuEQxILoLHE9vBXR1lRWP6Sq3vNFv8sYKIk4YiV+bI2lbcP/Tskd75/EmnI1rmNtVZbvH9J/ptBlBto5q3JUCQjOsahEG4an5k5Y=
+       properties :
+        x : 220
+        y : -55
+        width : 54
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            
+            // Verrouille la sélection
+            MGRVerrouilleSélection()
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADNp5gTOyjn8tXmY4wQO17ftefmEP7L39dF9O/yDFHJmedSUKRlHv0ttoXj6uDOw2TFCGio5n7Haz/GJUbf4Z21fICJ9HB5GWvBo/cNPcuHGwpwyeipfMPCMUECvcYikkEQaGw6RdEUuL4QMWo=
+        code : |1-
+         PROCEDURE MaFenêtre(gsAlias est une chaine = "", gsFichier est une chaine = "")
+         
+         PileActions est une pile de chaines
+         
+         // Conteneur d'un champ
+         EspaceObjet est une structure
+         	// Champ
+         	MGRObjet    est un champ		
+         	Nom			est une chaine
+         	
+         	// Propriétés d'édition
+         	Verrouillé	est un booléen		
+         	Liaisons	est un tableau de chaines
+         FIN
+         
+         // Référence sur la fenêtre
+         MGREspace 		est un champ <- moimeme
+         EspaceVisible   est un rectangle
+         EspaceTravail	est un rectangle
+         Enregistré		est un booléen
+         
+         // Enumérateur des objets
+         MGRObjets est un tableau de EspaceObjet
+         
+         // Alias
+         si gsAlias <> "" alors
+         	monparent..Alias = gsAlias
+         fin
+      -
+        code : |1-
+         
+         // Active l'édition sur la fenêtre interne
+         FenEdActive(MGREspace, vrai)
+         FenEdDésélectionneTout(mgrespace)
+         
+         si gsfichier <> "" ALORS
+         	
+         	// Charge le document fourni
+         	FenEdCharge(MGREspace, gsFichier)	
+         	FenEdDésélectionneTout(MGREspace)
+         	
+         	// On doit énumérer tous les objets ajoutés
+         	__MGREnregistreChamps()
+         FIN
+         
+         // Met à jour le rectangle de l'écran
+         EspaceVisible = [0, 0, MGREspace..Largeur, MGREspace..Hauteur]
+         
+         PROCÉDURE INTERNE DéclareMenuAspectLiaison( MenuDépart est un champ, local bDépart est un booléen )
+         
+         	// Crée les entrées de mise en forme des fils : chaque option appelle MGRFilChangeForme avec la forme et le point du fil concerné
+         	MenuAjouteOption( MenuDépart, MenuDépart..Nom + "_AUCUN", 	 "Aucune", 			() => { MGRFilChangeForme(bDépart, formeAucune) } )
+         	MenuAjouteOption( MenuDépart, MenuDépart..Nom + "_CARRE", 	 "Carré", 			() => { MGRFilChangeForme(bDépart, formeCarré) } )
+         	MenuAjouteOption( MenuDépart, MenuDépart..Nom + "_FLECHE",   "Flèche", 			() => { MGRFilChangeForme(bDépart, formeFlèche) } )
+         	MenuAjouteOption( MenuDépart, MenuDépart..Nom + "_LOSANGE",  "Losange", 		() => { MGRFilChangeForme(bDépart, formeLosange) } )
+         	MenuAjouteOption( MenuDépart, MenuDépart..Nom + "_ROND", 	 "Rond", 			() => { MGRFilChangeForme(bDépart, formeRond) } )
+         	MenuAjouteOption( MenuDépart, MenuDépart..Nom + "_TRIANGLE", "Triangle",		() => { MGRFilChangeForme(bDépart, formeTriangle) } )
+         
+         FIN
+         
+         // Met à jour les menus de mise en forme des liaisons
+         DéclareMenuAspectLiaison(MENU_ESPACE_TRAVAIL.OPT_ED_LIAISON.OPT_ED_LIAISON_FRM_DEPART, vrai)
+         DéclareMenuAspectLiaison(MENU_ESPACE_TRAVAIL.OPT_ED_LIAISON.OPT_ED_LIAISON_FRM_ARRIVEE, faux)
+         
+         // Met à jour l'espace de travail
+         __MGRCalculeEspaceTravail()
+         __MGRActualiseMenu()
+         
+         // Gère la sélection
+         // Il existe aussi les événements trtFenEdDéplacement et trtFenEdChangeTaille
+         MGREspace..Traitement[trtAffichageMenuContextuel] = __MGRActualiseMenu
+         MGREspace..Traitement[trtFenEdSelection] = __MGRSurSélection
+         MGREspace..Traitement[trtFenEdDéplacement] 	= __MGRSurDéplacement
+         MGREspace..Traitement[trtFenEdChangeTaille] = __MGRSurChangementTaille
+        type : 14
+      -
+        code : |1-
+         
+         // Fin de l'édition
+         FenEdActive(MGREspace, Faux)
+        type : 2
+      -
+        code : |1-
+         
+         // Met à jour le menu contextuel
+         __MGRActualiseMenu()
+        type : 65659
+      -
+        code : |1-
+         
+         // Met à jour le rectangle de l'écran
+         EspaceVisible = [0, 0, mgrespace..largeur, mgrespace..hauteur]
+         
+         // Met à jour l'espace de travail
+         __MGRCalculeEspaceTravail()
+        type : 65541
+ menu :
+  name : _Menu
+  identifier : 0x263b392d07b1d762
+  internal_properties : CAAAAAgAAAD7S+2GOLjEeheq9Y6YZGIRPpLnwB8KUS2je4S4X5oxSGrv51WBBaVxxbk/BTEdUwW0fnnvlhQNIBAuQTAO0S9+S8FMTvDhqkS1JydqFJBfHlbZSFzBkZAjjJ5aIH/cuMnF4Pme57TAyYvjnlkzTJmN5UX9hu+BEl3AsIsso5gsz3oX/KHp1ai/xWZCb54MlUFXdWmT2EOpULKqea/LH9EOlTkaiWsV2aM2/FfXQjTSY3NhAR6zEzKHYKVJwiZULchG0D4LNvRbPifZJPDMmlF6ptz+Rg0QN6SXG5jU7HifIzmkonwDFnOJQw==
+  options : []
+ popup_menus :
+  -
+    name : MENU_ESPACE_TRAVAIL
+    identifier : 0x264465a104e63667
+    internal_properties : CAAAAAgAAAAQOV1ulmx3BAGvSR0Kv2Xm7gWMDyOVC59W4dzcDTfcAztoppGLjEICCfaoxgyPei9NjE8AwGHq+wuq3/sok46vkd4j7fHwl8RATuQr30LhYdV345RjYgdDlzF3pMfzbijxc4perRbZimk/9NrarHEXWOYhAjYKHOAesB8cD55Dejz5rcY9h0wmJJ/qNt2WJA6V3UiIruOgzGwVeTBlkLfltmjjP0M/jAtB+sbU6OF+TOCPHMxo47EEaOrDPhR6PEBqB7T2meEtBZRbPyZPoAckmANlqNnoQ393rTNK3ZkaKS+6DJZV8SbN5YO9Qk1zrGTAhDJxrIHn4nLlbJktRsmGji4k3jkC6x5nn0LBEsZvz6brPoXiiRcwgs1CUDpxszy/SgE0lOcP9/SgiuqrHA==
+    options :
+     -
+       name : OPT_ED_ANNULER
+       identifier : 0x2644661e05201e51
+       internal_properties : CAAAAAgAAADVtIaVSn+gWfAABX0Y8nGYNhVZ6NMEiPqid+bF00GNFJZ2LORNiJ8kLsOa5BUTnpc/9u00uHwkvaYw1kox6xsXLUWQb2Tis407TY7YcclpZh2RYcUKxn3cFM/mc+kcb2ygG0t8QVxWsE8P8sY0oBPy/9dT1Nwy2byyHpwQuMG1c+pNUURVZ0NrkB3rQahmXpkxO5lYTU6uC4/j8LDXyrIjSCaPBH5a+2SlPOEloGSfUt7Tw89LyakQ/TW0s4d1Y7ALrYCUZDQCKO4VvoP4vD+Sx1qFA0e5JFl6gLh+5+PpRDxmL6S8mBsUsXfPvGea81941sRGeSNRe3p5nTiahEUlq2FyWUJZH+fVHCkfmtLE0bDbr23oJLNy/w/xM8z7DFbhP0l8YguJStjxYANPGfQPBR8cgYpbmSM0F14+//ltiMVYOSbZQdopGuDEo86hKS2aqppGGAjFXjnMLHD2a6oNU60scMUXCSRWr1d5ntAa
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Annuler
+            FenEdUndo(mgrespace)
+           type : 32
+     -
+       name : OPT_ED_RETABLIR
+       identifier : 0x2644662405223728
+       internal_properties : CAAAAAgAAAA2YzvPBnaaWzXHtBwRoKrlgAL3RLXktDj5wzSMrGhYcD4khQekmAb4HZYt+kkjl500qxF/dTvf21a8SadG+9j97IagPjJAqF+32+MON4xZLtCg2cBmUUekqQUW3+kc+yuGgTHdJcRa4jv4dAAhaN7EDkhuKAF4hSTMFNCaLgjGgLjQMxk/8BpxGGo0PS67ugAdoDMlgncNa8Shhx+fEGH2A98pGICDC5yvo6dkPBerc2IjQ14Cz/Rr7G7gHfRp3z/5NifGUGxn8Dyfn4Cc2KzpPjWaDZ2ZyMeO+/7ndsPeZ5MxLsHHZL1q9c5h79iHB5Em6UK1KICaK0yMVhdfT4a53T4ycF9tAFl3wezZCbOQoRcOHXkKWPBZZojn3O9C0VHP+tcdYnbXBmIgMiO2y0AH5nIKbJ5Ql8xvtrRNLXXZnVcgDiO/qPQOPqmP1uOP5bp988NxrsODGR0kjhLodlD7K4CivhTDbVOUEtEYZtH2hQEeI8Q=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Rétablir
+            FenEdRedo(MGREspace)
+           type : 32
+     -
+       name : OPT_Séparateur1
+       identifier : 0x2644662705234169
+       internal_properties : CAAAAAgAAAD2SDU/+YLcKrDs9s0FqcZP0iP+9A9583ypD+y1jP2D9y9SsEZ8XbQXAJTUEm/3amtQOqEerkaIpD7TLgKQqyj804tNFYXziJe0o92UM5wkCAAtxFO1PThnYmpF7qXhi7NzvU1MG8a3BsadHma9Rrc7M7qo21bvZrC2l4mLBa3MBNTMDzKZ+Dlt7KmeOsXSj6hoW2v0Gmx5JZSVh9/Fkz7UQdDCBlBP341dn53nL1/qlGGp3ZWxD6C5kyN6hYn9DUX4Or1OGNg5YoxjhCJUBLSIQQ9oY0HbPdT8TZLhzKGCIBc1vLWRdre1ZUuaKW5x9dldrIhUV8ugm/W4Ob2//LotIcCCCKAtNwgzvgX9z4NzZzjTO5tCn3wPNm/QwxdnfRzHakDTfjH9nfktbtaWswP93WU=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_COUPER
+       identifier : 0x264465e004fe2aba
+       internal_properties : CAAAAAgAAAApu1o5JbhDYgZKIpl4F9fN+fv/itj109jmXuK1M5ib/nI7fBpRo4dX2Rq8GkOYHR7FLYhHWUq/tJOa6mhQV1DCBMsk0d7meH6Ee0Echzy42/cbSQLLL+GYcXrv8MlamlRaE/7EZzer77VH+Ml+Ny/p2OdS0w4hyelPhxhL/4ltMD+hM3cU51RYQm1JJ4ag2bPaL8HHoQ4Wq+xhxQVIJWtZw/066UgsElNzhYACN6qSFgZ0O5O97755KurT/Gky+Au0KppkYDyRque9yHOi74ioz0g2U0i/5pJk9xSpA2k0cDzvh+WlzbuIQbNW+oQq7A4gOR4xhvpxpZT/xzEKPFQmXxSsdN9M3oHP0rlH5sgk/G5uoXOAgbWLN6eFzJ4mOH99T3c5I3tfG/fR0jRHLgusEDiKnk4lamAnO6qHZhthcvvR27vayPIwiaFBj5K5joJcV4SjHGBOSgskdwKDGlQ4yTitdAFlq545JXBWsg==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Coupe
+            MGRCoupeSélection()
+           type : 32
+     -
+       name : OPT_ED_COPIER
+       identifier : 0x264465e405003bc1
+       internal_properties : CAAAAAgAAADvlh7doJ4fH7RpJ2RRPbyDNnmYjUTLqLFvDrMimr4CvrRKfWZaNaVedhSBTMQDyRtLLSp6LOK/Im1NJHcv7GtgZHVJ7KWEoiJNz6MKTb8mrBHKG0+G7Vn+MZ0Ln2k59dPCXzbo/qOV5U6lHrPKBx0/xHMjcCXT5NNWJu7X+S/XVXuldOjJXDl2wkdRt55mBjSEbRPo/cfA4QRwtVE86pVzdPvuSOcAz7BOusqSkW1FmTelujyn1byaaw7GU87w/xQC88PbaytjCfenR/aLDyRmU4Aq0gniB8g7B8xnQyZd1Wj0nWjO4ovM7zf1Ue0yz6Ty2XNTrFDG3G4M/fXmmkWBUNURbkmMXPQTR/OaRijNbXOjKlYrib5zftz9xs4jPM3dwjwNDi6fVcLdM7/ioESp4Dhl44d1ayyI2iBfroHI4b1B3HfKu3gXAeKoGzdaz+RZrR6S0SW/Chxk7O4Y0GMP6NGCzbBOcd8betP23omAQw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Copie la sélection
+            MGRCopieSélection()
+           type : 32
+     -
+       name : OPT_ED_COLLER
+       identifier : 0x264465e905024ead
+       internal_properties : CAAAAAgAAAC3Tma1CHbX56xBzzwZdcQrzmGQlTzTsIm3VvRjBQ3DC32zmAG3KKoNYxGyQTsufiCcnq1VkXkMxeYmbYRal6wpZaYg68aHdwH26GALHF33Rfq7Mh7HfFr1hg4YqCAIJhijIHVv+zbKCA+C25A56nKgAVhWA5qmDYojB2MIwOYIIuQ2e99qHPFGPne1966WbpDkJTN4rYc4AWiY6Vn8atW3HJNWaMcw15hqypaa2X39pRctxnj7EVg+eRS4gbQqcf4wMa0pyVF1x3Ul0XwZKQ6Yqd6MsO+Agb6BlXbt0egPJ56y78a8yPVShYW/nz3Cv5bGJTUR8gbm2kKQhwN+6u07zLlzhLcGbPq3u+WI8sxZszt7cJg1a6JNBlwLkIrfoAPVyihpck4R4YTXX2tQQgaVkmoZf6stQSQeIHAPYKdqRV9z8GOuw3oLM9Scb1U8vYT3syaaOf0X4iR89OYQyGsXkHk6hQg2WcczQiteRjFYmw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Colle depuis le presse-papier
+            MGRColleDepuisPressePapier()
+           type : 32
+     -
+       name : OPT_Séparateur
+       identifier : 0x264465fb0512953b
+       internal_properties : CAAAAAgAAAAhESjCanPt3WGdY162OlHeRbxpB3DiTKc2KF8g64xgELBhKReXeC+ES6cDVQbO26y9yVbr6cmD5fF2bYHjnk2hTUfFHYc1zqm42dGguTqA1DyL5CNbO4o9mtTZRp8jN2+D78ko3dB9pM5PllZP+Mdb29xQcygRTG5GWWnPG1s4qNyel1oDSj+jpKMu7hvw41TYdRdAaNITH7CaWsxg+FGpdMGNy5NMEv5IiDTAbiAp5dxaqMp8BHtCbkwBNuhuHEbLG5jza8VsT7NAN3/PaUMR8LyfvAjcLNGfrpFa66KNZZLuJ+pco4rSZCjlnml26AYYIXH7wqDriAa9OnTyyXdgxkFfqx+u5o3sCz68MiBcpi0UOB6xqDOYjwh5Gq7w6o9Y+9FCDaJsCmren+XlRPDoJi4=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_RELIER
+       identifier : 0x2f5738fe0189105c
+       internal_properties : CAAAAAgAAACY8Y5CuOnaBuj4P8QLLLcekac7IGHIXQI+SqP0Q2Y53SqxKgKEIbuKQAkWNzZvphcTXat94H9mLLURQ26I3xAyO0/nbjp1QJQhtYThNwNm50k4Aiw2MC+ghbUSy7Pi1b1Ih8mpH+yMyalHOiTb1GuOOAc7GV73/bpLRrYpqfXqe4Ke08DrzXRBEJch89eYPBOGfBuDup+7NM3dMEA5H7lH3aTytX/6y1LKbgvtqsf6r6y2bR4YR2YtYwp9+o8R0cGhJliS7SIqiMA3m2BLrSauI6PRCWYvbiV1Bc/BK3mMwHPbdvGbGKiHO3MBHTCDm1pXDQ+xgNE8jwRTx4MmRfEHwh23Yk378cahjqbkp0AAK5RNWetCvuuUqN5ssjuhah2RCXcL45L46pJGFRCsH2yeCSpwsWJvf7qQ
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            MGRCréeLiaison()
+           type : 32
+     -
+       name : OPT_ED_DUPLIQUER
+       identifier : 0x264466090514cb8d
+       internal_properties : CAAAAAgAAABIIF0NglMKai6uY/cTwgmERFCEB0NsKPlfVJu8YI6pwZVIal+zm7bqFdjM5Ef9QZpzxBFkdqp2PhRtQYFE+1tTLp0DtUcw9jsJ3TR06ZIXrb8Sh+0Ag6oapP8gRmdFRAam5ZwDVAc730PqmRIdiFQnJ5iBOXKs/PFaJa2PTR2Kwko5VFEn/ppbyDgahSo60THi5ddeF8JIa6tpcF/vUy9OC42+I3vgijUdu0ij36fhLyRPvVVbLfo5AdDNpNCsOD7Tfsj29j6SmKeBBJXDZQHxZyIP8li8oCSpIaY8RalvcrTl8gWO4eKdfS21ayp5vlD8cTXz7/ub851kBMcQ0/6l5N1QmoXNIDfeEs8QZkpeGVFdgn0dk/rVDIfJvUd3zyyjGAZ8W5uVSybTFvkotbqkZHo7oHl35fVWvHErrVLD3RHggc8zD62somOMBw==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Duplique la sélection
+            MGRDupliqueSélection()
+           type : 32
+     -
+       name : OPT_ED_SUPPRIMER
+       identifier : 0x264465b404f3816a
+       internal_properties : CAAAAAgAAACZ4EiP1Plxp15/IZK3NzDtFoFk6VsGluuMWYPOtuJMklKAw/yKLZGwiuzJ7Ox7A8dhs181Dkas4Bq1jCPDeKWg8hNPAi1kFuDRS7M2FeWjlE94eT2m1U3MjcknSz0V06dwvUjyFvNR054RXh9GW9P7Bk3xZh3I/7oNIcGKU8wnWhAcbVUEpMWo9lfFD472YJyqk13K0Zv4y1CY7SmcAoMHrn30NvmZY/XdiIQvZw6b6l7CACarsIJWZ105IBWhgPsLlAgGPhxUeHo6CjvWlEm3aJ0xE3oBBgscOGf8Wi/+yiUpVGEHbRpfsDDgnjodDiVZsEp0TZ8frz1bPKbR34JCkQbsAzaDz3sITBqjTRHeErR8BQtgXIm+i9Hk7yko5coek3NGF+Eu/ON2fhS56dnqSSFAWExM8listVtcEgBfrIgkLeb5dFFMVL1RojjhUtNgJJvVzN7/M1HptinNuwKuBwBDNN8LroTyIYsELFu2dQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Supprime
+            MGRSupprimeSélection()
+           type : 32
+     -
+       name : OPT_Séparateur2
+       identifier : 0x264466460535bb1e
+       internal_properties : CAAAAAgAAAAFTuf6TfD+vp1jyNtdeQ6rXWFiNSFdfuOVniPlsZzGDoN1oRd5He5D2uSo0o2rm2Esa1M1pvMpCk02HC4QJ+mxLrukE2wu7ftuYfvSZ+tP/FFRNC40NLGAjLNoV7LR6NCHDeBCT8erHBfcaNQlSfOr6SiCAUiBPSTTmozlXLRt7XmO/CChfjEtd5hFRJGxoXQqjqBo59qbCU0Jy9TAG27c1OIimrSIedWvvn1h1zxF0X0IsLZ90Dincd4UvX1iCCo4afyDtNfF+FxKemi0xFpSZ/bBVZS/NEqBprwJC+wTH3VqkbShM3OvxVDYuXj89LJMG2aKUjETtgQMEtrsWhK9SH6OYHnnVLFeq9SSTo3ddfmPrbVfZxm49Td/djqKxPEYDjGyJD4YMOOjKQEGImX6h0ibYfrh
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_SELECT_TOUT
+       identifier : 0x26446641052fa525
+       internal_properties : CAAAAAgAAAAVJrw3ANxXs871sMZWtgBTVtdIfMAfbNTpZcKxgZaVHp1iRwVcbQ0CIdS51vS5J+HUEo6yfyN4JCtT2wDGCeJISSlzKporbNFAqRkQewulQ93vHJ47PviOYPXaGTIvECCh8HpnxmHZkMC4IKdMUN5m8prCjZbWD/KFK6nkDuUcazGi4g8zD+KSemt3KConS7vH7umRHNXv2kkJ0G6+zBxLWH1wqXMIvTHVyKGF14wC6EzDA8hups8xagIChdCkmnBISR5Ns8EKTJfdK1j1t/bisfIec9uTFD8gW7XH7b2zImB4WpeKnX5Ij6sjA7/WmX9PJtXZbsrqdwq13+DuE1CcKNnOytcOwkWLgh3O3mdxgEoO6Jl5TlBqMMEOJvc7wH+jGqTWhztOikaVoQgjMgpCyNQGf27Iom8MizVh+0UgIurE6Rkh/rSTwOjXp6nVtydsaxjv
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Sélectionne tout
+            MGRSélectionneTout()
+           type : 32
+     -
+       name : OPT_SEP_ALIGN
+       identifier : 0x2644698b065f81de
+       internal_properties : CAAAAAgAAAALXZtmX0g3sZ56rO7vKp2SBeY0vhRRkVTEoeuQv1BcUOZhJ8VZb03vMOtLVhc3qYBafJKxnpu6iR6FvmhvQCJVsSuKmPovsYmk4vwah+/MhVoa7vqu66pBZd2dJsiu0udz03ggRiQzWHI4REXZJELx3CUYEwhJpyR79w7+EteXQYUaGtEKh1c8lbTXAA8F7ZSISxRGAFBIrVc9951Kn7uMGkjp9LL0gSEKt7priJspabkgmbJMzBZiLW0kEwKJFCVYvvWBgSn03zXwlGYm5cVumQT8YiW9enDccT3UcnDy5IovNvhM0jfYrekjEe7ij8tYocwroh8p5GepZaLiwej6ezyleuTUt9zgqxrPJJv55SP4MDmLyfu0sRcN2dd8Kh8JLzfX08ohl8iF+VOVv5FvWz1nxANFjg==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_LIAISON
+       identifier : 0x2f5776d0019b8c3f
+       internal_properties : CAAAAAgAAACsvRqwiu+i748AS4il8IH3hlRKxwOqJSawW/h7do/np9kEmnPLbKbnZIYPV5l/WIiYEKr26zeYTFvjPVhoAdHFJksbPyh76bJ/0MUPTGkroUuPWucYo+8dd0I0mpsBOGTl5WXRWVx7wFZU+lN9yMYcTijiR1cUm0SDOzB31CzNaLeWuFUfZdfJKGDjeY9cqSOc7QEP9IXRLgZ4R0YcytmJiBT67N0asJAGFhmqBFlXpXeXJHKEs8yNnjhQhVjTjzi4tMGNDS+PYNp9JbL5+g7m5d/voJlorKVjTOa1iW5PQRl4TwNF0U6WspDBDEiQfsTxQ5sBJVDT62s4lLJvAtId5kyWw1qjueSLYtYPbppLDnc44Reyt1oBqTZ84sci+VrY5bmPNzSvfrcGBDMTIuI/vME3RqG/QWv7pdwXkkGhs6Y=
+       options :
+        -
+          name : OPT_ED_LIAISON_FRM_DEPART
+          identifier : 0x2f5776ee01a50111
+          internal_properties : CAAAAAgAAABwJ4HK7tDzmhCc3KDXgMdLn3UYP9udOZWtXxddyt/nPtplG2h+QrTE1LcKKlimaEzGJFxGJz6p1ersokfLC7c9c4DLNid4Vp+Rhxjbxu6EAjarC+NMobGb3qvIosbDmY5ASq1UGscgImGUiIKTiOVEfOkseSgpfndlwTrjKa34ljVuOmjPq02R8hQL7XrcvjawhhyG9eDtEXd4jVE6uDAtx2dVPkvar4D8OybqcqpoGuaAOOy3eO99+0I2Xh7CrBYQUevtOuSz6MD6Slza9SyvfyeGeeC0Ki4WWb9sYXpVPEBzFtUzJbjzJjoCfOAc/7HeP8Y2vVmjyg4V06UvB5vGI3rtUQO7j5fSbh/rwVP9svbMDX4K0CQsbp52p2lnex0oKNBd2968mCj4b488PMiI35/9BcC/XyhYyOet01ATQUp9W0qFEg==
+          options :
+           -
+             name : OPT_ED_EXD_NONE
+             identifier : 0x2f577d4e01c1e802
+             internal_properties : CAAAAAgAAAAMa3GdNu7XC1ApIGCs/nY3408LThSt0Y0/k6BghgrNJ+oiyTNSxiUUtmxFm4lCsCR17ThlCQWdNdzv2Pb21Kse1RvLwKhtOLeC/IMkcoWXdzo7Tdge7QuxkFNMlfEvPVB4ouQ4vOeNZ66hkcflb4tQfV/mpfZixO3O0JjvoI12Bfg2QqnhIYw8ZJ5odQe6U1CQ+GYfJmBChlUKxjvufxD6SFMWkmJu4BPCbYXLzpaDYlglDAUVCJ8QTSzX8YHjN7QjOsRxJKNjpU5jjBcCduIDQLhjXSLpZNYPAm0LdIiuhai40XdfAenGKa2z/OakOlLZsQGQCjJrkQRjFcmZd2DUxXBWYCsSTne5N3bP1pAoXIT48xHoeCe1KbpIQGpXrjFipzEPM6XWVtjIKrNIRI31ZfsH
+             code_elements :
+              type_code : 26
+              p_codes : []
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_LIAISON_FRM_ARRIVEE
+          identifier : 0x2f5776f301a712a5
+          internal_properties : CAAAAAgAAACJoXmC9dUlrT8DkVtnxR8Zb6EujeARvMRrhEv5tuGbqD9B3Y6xprGvyRADOvCjoeUQZzv2uJ5AP8wVuyxpyVWzv2Fp5r1/I0plsM8W10Xk53n6RYBM6wWPLKeAFAjUIRS0iJVRRQosvD2W1zcOkYUmh9z3tVFX4Q2GxNbf5L47DXE1CNGo3MbKsy3Es0UbbgihsgHBY2dZkiIqIeG3IBQ60AMq1I2BXESKpT+2MyNLSUbEBV5UmhQDSDljiMU29A2g/ILjIUGSIOkCR9vYu2SVuxKONa7ARLG5G707NTYMSxIwS2ePGca+kUjEl+Pv/t/Dxev1FMwmxn3RkwMS9/xQJUpk+xZT4oeXiQXEVRYj8xd++qcIVYpGm1FzPIL1v+YJg79ZQefIGbEMQH601Zdf78bNVpzenWHLME2xp1dj4hv58yIdvQo=
+          options :
+           -
+             name : OPT_ED_EXA_NONE
+             identifier : 0x2f577d5f01cb2847
+             internal_properties : CAAAAAgAAACBHVCnqeW+Cq8RyONdNzJqUlb33rq8va4zjDTMD+Eb88ZAOGm+nyM72/OruoYrnMqk95qedX0ifG9P/wgjs5hh6memUvCSHf2n5SE1vlqNnMA3zB6CpMGaRfe6Epb5bVz8+vKKsTnLb6AXNq+hnEcpaQIYr2xTv8Jlj/15/g/YuaC9e5D2vcMCiqUHFngYEAFEspbMwHxpIUPc/50bMWqrktGWKgQ/YK4w8bdmbhgHdauxdplLkH84rs59Ta/TeslbpLinKVv3V4jkzD2vteOjwbaWnsJW94mNRoD4+IABks7ELLhdUqdXFifRa1Sj/+NrMCeY+9Qqw2+IH5G2FSRBKHjgbW6fSBjqEaD39XiWoBIU35pjSgqHUwgb2x0arlJ0B9eXBHeGArbE9U61wPEmq+BsWw==
+             code_elements :
+              type_code : 26
+              p_codes : []
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_VERROU
+       identifier : 0x26fe338a00a7333d
+       internal_properties : CAAAAAgAAACH4nL2QcYKNP266hBuKyFmEogNApc8kfw0p84fAokf5DkCaxg+cgtt7odbR3EvV/G023JU8b70bVwlXYpt26IaUOIBlQhF0gLgZfZ96yT/TCQIehNGe9WHAMn4maVqS1k86BzlykLfArksBDXkLyY9iYZI0kbeJHymoZ7x6eVmKyWn2kHQBqTSavAYXH8s0uoIftAXYteyDBIraIbQ3b9Os3gperFSSvsmK18jgnH6nhIGGOpPziMUL2fqXpi2W1GdxEK/HPlw1jLKqxHIuV5Qaf0a5kc4gRDEJZyWs6JzIy1LoMY6naFIQGnUNeYOJBei8MG2oLOMNYi1zH3Ob8IH91FJtdFDTUfdSOf3Ar3Xa3+2uf+uwOb0SGTtHWntIuM52CCMuNs+50Ep1h3toX4/IQbqnbhbYI+oKnLHu2l/4UXs9lKv/gvMjYiE
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            ExécuteTraitement(BTN_ALT_V, trtclic)
+           type : 32
+     -
+       name : OPT_ED_ADAPTER_TAILLE
+       identifier : 0x26446986065e6b58
+       internal_properties : CAAAAAgAAAAjdeGi/IEBxRGKOBbDsV3XlccISyj6ROUGCyBUIQu4ioEhhLd4sZ1Y3zAmEMbNw8gt0MhC3pJQVEEFn/KhwiJZyY6zky6VCqZgIu6wtFRSzBbVjETRbaiq8DIy8Fa/WlHJeER9LG5njWhV++l6RjHMOJVDOwT8na5wrmF/QrTJ9T4QKlyp11ytzNLAIpTuj+CmH6o+WyyWGSANNBDOvp+gv4yumRVVAnDYHj2JASB/4wF4XZIlpv6zN8mfNh4rtQGlhsieloTQAD0ZMJDCHaecmsaFWD7PN2z3sN95mUUHDFIxNZSxiqvEzKPvajBbGzMMf1nNLvdPfoocieBHRCUmz9RXZSmX6XLfg0bGQvK5RWMXO/Yi2txOXy8bTytSZR9gon+1Z/i2oDSVBt2indRDqzU0pSsjNg64HpExcGUaSh8EO3aIYyIsrkU6zpIwZabs/2EvI8nuCI5en8Q=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Adapte la taille du champ sélectionné
+            MGRAdapteTailleSélection()
+           type : 32
+     -
+       name : OPT_ED_ALIGNEMENT
+       identifier : 0x264469b2067a19a9
+       internal_properties : CAAAAAgAAABviiuOtoj+L3r2qHjxARwD0EBXvOd6C5ykdotrMc0CFTC6I23kxZEwcJG5LIiXD2feRlo3/ts2GSKpijkvRayBfIqUB9YCHzQdHCOCtnI8cit+VoZGTwAz/NNc+/7j9mtfD+Nh34GU7IAm8uBYZL9usAamFax3yf/Bk0lCAUhHtvyzWVGRjYr93mw/yGLFzqq9aGcs3rfUCvJuYge7EcBQ1tS+WLtMpG4cmx3GTX0sbcHsqoDXAbzUhAA1y4egecy/Rz4XfkTtKKPdeiEoVTKkMTTRo1SX8kMbiNm/LjmVYHASlNI/uPX8rwzpoZDmiOILG7Yr9GEwCKXWjcO5QvahUeHCdoC9BAO7aaJHthK2CT7LoAaoZIIOam00yITrk5UjHfIESGG9XhVYX8AgvRCtsZ0PEkG6eXAXhQuvTGKVOcGGGTJVGHDFtWDs
+       options :
+        -
+          name : OPT_ED_ALT_MONTER
+          identifier : 0x2644703807b0946e
+          internal_properties : CAAAAAgAAADdfiahMjiJ//nWEbnY+eVZp/RLjhgkVjqM+y+FqYX5SL7WxabFgemqz4FEsrPYu9Ps3fd2/VDS0kmZqFIKeYkxmM/TZhyaz6BRYjAtSHBhpq9K/j0uRl67o1nWgCWrlNCCXQDffQW+qQkTFzIrSDEygdihyiH1wayXk3BcfT8gcAzz+CJerH3S2CwyqGs5mzEz82QRmyKXSr7pc2qqKQS1OGVJ1LcKeLCevVGZhwA+d6pdw3nR6VfKRvUFiQ2OPSC56OoNa3wDW+74LPjHymbe0fhmjyG6qKTfOzG2IPLur1PxkLKxC7j+ZL9Q06cpBCTcQE4MAw0ndYUgD6qCTdsOZrbIpXM2576fe+kEp05pj7wM+HImQZE5DbKNuvEaMXVm82c4H6rrkemfNceRHKo6h5Pxs3l4flHwi5z/8YletjLCZZcru92c+iWE7HTxaYcxzyEV5w9p+BgVa41OaQ==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Modifie l'altitude
+               MGRAltitudeSélection(Monter)
+              type : 32
+        -
+          name : OPT_ED_ALT_MAX
+          identifier : 0x2644703f07b2af77
+          internal_properties : CAAAAAgAAAD6AG8GZkIUo5KQ/msieOd73mXY6gDkkH+fN0WZveIXL/2DpJXLxNA5Xz8rUWgfuo852CqKdVs+NnHxZzHQhjLiwC51gYlR1Dz2RsRy2MnMr7ng4nd7ENea6hDIQBspxwVnGvhtL87UL9s8k9wOhgpmq5hnxEj46YZYPcPWv6lhRO1FgUeKqYNhoiVS6rfnyLzEabX5ilERCbGRFRlFobODoO6Jxqw/UEUaIIOuS3y6IBgF2guajVMDMs3apPAjLZOKhGPlQz/dZbU41b2KVxhfLmc5J0OYKNP06R+7meLWAaBKhtbZIFa0NBBRwo0Nc5q1+eP6HmT36LeZq5ORhgELqo4E0lzYKIV14bqN3Z7j13Kf233yS8qXh3TydVN+ZtAgCcUGbcDNxoca8Oks4D1B/QggCPw15qv69xBqwWuSqQxh/P5rzEDGXOudpNB9sh52MJ5Y6jHXGWUpKgqHbN/4Gn9YUdU=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1+
+               
+               // Modifie l'altitude
+               MGRAltitudeSélection(PremierPlan)
+              type : 32
+        -
+          name : OPT_ED_ALT_DESCENDRE
+          identifier : 0x2644705107b4f6f0
+          internal_properties : CAAAAAgAAACiu1PMvRm5osFK9doPMqPDatox/RkPQVyVeLXO9CnRek5VC3jxZr44AGV661q2ikm1NIY4gImtMD45BAyTzPB9rhqky7dSqvK8C4J+Z68HCATShdF1zfxMghZ8jjs06Ixgog+3Pxvk5XhjnTA1I5BZnczSyfJvJ6B01ht11X/VukJw1L8gv3MrCFYZsB/q5BQymauP6eXd5Oz/A3r7i1kNt0v6BaIAGKrsmOke6xIYLhMhCteTwqDfIwW4c650jdXe6nwWv+kmCv2U+5OSc09x0fb4C5+/Vpv6jQl1W54ykUJ6OSqko/E2JJRH8mc1JynnGxFlxMLR42VQ2PU603nST5ETZ7xofkadEH2OUfO/yspryFW/PuEDbxndY5B5OCX/477AZFeMIVHKXIkxGsIuy8KHzNvh15335x4EisaweIetjY3WuUsdA7YGZuDL9BkQ/2l8lwlPrfncJpU97tVXhg==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1+
+               
+               // Modifie l'altitude
+               MGRAltitudeSélection(Descendre)
+              type : 32
+        -
+          name : OPT_ED_ALT_MIN
+          identifier : 0x2644705807b6120a
+          internal_properties : CAAAAAgAAAChzDXLTJAIOGif2iLOojeZR0SOq5qKZT4DkYoEDXnxdj+KEc/pP8l6wmxONf32TpcQuUZ0LsqFqdR7JCHPh86a8kJWofLwAbUhGJ9zb1QlMeM9NDBV+tFmg28c9kztp5+fscMSvpfKd3coCrB80ZOHAimiwf2fE5zrr1u1UZTWS6RvwIRViV9mkJXDEu/KSU+v/bXeGiHivoqce/iXWMnkiQu5MCD7OOhOsYgK5InsUIMmZpjabPT754V7X4TFd0CLYNuZEaDVFYPZEJ8ca2EjQK7ZUWptqhJQ8TlmjgVGGiqx03sT3nGOVxYN61dzenyGh9N0QRD4KVd1CTdXF9fuSQbCvR0Z0Jf2lp5g8gmX6ugM5ZU13nwZEUnJp69Ege6Dkb0get35E2W0D8Wa2sjuaUE56dlexkwoyUwlTvrw1mZACvKw8VSZsGvfx3ccjr3m7oRKIM+Z7uB3Opp7CMVUqVlr034l
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Modifie l'altitude
+               MGRAltitudeSélection(ArrièrePlan)
+              type : 32
+        -
+          name : OPT_Séparateur6
+          identifier : 0x2644702c07ae6465
+          internal_properties : CAAAAAgAAAD/V+6YkCkzE7vjXTTc0D9Q0yL/9Q54+n1Ynn8TpLXN1Y3aTgww8bzv8hxW2DfH7HHWSivgNp789FjjEKgYKyIas0QuxtD+kyyn1uxTBoeR7QmgXdwkvMfI6cn08dwQ+OTE7JJJnkFCT7no0R2gwUiQgEXFSNVO/aUlzsR+rHwdhTwONwozEocD7JM2vtugG3SQHR/4IBKD17BGPmhU9OXVaD1xVwfIBorcNAh8ImxtEeDGBmzcnGNW/NijVCRCxkTFc4IZPzGwN6lMgW17zW0vQlz5Ulz4kGXtWoPwz66HKwy2eZigZ9aesuQnpNX62jz+HxXH8CrR9h6/5ojIwwcYOs+zN31IvDfYGQ40pM4s/lHCzIpHynFCZV7PzBhmfB3GaUfcZwjW9AAkVS8vCqom5Gw=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_ALIGN_BORDGAUCHE
+          identifier : 0x264469b9067f31f4
+          internal_properties : CAAAAAgAAAADbVEyQhhO30xEL8GgJVAdls8DCRAG0ni+KVQXuOJ131kAEWf2tZFswcuuVjseUNzuPF2Q7RTFswyLkmaD6rPTiYuDPAtdO1N6DMeTlDttAn0ob3X9q5jDy67w3ebH1v+i3h36RGGDZE6r2k6mV53/IyfweZjtWTm9WfohCty7KqABhyy7lhuhjajSdhSjWZQGYLnrzVuYt9EPE/+m25DaY106nZmNwcfTyQ5NQ32rKP/zTVOY9C08LqmfZBA8s1PiUCoFM7BGMsiawSPwMrwdElHd3i1yJiLEnGVX6EawX6tJFCB6nzuzzs/uL1QlzoHTq90Lb9gZ5hRmmgKL0vn/rS2/On+0w7Y91neWgyUgpH5q6kflNN38Bc4oi8PW0zeApGlpjhAKsxWWBIsPwENPEBFp5Jd2Sbp5mmfFtUL4c7tShACxkrDQ/SufR84Ua9jRpH7FNTilCqC8a3Zqj1eaUpcihRdF3z8p
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneBordGauche)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_BORDDROIT
+          identifier : 0x264469d5068ba271
+          internal_properties : CAAAAAgAAABnHMU/4zjd27WiLPvtcqf6W8M+CGVTa1+W3+1EFdvt/tqACJ8Oeki1db6hvQMcFyIOTnCoVM+Zt9QbXKYuqmjjqArkIUOJwGaUusF9TzlLxUNG+hvpCH1t1V1xFoOkua67nf1txrgZEUQbFVpZhVBcLTj9bzSUq8pAHEsac67L+N2bCF7QdNr2SRsBBfqkKnHlJbMbILJ6aG7aoYgxOCgjSPOamxlzEqKzHs9bMOYbccawDuju2B0rP0rSQGMZ8R1aXQu/9yN0tx3wvupbwyt2PYP1ApvetWxXzlwSrvXDew6VkcInTOwnKpV6Fl4t82YCL75dtruyGrL5wParpCByGr07bfejwnDzV9wyrRpJoToCOk3IQinXIc5Z+aVCzlRdJ6qLLWoiskd9RtpSu3RWJ5OGhLywbXfgT5OIETQ3klJEmqvVHlyPpHPyXX/xKH2oSuZeg2uEZCcEoggQm1EvroI8PqOIbu8=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneBordDroite)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_BORDHAUT
+          identifier : 0x264469d7068daaae
+          internal_properties : CAAAAAgAAAAhQN3bY/PnOvyA4eZhqIOxkqcfoP3aoV/gIf1QNCE0OVr8G2sfSQuDQZOYRy1JO7Nu/hSU6K9ugphcFNWkW3U5sYhr4SOx9gfj0XcoifYxEF9hpNehl8/SAcdwtWgrVPGSmdZaiy/d2uBKbxwE0rEyS4Fp9xX6wd/aW+YUD/uYfdbCMzQ+kFMR8l2tPY6y+LBRrQu8/lKRcj7944ey5cXEJ01IUHuATFJ5IXBUstJef5ij5JfIpOeCzSwUkAK10NPDapbgXF5IEvnSSFO2iojPul/FXt5WzJ7y1Or8wT8J1r3PEMVq/abcwGG8jBwVLJ5Cr0ci7NXzQhldBE1LdMHmjPdm5ASQGDEdwBNak50Ied+z6d7nf9Ox6iR5AYY8w2SFT2U3inCcOEMLGWy3am/T4k6ZBNbQqbQJwOpmQ8iLDRbePqTK/cKgHhMDxnm4WIcjqHVh4yv3U2h562Vk8Mu6hwMq2Q==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneBordHaut)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_BORDBAS
+          identifier : 0x264469da068fb3b7
+          internal_properties : CAAAAAgAAADaYEe3vHWuo5O9Tt+3yR2v/PYOpV4vE46XQYFpVb79QRebTGo8uhGntfP+qd+1DQ1VL+TLjUCu1QAIQ3JDpzQuCK6bNcsakcC4oXOUKs/msjJzuKBQpzeT75RhNODbodpt8ANusUPnz+gpltPuL+ZGOmBr5f6XWVpI0xHfx4u/U9Tq12RSKL85Z69yO7m3Kc086OPFXU8ExPBg0OzwrhT4ZpRCa77wMogEiZ/CF1sphtAK94iLgH9ELhHM7y3TJavvrG0BhXZWg0wgWEMsQNwIf12ssqnHQXMFxdMLzKNHFX/6RKxqX5P/ddcrE63vBSjHWpODRN2eT6C3rFAOH4+gQJycS68bEpjKGcTd4s14qvQIryAeVxBSrjFEgbkHr8WjWVeHw8GS/z53RJVJFelsctSly3bNioaDFNhQolKe534nJV2YIGsLblc9uvxdsqJmzkP5OnXhnhDqT+oge/JIqNVZ
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneBordBas)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_CENTREV
+          identifier : 0x26446a0c06a078fb
+          internal_properties : CAAAAAgAAAAiTSyKcYDkuNhm0wh4Imo4GYYEa3lYzN4pFpHgO8NwdfsRD9ADu2W0ph381U+GMv3Eu9EsvRSgwVO5oM0YUZ+JX7Hklj4KJ2ZK9t3Smq4KRcjtv+mYdWUf4jBOi8Bn9BTfrs8ZiiCqBJR0iACTOopSiajOmlvmxxuWD/4bIxtSHROxT9zUbag6sEmdfhYxXkYdViIbBAfKlZRI585HW8vOyv7by71c9wfNLsKZxtivADKHppCUR5PjuwEnvwSv2+BbcDXnI6DcIYeq3W48IT3NQozsS9cjo/kGwRCYa+CcBt+T+AeD3TJsSB8mVYEvqMxYoeKt96DIhZ8iBmoVIcYxU0jYLhQTL9+OvAdFNvaElOTky1WEL3wJBlhgTTyiRD0+DEfMmwnAHzG7CgbJ1tCNnmmxuC5vK1WnyCXsCqYuoPRYFWcExcULXNm1TBtcxCBJVuogfuk6Dt5twJF1Fss+hLpEUv2m
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneCentreVertical)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_CENTREH
+          identifier : 0x26446a1206a2902c
+          internal_properties : CAAAAAgAAAA3qaWsQfGX+CU5okWtj1efn54N+9rxrxC2n8TaOi82oWrekOt5epvFXDumx+z6ooM0GnGk3TA4Lx7zTBX24hVTkMJ98PXZNj57KLQSN1IAR8kvRN/kN2Wpvi82RmuNTgOkwIUHNyDR17Y4osViLSBK22oV+NvVK4RZLqbIcSWehqPHu5A15azdYhbVlZ8VphCNYpzwJ5d/+7iqRWpHTiCt0HUEhz8+0whCi2pYs9cp0S3qz66tX6bRYtDxTuqxaPpFKyuJZTOSbPhkL0jrUdYIr6tdNEt6m40QqSxTN2c2/Ob4JYd4zFflSaYjfyOLgYoJ5DgtsbVqtqv6UsMYO/NLKq/7XVnd0NT//5VF/1KYb8MXMfGkjVdMJqHcpV2FG+sS4QpKy1qOVVpLX1ewKp4ORq5tS3XaXVMqmg96JdAxXjb60LPLhVWpZ5eeJkwN1rDsBQai6RX5h14Hg8RU3rFoQb9jAlOG2xT7ZnZIrA==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneCentreHorizontal)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_SWAP
+          identifier : 0x26446a1906a4abb3
+          internal_properties : CAAAAAgAAABCVBBFe5rCtqIHMVZ8J6Fng3Kvj2mA8i+tNrtR7m33kPxpiq+P0iCtkoow4FnN5KCd6z+1wnt6gE7L+RuQ6ofUBKj1ciXgRWVpqmOszL4+BWxEigQSjyUGhO+x56ciewIiGygF4SCLYlnQGsQcjAzq8dHg6cVtahHWsqFnNCaVDQNNlo7WELxnurytoJZNgAVsqDX6ZLBtidyp4Nl7D32AQtHx2GcsG0nVrSEb7+aIBHscJuJDhR+iDRP+yOjs75NKqDG/qYo/RKWKY+/mwqEPg7ckj3esZUms9abV03GLO3p/MhdSynEsxLVNpOaGTPQoGZE4OFk42aJLTXoNK08/9h9ofYu0RTMcvGvd14E+3Txmz0fvDTBy7z6m2nmVWkpbKVhSvw7LOHCbcSTrjeNVx2VdAvelnZcIpO1v65gsou5JC8zWzV1tBs8BNYHb/2OsPSNtjlJQAAbNJrQuminvZXBWk2Of7XWml7CXatBe/tPV8L0+8I25TucjpQsf7rSwFQ1hd/HD00GJlAM=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneEchangePosition)
+              type : 32
+        -
+          name : OPT_Séparateur4
+          identifier : 0x26446a2706a7e08f
+          internal_properties : CAAAAAgAAAD1XveKfYDuTo0T2MtNKf47zfHyRdFtLrNFLha7Ky5AuL2H94lHx0ipPA4KMC/93SMOhZHHtH0r8L+gjtSCUStzH8esoIOxTAbFKFDt3IJ8nVRkCft7z+Dbq6pV2udEmW22JA23ciLKez6bTavuDCikBJsvVr/M7Euy+a1sPSOKnon+LMDRLrHtFyil9IFx0RSqDmB4JzqL2T2p+3xIY4Y0HPrKUjwQQS3HxkVpv0S9ieWg2O4lGI4NlbrgkZNGNpw4CQItNoez9kgm9tT+vIwAW/LLC9YXagB1atBdhYT9Bck268pfH6XxFSDYZQIk5qBYL3gIzMXrDlAYjvKklnIVJFLCjEH7hGE6z3gypnktfc3L0alvG4mY6fvzhgradCEoHsEitK6IoBOTGREWMlXql1irUQqR
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_ALIGN_MMLARG
+          identifier : 0x26446a2406a6d767
+          internal_properties : CAAAAAgAAAB3DNUv06pTyYNQcrmD6OH87q0/2O0KZ7DjA11EPoNtrSWIx7la7/Yri3OOtBYyqWcz4kR6PN+tfymrH3ZkJGp2eMoGBNdm1EJeoeNoPwQq5pZX6bF/zrObgyzkYp+wnWDzdSUlbvf3bTaUSfqJ7RCYAv63ie8K3ZUHKmdxsTWdW1qZlo4G4uSQzdiEXELrdY+tmCb+T3s6WhRXzclxRRk0BRmwHTUzXiY3AmjsVRQEAEridhByZHXDpZCYevWLn2tsN2nR+RFWi8MsDntUMIcEW+jJgevlvvehoCplzrwuL7riT3ozoEsyJBDkNTyFivP5Hu+60RB3cPi/EmxRAhllaRTj1R/bOshlKTrcd+d7V3A4/DuWjIONifafGIfMOKQ9D/GaIxzysIowlQXd60BDrhLrjyUxmJPJfjiCXuKC0QmS/ZTYlBwMAB8GgLLOZ8U3nfTee7yToM/k5hRETx0HmvasTpOYfv8=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneLargeur)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_MMHAUT
+          identifier : 0x26446a2b06a9ef92
+          internal_properties : CAAAAAgAAACfiUiDSpItAC8PzdnMBPOYpnXDtrVOI4DY8/WJCUqLA3X+f6h44QCGSQWsECyAjMNtaQEkdQZpnQQSZ5QjjCJhvidNrnWd++Rk/Va0kvJFbpFEzPnAlWYeO8HqD2wRT6BxEEyA3luTxP6PewmtwjdM+Ztk5V9PhzDCVFIt4ZjPV9Mu2/IPYBPxUjtXPfJifhVG+ecjYRswaAMw5qMK1zSoVWWFK/kBzX0EWHRk9W/lsCVPwkR7aJA+iHwz6INNg+YACKZBV8AZEl6iFQMYrK8sMWgreW+hhOIPSwr723oNC2aW3Vlv5aUZgmQLa4YzFGFxG8WHn/DZ/kYx76jyyqKoSjpAm8ZtKwCGbIxPanaf0u5JCcBtNExLpinBO7uuhyny5yoqswXlhO9O6SDUC2nme9bu0YQ/8DpyqEtFOrVJ4ioD6sptT21b7jLmwA74BBnCX97nON0F3ZBs4UK3N/7j6+bdRSee+9u1
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneHauteur)
+              type : 32
+        -
+          name : OPT_Séparateur5
+          identifier : 0x26446a3f06ae4052
+          internal_properties : CAAAAAgAAACNjfT+JVdboYv1LSTeKkfol4jbIUzetC9w0DrY4eJgyLDf/ZuxGh3uW93vLZTcm9yt11bzx3ctlwGk+XnJjL2RqGPdumZMlcYjGNTvQPFBDS3K2dg+tk1egdc0OaLuCGz0irq5rN98pcE+3WVeh/S8gAspXOukv4Ot7NjC3sYdnb+zhuG8sEFdhIkW+pUCp2iwA7N8kvw5/URJ05MhV3p4vURuWhzzO7GZc4nrSyO0Mt8Zj+NlC9RV5RtY59ltl8tGnlugyKgpsv4zMnzMnJ6mL7NGBaFzNfBm7cirFGnM7nUZ2qeRbk/BH4twUwapNycnFGKKMzeko0Oc+6srgLh301AMbjRJWxwFzhufP1OZwdpLRXF+mzD/LLuKCQObR3q1Pk7FjmkF5bOVBHbgeMQ8mpo=
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_ALIGN_MMESPACEH
+          identifier : 0x26446a3506ab18b6
+          internal_properties : CAAAAAgAAAANpCMKw2E76rCcrGSLjktAA0jRybYqAEC23DRhPYMDfoY9/u4Y+r/s8ppyEyKVvO+hg98PQ6hXKVOmqGeWY/SLRg/ScSSp2JCOnZgTHFTMPKyrGoIu28JPtxyqSEMBKCOg/cM9GsJqpjQimenhbZ5c5dcOQNH223ogGb1zy/yDRzvyoSNC5BO55V6j7FfNYo2xk7B2Tj3awtGn1a7PP30gQ5Y+ymqx3cJCWmlHRibq4usM9k/EYp0j5eZwmwdp/z7+VgXKRe10Cip1Vg0QdZaJh2iQCfQVjWzQ4wwpVDiSe2qpqn9L2FqSY4+dpZgtedTBq+xuBSoRqk5rMKUjJuzkPlJMQ0fJ6PyxXSXgu14lqUIdfRz+Fx92iDqS0i3huwzd4GWtWZAJPgVvfXKXBgyo17jCcuBf0Gnw7YImf++Wkx8AUE/u9iWDe2FYlTQOKOKNRAzFNtiPDrT5Kyo+lq1M9gZr+16G9mmrwaj56xgebIv84flIKuBnHQ==
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneMêmeEspacementH)
+              type : 32
+        -
+          name : OPT_ED_ALIGN_MMESPACEV
+          identifier : 0x26446a3c06ad3352
+          internal_properties : CAAAAAgAAAA+/WTbizEHE0RNiPMEXG7IghnQDKU56sB2WDUe0Swv0lZN4H+q0CYLUOAOng/BFow1izZLWTjSE9b/qkm69NblXpR2JTI+yc1Z15A9wBQe0XrnNzIbcy7gQkb2vfdiZmpB6CbDBJUA0PL5nmLbq/kzf6Ab4KR1TJIHzl3QmGYboucKUG9vESHA5GuTb+7taRfIOm8fIzgJ3O1FJlEOCbzI3qqegmXk992FAgg06qVsvRfF5fKjjSOHDY259OlkqnLpFGA44+8MRcNbq3cofb3/v8/YOL8UZKExpamtKpCeBhDkRZ5hMjiWCrGiIFqf/26Pk9nJFQUWuTuNLqoBBxl9rxC3dI35qLoN3XwCOQ39kSRAi+lH2pwMI3Ch8SVvXaxkH8Ix+6Ngvh82YcND3e/hjlL/Hg2h9FHJfswvc0Erdlqi5bmNDiehWfQcbvGO7F0QthuFOo488Ei8K1dGQyMKaBHLZ8fQWopQZWJuSz/Zxy2E6aDAmzE0
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               // Alignement
+               MGRAligneSélection(AligneMêmeEspacementV)
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_Séparateur3
+       identifier : 0x2655983e03c43b0e
+       internal_properties : CAAAAAgAAACpmaBK4rvlJYn1a6auQqnGPRSxv9h69H+u8F9V11hEVBT1jdt75KuAzwMHcZJaH4DBvRrPfRWv8VUSIR0PWpH15upSR1FPMT693OKdJIUfh7vWv47yGq3yT5fia/IG3i7GGuR75Mdgof8md192n6ZaIpvvymsMi29DRBrYehr7D7yeRwrDwicT3KNGDlsQK5SAnf8IgNJzd7BO9nCsvB39IAVJ/39QfhK0XCAkehRFuXhOuriMNHtiSGjf2FQS9rwB8wYFRynYM120tfFrze23HnzdjiT4QOnhYsd0z/4vo0jWPcRwV6aSpuw7SFN8WuRK8UGrEghT2F5dckRieU9Q3glXkxfuZmXcMx4kqqjM3v1ESA7BEAvgR3DRwhaYQmewU7lq1ZpkAhI2Z92dvHhwrrY=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : OPT_ED_STYLE
+       identifier : 0x2655989503e68f54
+       internal_properties : CAAAAAgAAAA4gslyivinhGf6gObZvgXr1y/PufgI8+iZF9+iP5XS4YZJFiieJ2Lj9pffkT76she0nCecxC0vOHH/lJvKMIrmKO5oFfDCZywY9e3Lrtp0v6MlftzTzsaU7aMEL4fTB4p7SzRtHTXOl4AxW4ZymoE4SIm9BRt7SRd1liSvHirHPIpVr8XRWMtb0Zv5pM3RS7P4NZD2FTOZPvJQWFVdITTcoHAd7qt6/hj2HLwuhlV/bDA37EPabheqv+dRyZpp1L+Qe65CG6gk6A2wQbwXwjLK3OVgN9yd/8Ur/asntCn2RoHFwMT8XltopCGBDKENzwCWi+A6TnYzwt0j8xSmw5QeV6oJSDOso2VRFTH/QqagjAawA7B93YFzYpOEpJdI+gk6RXCCZme82M5nRa4CzpFwfNofBKqVCjnGFGaLhWzHwkrXGw==
+       options :
+        -
+          name : OPT_ED_CADRE
+          identifier : 0x2656f1760137bb7c
+          internal_properties : CAAAAAgAAAAIchk80ghbeA92hMZJQH1Tj6/1quwyj0Qk8Jsigr6gYz2XOpzHUu0oxhrEbxjS2VxOosb46lWNYveiyNH1ceCqJHUc/xnqRbLnO7XYPiLGc2iSrnhSvwYwxLdfK32SXayEWDhfNJi+dAuZfyHv4J0w/8kEimTRdKSspVqqEvFv2EATpIaVM42X1jGehnnY+Tob7JFxDirHoLwy8NUURPX47Yl3K2xPw8OgqeAmj4NNlerIVO+egzKHbYH4tIOf0IpxVE3a1fdeNJDZZl9aMR232lmiIi+4/W+OAhuNTZwQlW8/tB2FrLSxqRdrmt1te6QydVRWZPJth1T2r7QeJVunFvov6DsfL4m3DGTIy5ehT5Aq/XVLHQlbja2sNa0lSI8grVnh4dXlE92DTIcrg9q2THJnbLKPSId80oCNh0718hon6w==
+          options :
+           -
+             name : OPT_ED_CADRE_EPAISSEUR
+             identifier : 0x2656f1820147e9b1
+             internal_properties : CAAAAAgAAAAFYP/R4SDeDF6NCutpFoBi71m/AvOIKkzNwKXPAL9NOEKVQ1xF9Ua4iD+14zIy7im6UngM30mfJOJH185uPnjV013lKQqW4w4LzeO3KDNHIveQ1+vgaGYjJn3+IaP5o3K1K4X4t5KL8qikSoRF2u58WW6Miy0JbqYg8jVqioxvR+oVdH+07pK9DMEfwifYCQkZZXBGbwd0XinkmFkjfIQ4vzU1/fIekft38KhNc0SetYOhLn2yXCVAaffhtfOQslPrOzom0bQUq/9ZuyKJMGSxoeHF+jZHcX6XSBl7iBt8SD1Wleh1nZF9olxH5u1xtNf3sgF//mIE7wYXPZSQrgjq2uIsE5065Ya2vrdYt3/wISgN/arArjMnjhJ0Cuopk55/nSQhn9H9CYZ8CNnKIMTQLhOwYGzyGGBuwNPHQR0iRWBS1TT8be10ODWKzViug6eX7sCQoA==
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1-
+                  
+                  nEpaisseur est un entier
+                  oCadre est un Cadre
+                  sNomPropriété est une chaine = "Cadre"
+                  
+                  // Il faut au moins un champ sélectionné
+                  SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS RETOUR
+                  
+                  // Un seul champ sélectionné
+                  si FenEdSelectOccurrence(MGREspace) = 1 ALORS
+                  	
+                  	// Récupère le champ sélectionné
+                  	oRéférence est un champ <- FenEdSelect(mgrespace, 1)
+                  	
+                  	quand exception dans
+                  		// Récupère la propriété
+                  		oCadre = EvalueExpression(ChaîneConstruit([
+                  			oRéférence..%1
+                  		], sNomPropriété))
+                  	FAIRE
+                  		ToastAffiche("Propriété non disponible sur cet objet", toastCourt, cvMilieu, chCentre)
+                  		retour
+                  	FIN	
+                  	
+                  	nEpaisseur = oCadre..Epaisseur
+                  FIN
+                  
+                  // Ouvre le sélecteur de couleur
+                  si saisie("Nouvelle épaisseur de cadre : ", nEpaisseur) ALORS
+                  		
+                  	// Modifie la propriété sur la sélection
+                  	MGRModifiePropriétéSélection(sNomPropriété + "..Epaisseur", nEpaisseur)
+                  FIN
+                 type : 32
+           -
+             name : OPT_ED_CADRE_COULEUR
+             identifier : 0x2656f196014e386d
+             internal_properties : CAAAAAgAAAD4D88k4wqohLJY4IWy3xKucp12Aqsa8cDLZIHz9ey+HHILCIMpfMW37NSN7ymbUOo5+VpqqfZUqRbcUFGOdvv2JT3eo38xl+3JRN4Klbl7t0WXWgc96sgdnslJYWXemjOV1YC+UbrLqPgibJFoShl0dbdjw1w7TM73FyuWUl2drksw+lkjQgT5VysEnwQnYn55a/pjoiH/z0XF/hJPMuYpRUNX5Op3Hkf15u2MuN8tMBlND7bAX+KxJ0ARvdCV68kEENYqOtnnI7Nh/PHoQYkY4GfgTM1ODOwTGHdBPkmxLI4nR48PqmtuAFjnq05uXa3f3JuVhbhvHbCmVFaCpctC1U8hYnFOVcxMXuCJQuapY15PMHmKbDdwflItQ/9htvrXEvC63jpul3dCXJdQ4qp7C6Zhk4onc2WA8Xk=
+             code_elements :
+              type_code : 26
+              p_codes :
+               -
+                 code : |1+
+                  
+                  nCouleur est un entier
+                  oCadre est un Cadre
+                  sNomPropriété est une chaine = "Cadre"
+                  bInit est un booléen
+                  
+                  // Il faut au moins un champ sélectionné
+                  SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS RETOUR
+                  
+                  // Un seul champ sélectionné
+                  SI FenEdSelectOccurrence(MGREspace) = 1 ALORS
+                  	
+                  	// Récupère le champ sélectionné
+                  	oRéférence est un champ <- FenEdSelect(mgrespace, 1)
+                  	
+                  	QUAND EXCEPTION DANS
+                  		// Récupère la propriété
+                  		oCadre = EvalueExpression(ChaîneConstruit([
+                  			oRéférence..%1
+                  		], sNomPropriété))
+                  	FAIRE
+                  		ToastAffiche("Propriété non disponible sur cet objet", toastCourt, cvMilieu, chCentre)
+                  		RETOUR
+                  	FIN	
+                  	
+                  	bInit = vrai
+                  	nCouleur = oCadre..couleur
+                  FIN
+                  
+                  // Ouvre le sélecteur de couleur
+                  SI SelectCouleur(nCouleur, scToutesCoul + (bInit ? scInit sinon 0)) ALORS
+                  		
+                  	// Modifie la propriété sur la sélection
+                  	MGRModifiePropriétéSélection(sNomPropriété + "..Couleur", nCouleur)
+                  FIN
+                 type : 32
+          controls : []
+          code_elements :
+           type_code : 26
+           p_codes : []
+        -
+          name : OPT_ED_COULEUR
+          identifier : 0x2655989f03edb809
+          internal_properties : CAAAAAgAAACc/tqU0KHPbdL5dZk6Sact7c1dEcfYSw5SzgdFUHV2m7iRszt5zyd166k8vdpaBzAqGi4zXfPwE9sQiKuouJv5Ro9Px49rYqWrFr400rysV5PZMDCK3YG5y9A6OiJ8WATyfDq60CdwPU1kxO+ttETTj0BtNO2OuOU1iVsTtHPlXp4xoVbVVYbDPZoU5G78e3T5oyc1JsuffKLEo69vVzE1hBSb+imqaGQFXdYMYDEW0J4o5NmPMqkSOi+BZ1VsVgUizCMpjVs2UMpPIlRY8AVxbsBDYtrmw9gPqK5HD5Z1ov5Ot8lMN72HyX9rZya9cX2L2Kg0l5iBQV1YZ4hAv0UuoZcp0WlEmOytevhOfQXDCSg9TJr27PesfjoLBNOFn/4gYYJnOxxv472yOacvyVxLi4s=
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1-
+               
+               nCouleur est un entier
+               sNomPropriété est une chaine = "Couleur"
+               bInit est un booléen
+               
+               // Il faut au moins un champ sélectionné
+               SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS RETOUR
+               
+               // Un seul champ sélectionné
+               SI FenEdSelectOccurrence(MGREspace) = 1 ALORS
+               	
+               	// Récupère le champ sélectionné
+               	oRéférence est un champ <- FenEdSelect(mgrespace, 1)
+               	
+               	QUAND EXCEPTION DANS
+               		// Récupère la propriété
+               		nCouleur = EvalueExpression(ChaîneConstruit([
+               			oRéférence..%1
+               		], sNomPropriété))
+               	FAIRE
+               		ToastAffiche("Propriété non disponible sur cet objet", toastCourt, cvMilieu, chCentre)
+               		RETOUR
+               	FIN	
+               	
+               	bInit = vrai
+               FIN
+               
+               // Ouvre le sélecteur de couleur
+               si SelectCouleur(nCouleur, scToutesCoul + (bInit ? scinit sinon 0)) ALORS
+               	
+               	// Modifie la propriété sur la sélection
+               	MGRModifiePropriétéSélection(sNomPropriété, nCouleur)
+               FIN
+              type : 32
+        -
+          name : OPT_ED_COULEURFOND
+          identifier : 0x265598a503efcd28
+          internal_properties : CAAAAAgAAAAQuppQ1fByE9ztMsPWesUrAowwknkjDghnNSwgAfTJsc4fu6efSqYqg/DQcosmGGRQKboJ/gqhQuJ/5vz0Nc3LpknNK2lHMfirtXoatPObft3vtvlX1p/m+Q05zANF50VK3Anf/u0U1sK08GxEoKLtdhHkzWW3G0Cuy7KLvunkp5bGydY15MCUP8S2uH4xUNVixbzozS+BHpoxkVjp5EulRsfNtrzx9l0jxImgccgp9RnXTRZgoivgNrU6jnGsXUWCOTUJcYftYzWvoUr+A2woZBRTxu6NH/L6uLMp9L5z2IyKQE/Md/KNP5pvv0ECyQ/7xOmgab0LUksJmRf/XxDvsvbGI2NBM2j4BLPgth+eqjVV7B1TpohAn5n7bcDJYJesMbZYp8gSWUJB7TaD9hV8CqhmDr11MjDn78rV
+          code_elements :
+           type_code : 26
+           p_codes :
+            -
+              code : |1+
+               
+               nCouleur est un entier
+               sNomPropriété est une chaine = "CouleurFond"
+               bInit est un booléen
+               
+               // Il faut au moins un champ sélectionné
+               SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS RETOUR
+               
+               // Un seul champ sélectionné
+               SI FenEdSelectOccurrence(MGREspace) = 1 ALORS
+               	
+               	// Récupère le champ sélectionné
+               	oRéférence est un champ <- FenEdSelect(mgrespace, 1)
+               	
+               	QUAND EXCEPTION DANS
+               		// Récupère la propriété
+               		nCouleur = EvalueExpression(ChaîneConstruit([
+               			oRéférence..%1
+               		], sNomPropriété))
+               	FAIRE
+               		ToastAffiche("Propriété non disponible sur cet objet", toastCourt, cvMilieu, chCentre)
+               		RETOUR
+               	FIN	
+               	
+               	bInit = vrai
+               FIN
+               
+               // Ouvre le sélecteur de couleur
+               SI SelectCouleur(nCouleur, scToutesCoul + (bInit ? scinit sinon 0)) ALORS
+               	
+               	// Modifie la propriété sur la sélection
+               	MGRModifiePropriétéSélection(sNomPropriété, nCouleur)
+               FIN
+              type : 32
+       controls : []
+       code_elements :
+        type_code : 26
+        p_codes : []
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - fr-FR
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAD5ioeojMEYiXW+j1kMr7Rtj7eHlLFn+0/dpGH6enR+9p1s/g7pHF4FocSxeMlLEAYlVjnV2dvZYVVzY9F6PQ==
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : MGRAligneSélection
+     procedure_id : 1601979022807615809
+     type_code : 14
+     code : |1-
+      // Résumé : Aligne les champs sélectionnés (avec gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] MGRAligneSélection (<eAlignement> est combinaison)
+      //
+      // Paramètres :
+      //	eAlignement (combinaison) :Alignement à exécuter
+      // Valeur de retour :
+      // 	booléen : Vrai si l'alignement a été effectué, Faux sinon
+      //
+      PROCEDURE MGRAligneSélection(eAlignement est un Alignement) : booléen
+      
+      	// Il faut au moins deux champs sélectionnés pour gérer les alignements
+      	si pas FenEdSelectOccurrence(MGREspace) >= 2 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		renvoyer faux
+      	FIN
+      	
+      	// Vérifie les alignements
+      	// - Alignements cumulés incompatibles
+      	// - Alignements nécessitant un état ou une sélection particulière
+      	// - ...
+      	si vrai dans (...
+      				  // Combinaisons invalides
+      				  eAlignement[AligneBordHaut + AligneBordBas], ...
+      				  eAlignement[AligneBordGauche + AligneBordDroite], ...
+      				  // Non cumulables
+      				  eAlignement[AligneEchangePosition] _et_ eAlignement <> AligneEchangePosition, ...
+      				  eAlignement[AligneMêmeEspacementH] _et_ eAlignement <> AligneMêmeEspacementH, ...
+      				  eAlignement[AligneMêmeEspacementV] _et_ eAlignement <> AligneMêmeEspacementV, ...
+      				  // Conditions particulières
+      				  // - Espacement vertical ou horizontal : il faut au minimum 3 champs
+      				  (eAlignement[AligneMêmeEspacementH] _ou_ eAlignement[AligneMêmeEspacementV]) _et_ FenEdSelectOccurrence(MGREspace) <= 2) ALORS
+      		renvoyer faux
+      	FIN
+      	
+      	procédure interne __ExécuteAlignement( coEAlignementEx est un alignement )
+      		__MGRExécuteAligneSélection( coEAlignementEx )
+      	FIN
+      	
+      	// Enregistre l'action et exécute l'alignement	
+      	FenEdDo(MGREspace, __ExécuteAlignement, (eAlignement))
+      	
+      renvoyer vrai
+     type : 458752
+   -
+     name : __MGRExécuteAligneSélection
+     internal_properties : CAAAAAgAAAB0H2eyU9Rs8L3c/aE7afkniR8GSTDUmjTR8v4g5Egq+ncC2qWZ9YP8b0FF51MmHJJ0jCv3klmO9VjlvlJoidttbnc7g/lYq+haCAxZAZtN28QcQfta6PS2MIhSdbbe3lNA16iDzwvTUyk2cQ8sa9n8ZsnjsfpZ/79IxN69uvhMY17k
+     procedure_id : 1602009444061044416
+     type_code : 14
+     code : |1-
+      // Résumé : Exécute l'alignement (pour l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteAligneSélection (<eAlignement> est combinaison)
+      //
+      // Paramètres :
+      //	eAlignement (combinaison) :Alignement
+      // Valeur de retour :
+      // 	booléen : Vrai si l'alignement a été appliqué, Faux sinon (aucun enregistrement pour l'UNDO/REDO)
+      //
+      PROCEDURE PRIVÉE __MGRExécuteAligneSélection(eAlignement est un Alignement) : booléen
+      
+      	tabChamps 	est un tableau de champs
+      	oRéférence  est un champ
+      	bModifié	est un booléen
+      	taOrigines	est un tableau associatif de rectangle
+      	
+      	Empile(PileActions, "Aligner la sélection")
+      	
+      	// Récupère les champs sélectionnés
+      	POUR i = 1 _a_ FenEdSelectOccurrence(MGREspace)
+      		oRéférence <- FenEdSelect(MGREspace, i)
+      		Ajoute(tabChamps, oRéférence)
+      		
+      		// Conserve les dimensions
+      		taOrigines[oRéférence..NomComplet] = [oRéférence..X, oRéférence..Y, oRéférence..Largeur, oRéférence..Hauteur]
+      	FIN
+      	
+      	// Le premier champ sélectionné est le champ de référence
+      	oRéférence <- tabChamps[1]
+      	MGREspace..AffichageActif = Faux
+      	
+      	////////////////////////////////////////////////////////////
+      	// Alignements des bords
+      	////////////////////////////////////////////////////////////
+      	
+      	SELON Vrai
+      		// Bord haut
+      		CAS eAlignement[AligneBordHaut]	
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..Y = oRéférence..Y
+      			FIN
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      			
+      		// Bord bas
+      		CAS eAlignement[AligneBordBas]	
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..Y = (oRéférence..Y + oRéférence..Hauteur) - tabChamps[i]..Hauteur
+      			FIN
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      			
+      		// Bord gauche
+      		CAS eAlignement[AligneBordGauche]	
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..X = oRéférence..X
+      			FIN
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      			
+      		// Bord droite
+      		CAS eAlignement[AligneBordDroite]		
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..X = (oRéférence..X + oRéférence..Largeur) - tabChamps[i]..Largeur
+      			FIN
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      	FIN
+      	
+      	////////////////////////////////////////////////////////////
+      	// Alignements des dimensions
+      	////////////////////////////////////////////////////////////
+      	
+      	SELON Vrai
+      		// Largeur
+      		CAS eAlignement[AligneLargeur]	
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..Largeur = oRéférence..Largeur
+      			FIN
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      			
+      		// Hauteur
+      		CAS eAlignement[AligneHauteur]	
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..Hauteur = oRéférence..Hauteur
+      			FIN		
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      	FIN
+      	
+      	////////////////////////////////////////////////////////////
+      	// Centres
+      	////////////////////////////////////////////////////////////
+      	
+      	SELON Vrai
+      		// Largeur
+      		CAS eAlignement[AligneCentreVertical]	
+      			
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..X = oRéférence..X + ((oRéférence..Largeur - tabChamps[i]..Largeur) / 2)
+      			FIN
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      			
+      		// Hauteur
+      		CAS eAlignement[AligneCentreHorizontal]	
+      			POUR i = 2 _a_ tabChamps..Occurrence
+      				tabChamps[i]..Y = oRéférence..Y + ((oRéférence..Hauteur - tabChamps[i]..Hauteur) / 2)
+      			FIN		
+      			
+      			SI PAS bModifié ALORS bModifié = Vrai
+      	FIN
+      	
+      	////////////////////////////////////////////////////////////
+      	// Echange de position 
+      	////////////////////////////////////////////////////////////
+      	
+      	si eAlignement = AligneEchangePosition alors
+      		
+      		// Conserve les coordonnées du premier champ
+      		oPremier est un point = [tabChamps[1]..X, tabChamps[1]..Y]
+      		
+      		// Echange les positions des champs avec les champ suivants
+      		POUR i = 1 _a_ tabChamps..Occurrence - 1
+      			tabChamps[i]..X = tabChamps[i + 1]..X
+      			tabChamps[i]..y = tabChamps[i + 1]..y
+      		FIN
+      		
+      		// Le dernier champ échange de position avec le premier (sauvegardé)
+      		tabChamps[tabChamps..Occurrence]..X = oPremier..X
+      		tabChamps[tabChamps..Occurrence]..y = oPremier..y
+      	
+      		SI PAS bModifié ALORS bModifié = Vrai
+      	fin
+      		
+      	////////////////////////////////////////////////////////////
+      	// Espacements
+      	////////////////////////////////////////////////////////////
+      	
+      	// Il faut au minimum 3 champs
+      	SI tabChamps..Occurrence > 2 ALORS
+      		
+      		// Copie des champs pour un tri
+      		tabChampsTriés est un tableau de champs
+      		Ajoute(tabChampsTriés, tabChamps)		
+      		
+      		SELON Vrai
+      			// Largeur
+      			CAS eAlignement[AligneMêmeEspacementH]	
+      				
+      				nLargeurCumul est un entier
+      				nXMin, nXMax, nEsp, nXPos sont des entiers
+      				oPremier, oDernier sont des champs
+      				
+      				// Tri des champs
+      				Trie(tabChampsTriés, ttFonction, __TrieX)
+      				PROCEDURE INTERNE __TrieX(o1 est un champ, o2 est un champ)
+      					SI o1..X < o2..X ALORS RENVOYER -1	
+      					SI o1..X > o2..X ALORS RENVOYER 1	
+      					RENVOYER 0
+      				FIN			
+      				
+      				// Tête et queue de liste
+      				oPremier <- tabChampsTriés[1]
+      				oDernier <- tabChampsTriés[tabChampsTriés..Occurrence]
+      				
+      				// Cumule les largeurs
+      				POUR i = 1 _a_ tabChampsTriés..Occurrence
+      					nLargeurCumul += tabChampsTriés[i]..Largeur
+      				FIN
+      				
+      				// X min
+      				nXMin = oPremier..X
+      				// X max
+      				nXMax = oDernier..X + oDernier..Largeur
+      				
+      				// Si la largeur de la sélection est inférieure au cumul des largeurs des champs
+      				SI nXMax - nXMin < nLargeurCumul ALORS
+      					
+      					// Abandonne l'alignement
+      					SORTIR SELON
+      				SINON
+      					
+      					// Calcule l'espacement optimal
+      					nEsp = ((nXMax - nXMin) - nLargeurCumul) / (tabChampsTriés..Occurrence - 1)
+      					SI PAS bModifié ALORS bModifié = Vrai
+      				FIN
+      				
+      				// Position de départ du second champ sélectionné
+      				nXPos = oPremier..X + oPremier..Largeur + nEsp
+      				
+      				// Pour chacun des autres champs de gauche à droite
+      				POUR i = 2 _a_ tabChampsTriés..Occurrence
+      					
+      					// Déplace le champ
+      					tabChampsTriés[i]..X += (nXPos - tabChampsTriés[i]..X)
+      					
+      					// Prochaine position
+      					nXPos += tabChampsTriés[i]..Largeur + nEsp
+      				FIN
+      				
+      			// Hauteur
+      			CAS eAlignement[AligneMêmeEspacementV]	
+      				
+      				nHauteurCumul est un entier
+      				nYMin, nYMax, nEsp, nYPos sont des entiers
+      				oPremier, oDernier sont des champs
+      				
+      				// Tri des champs
+      				Trie(tabChampsTriés, ttFonction, __TrieY)
+      				PROCEDURE INTERNE __TrieY(o1 est un champ, o2 est un champ)
+      					SI o1..Y < o2..Y ALORS RENVOYER -1	
+      					SI o1..Y > o2..Y ALORS RENVOYER 1	
+      					RENVOYER 0
+      				FIN
+      				
+      				// Tête et queue de liste
+      				oPremier <- tabChampsTriés[1]
+      				oDernier <- tabChampsTriés[tabChampsTriés..Occurrence]
+      				
+      				// Cumule les hauteurs
+      				POUR i = 1 _a_ tabChampsTriés..Occurrence
+      					nHauteurCumul += tabChampsTriés[i]..Hauteur
+      				FIN
+      				
+      				// Y min
+      				nYMin = oPremier..Y
+      				// Y max
+      				nYMax = oDernier..Y + oDernier..Hauteur
+      				
+      				// Si la hauteur de la sélection est inférieure au cumul des hauteurs des champs
+      				SI nYMax - nYMin < nHauteurCumul ALORS
+      					
+      					// Abandonne l'alignement
+      					SORTIR SELON
+      				SINON
+      					
+      					// Calcule l'espacement optimal
+      					nEsp = ((nYMax - nYMin) - nHauteurCumul) / (tabChampsTriés..Occurrence - 1)
+      					SI PAS bModifié ALORS bModifié = Vrai
+      				FIN
+      				
+      				// Position de départ du second champ sélectionné
+      				nYPos = oPremier..Y + oPremier..Hauteur + nEsp
+      				
+      				// Pour chacun des autres champs de haut en bas
+      				POUR i = 2 _a_ tabChampsTriés..Occurrence
+      					
+      					// Déplace le champ
+      					tabChampsTriés[i]..Y += (nYPos - tabChampsTriés[i]..Y)
+      					
+      					// Prochaine position
+      					nYPos += tabChampsTriés[i]..Hauteur + nEsp
+      				FIN
+      		FIN
+      	FIN
+      	
+      	MGREspace..AffichageActif = Vrai
+      	
+      	// Déclare l'annulation
+      	FenEdDéclareUndo(__AnnuleAlignement)
+      	PROCEDURE INTERNE __AnnuleAlignement()
+      	
+      		depile(pileactions)
+      		MGREspace..AffichageActif = faux
+      	
+      		// Restaure les champs
+      		POUR i = 1 _a_ tabChamps..Occurrence
+      			__RestaureRectangle(tabChamps[i])
+      		FIN
+      		
+      		MGREspace..AffichageActif = Vrai
+      	
+      		// Restaure le rectangle d'un champ
+      		PROCEDURE INTERNE __RestaureRectangle(oChamp est un champ)
+      			oRect est un rectangle = taOrigines[oChamp..NomComplet]
+      			(oChamp..X, oChamp..Y, oChamp..Largeur, oChamp..Hauteur) = (oRect..X, oRect..Y, oRect..Largeur, oRect..Hauteur)
+      		FIN
+      	FIN
+      	
+      renvoyer bModifié
+     type : 458752
+   -
+     name : MGRAltitudeSélection
+     procedure_id : 1602017797772479639
+     type_code : 14
+     code : |1-
+      // Résumé : Modifie l'altitude des champs sélectionnés (avec gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] MGRAltitudeSélection (<eSensAltitude> est énumération)
+      //
+      // Paramètres :
+      //	eSensAltitude (énumération) : Sens d'altitude
+      // Valeur de retour :
+      // 	booléen : Vrai si le changement d'altitude a été effectué, Faux sinon
+      //
+      PROCEDURE MGRAltitudeSélection(eSensAltitude est une Altitude) : booléen
+      
+      	// Il faut au moins un champ sélectionné pour gérer les altitudes
+      	si pas FenEdSelectOccurrence(MGREspace) >= 1 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		renvoyer faux
+      	FIN
+      	
+      	// Enregistre l'action et exécute le changement d'altitude	
+      	FenEdDo(MGREspace, __MGRExécuteAltitudeSélection, (eSensAltitude))
+      	
+      renvoyer vrai
+     type : 458752
+   -
+     name : __MGRExécuteAltitudeSélection
+     procedure_id : 1602018403362943386
+     type_code : 14
+     code : |1-
+      // Résumé : Exécute le changement d'altitude (pour l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteAltitudeSélection (<eSensAltitude> est énumération)
+      //
+      // Paramètres :
+      //	eSensAltitude (énumération) :Sens d'altitude
+      // Valeur de retour :
+      // 	booléen : Vrai si l'altitude a été modifiée, Faux sinon (aucun enregistrement pour l'UNDO/REDO)
+      //
+      PROCEDURE PRIVÉE __MGRExécuteAltitudeSélection(local eSensAltitude est une altitude)
+      
+      	tabChamps 	est un tableau de champs
+      	oRéférence  est un champ
+      	bModifié	est un booléen
+      	taOrigines	est un tableau associatif d'entiers
+      	nDecAlt		est un entier
+      	
+      	Empile(PileActions, "Modifier l'altitude de la sélection")
+      	
+      	// Récupère les champs sélectionnés
+      	POUR i = 1 _a_ FenEdSelectOccurrence(MGREspace)
+      		oRéférence <- FenEdSelect(MGREspace, i)
+      		Ajoute(tabChamps, oRéférence)
+      		
+      		// Conserve les dimensions
+      		taOrigines[oRéférence..NomComplet] = oRéférence..Altitude
+      	FIN
+      	
+      	// Trie les champs par altitude selon le sens demandé
+      	Trie(tabChamps, ttFonction, __TrieAltitude)
+      	PROCEDURE INTERNE __TrieAltitude(o1 est un champ, o2 est un champ)
+      			
+      		SELON eSensAltitude
+      			CAS Monter, premierplan
+      				SI o1..Altitude < o2..Altitude ALORS RENVOYER 1	
+      				SI o1..Altitude > o2..Altitude ALORS RENVOYER -1	
+      				
+      			CAS Descendre, arrièreplan
+      				SI o1..Altitude < o2..Altitude ALORS RENVOYER -1	
+      				SI o1..Altitude > o2..Altitude ALORS RENVOYER 1	
+      		FIN
+      		
+      		RENVOYER 0
+      	FIN		
+      	
+      	// Le champ le plus haut sélectionné est le champ de référence
+      	oRéférence <- tabChamps[1]
+      	MGREspace..AffichageActif = Faux
+      	
+      	// Modifie l'altitude du premier champ
+      	selon eSensAltitude
+      		CAS Monter
+      			oRéférence..Altitude += 1
+      			nDecAlt = -1
+      			
+      		CAS PremierPlan
+      			oRéférence..Altitude = 0xFFFF
+      			nDecAlt = -1
+      			
+      		CAS Descendre
+      			oRéférence..Altitude -= 1
+      			nDecAlt = +1
+      			
+      		CAS ArrièrePlan
+      			oRéférence..Altitude = 1
+      			nDecAlt = +1
+      			
+      	FIN
+      	
+      	// Modifie l'altitude des champs suivant en fonction
+      	// du champ précédent à chaque itération
+      	pour i = 2 _a_ tabChamps..Occurrence
+      		tabChamps[i]..Altitude = tabChamps[i - 1]..Altitude + nDecAlt
+      	FIN
+      	
+      	si pas bModifié alors bModifié = vrai
+      	MGREspace..AffichageActif = Vrai
+      	
+      	// Déclare l'annulation
+      	FenEdDéclareUndo(__AnnuleAltitude)
+      	PROCEDURE INTERNE __AnnuleAltitude()
+      	
+      		depile(PileActions)
+      		MGREspace..AffichageActif = faux
+      	
+      		// Restaure les champs
+      		si nDecAlt > 0 ALORS
+      			POUR i = tabChamps..Occurrence _a_ 1 pas -1 
+      				tabChamps[i]..Altitude = taOrigines[tabChamps[i]..NomComplet]
+      			FIN			
+      		sinon
+      			POUR i = 1 _a_ tabChamps..Occurrence
+      				tabChamps[i]..Altitude = taOrigines[tabChamps[i]..NomComplet]
+      			FIN		
+      			
+      		FIN
+      		
+      		MGREspace..AffichageActif = Vrai	
+      	FIN
+      	
+      renvoyer bModifié
+     type : 458752
+   -
+     name : FaaUndoPossible
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1602350219653548831
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Détermine si un UNDO  est possible
+      // Syntaxe :
+      //[ <Résultat> = ] FaaUndoPossible ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si un UNDO est possible, Faux sinon
+      //
+      // Traitement automatique des exceptions :   exécuter le bloc de code CAS EXCEPTION:
+      //
+      PROCEDURE FaaUndoPossible() : booléen
+      soit faaAnnuler = 32095
+      renvoyer FaaPossible(MGREspace, faaAnnuler)
+      
+      CAS EXCEPTION:
+      	renvoyer faux
+     type : 458752
+   -
+     name : FaaRedoPossible
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1602350528891265909
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Détermine si un REDO  est possible
+      // Syntaxe :
+      //[ <Résultat> = ] FaaRedoPossible ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si un REDO est possible, Faux sinon
+      //
+      // Traitement automatique des exceptions :   exécuter le bloc de code CAS EXCEPTION:
+      //
+      PROCEDURE FaaRedoPossible() : booléen
+      soit faaRétablir = 32096
+      renvoyer FaaPossible(MGREspace, faaRétablir)
+      
+      CAS EXCEPTION:
+      	renvoyer faux
+     type : 458752
+   -
+     name : MGRDupliqueSélection
+     procedure_id : 1602351662762699632
+     type_code : 14
+     code : |1-
+      // Résumé : Duplique les champs sélectionnés (avec gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] MGRDupliqueSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si la duplication a eu lieu, Faux sinon
+      //
+      PROCEDURE MGRDupliqueSélection()
+      
+      	// Il faut au moins un champ sélectionné pour gérer la duplication
+      	SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		RENVOYER Faux
+      	FIN
+      	
+      	// Enregistre l'action et exécute la duplication	
+      	FenEdDo(MGREspace, __MGRExécuteDupliqueSélection)
+      	
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : __MGRExécuteDupliqueSélection
+     internal_properties : CAAAAAgAAADiYz01qx6SrTY2d/A/dXt2+MWqpfonuZC1jxrEGFWAz/437fGHw2lY+SrzYWgcTsmkHzFQqnxv0g19AvyZ0G9iZz1VeironbxFBgTn3fAVmoE+XWSnaj2evN6r/B1ItXwhHgw/ZGEeVZpuxt05
+     procedure_id : 1602351873216211204
+     type_code : 14
+     code : |1-
+      // Résumé : Exécute la duplication de la sélection (pour l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteDupliqueSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si la duplication a été réalisée, Faux sinon
+      //
+      PROCEDURE privee __MGRExécuteDupliqueSélection()
+      
+      	tabCopies  est un tableau de chaines
+      	oRéférence est un champ
+      	bModifié   est un booléen
+      	stCopie    est un MémoireObjetChamp
+      	
+      	Empile(PileActions, "Dupliquer la sélection")
+      	
+      	MGREspace..AffichageActif = faux
+      	
+      	// Enumération
+      	POUR i = 1 _a_ FenEdSelectOccurrence(MGREspace)
+      		
+      		// Référence
+      		oRéférence <- FenEdSelect(MGREspace, i)
+      		
+      		// Récupère les propriétés et les conserve
+      		Ajoute(stCopie.ListeObjets, __MGRObjetPropriétésSauve(oRéférence))
+      	FIN
+      
+      	// Annule la sélection
+      	FenEdDésélectionneTout(mgrespace)
+      		
+      	// Pour dupliquer, on clone les champs sélectionnés
+      	POUR i = 1 _a_ stCopie.ListeObjets..Occurrence
+      		
+      		// Modifie le nom et la position
+      		stCopie.ListeObjets[i].Nom = MGRDonneNomUnique(stCopie.ListeObjets[i].Nom)
+      		
+      		// Crée le champ à partir des propriétés
+      		oChamp est un Champ <- __MGRObjetCrée(stCopie.ListeObjets[i])
+      		
+      		// Force l'altitude maximale et la position
+      		oChamp..X += 12
+      		oChamp..Y += 12
+      		oChamp..Altitude = (stCopie.ListeObjets[i].Propriétés["Altitude"]) + 1
+      		
+      		// Rend le champ visible
+      		oChamp..Visible = Vrai
+      		
+      		// Sélectionne le champ
+      		FenEdSelectPlus(MGREspace, oChamp)		
+      		Ajoute(tabCopies, oChamp..Nom)			
+      	FIN		
+      
+      	bModifié = (tabCopies..Occurrence > 0)	
+      	MGREspace..AffichageActif = Vrai
+      		
+      	// Déclare l'annulation
+      	FenEdDéclareUndo(__AnnuleDuplication)
+      	PROCEDURE INTERNE __AnnuleDuplication()
+      		
+      		depile(pileactions)
+      		
+      		// Supprime les copies
+      		__MGRObjetSupprime(tabCopies)		
+      	FIN
+      
+      RENVOYER bModifié
+     type : 458752
+   -
+     name : MGRDonneNomUnique
+     internal_properties : CAAAAAgAAAB+ywmwZQkVy6yCnjdUQYKK9cJclTG7PHRk2KZP4YPoVLS2lWxL4S7yuh3E5ZjNqro8C6HnbVxqq4co1JwVwlar8OYiPoLPF9Y=
+     procedure_id : 1602354110896331507
+     type_code : 14
+     code : |1+
+      // Résumé : Génère un nom unique à partir d'un nom donné
+      // Syntaxe :
+      //[ <Résultat> = ] MGRDonneNomUnique (<sNom> est chaîne)
+      //
+      // Paramètres :
+      //	sNom (chaîne ANSI) :Nom de base
+      // Valeur de retour :
+      // 	chaîne ANSI : Nom de base modifié si il n'était pas unique, Nom de base si il est unique
+      
+      Procédure MGRDonneNomUnique(local sNom est une chaine) : chaine
+      
+      	nCompteur est un entier = -1	
+      	nNum est un entier
+      	nMoins est un entier = 1
+      	
+      	// Vérifie si le nom existe déjà
+      	si ChampExiste(mgrespace..NomComplet + "." + sNom) alors
+      		// On augmente le compteur
+      		nCompteur ++			
+      	FIN
+      	
+      	// Si un objet porte le nom demandé
+      	si nCompteur > -1 alors
+      		
+      		// Récupère la position de la partie numérique du nom
+      		tantque estnumerique(droite(sNom, nMoins))
+      			nMoins++
+      			si nMoins > taille(sNom) alors sortir
+      		FIN		
+      		
+      		// Si on n'a pas trouvé de partie numérique dans le nom
+      		si nMoins > taille(sNom) alors
+      			// Renvoie le nom complet d'origine
+      			renvoyer sNom
+      		sinon
+      			// Récupère la partie numérique du nom
+      			nNum = val(droite(sNom, nMoins - 1))
+      			
+      			// Régénère un nom en incrémentant la partie numérique
+      			renvoyer MGRDonneNomUnique(sNom[[a (taille(sNom) - nMoins + 1)]] + (nNum + 1)) 
+      		FIN
+      	sinon
+      		// Renvoie le nom complet d'origine
+      		renvoyer sNom
+      	fin
+     type : 458752
+   -
+     name : MGRSupprimeSélection
+     procedure_id : 1602358874015188872
+     type_code : 14
+     code : |1-
+      // Résumé : Supprime la sélection courante (avec gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] MGRSupprimeSélection ( [<bCouper> est booléen])
+      //
+      // Paramètres :
+      //	bCouper (booléen - valeur par défaut=0) :Vrai si la suppression est consécutive à un couper dans le presse-papier, Faux dans le cas contraire
+      // Valeur de retour :
+      // 	booléen : Vrai si la sélection a été supprimée, Faux sinon
+      //
+      PROCEDURE MGRSupprimeSélection(local bCouper est un booléen = faux) : booléen
+      
+      	// Il faut au moins un champ sélectionné pour gérer la suppression
+      	SI PAS FenEdSelectOccurrence(MGREspace) > 0 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		RENVOYER Faux
+      	FIN
+      			
+      	// Déclenche la suppression
+      	renvoyer __MGRExécuteSupprimeSélectionCourante(bCouper)
+     type : 458752
+   -
+     name : __MGRExécuteSupprimeSélectionCourante
+     procedure_id : 1602359093058572296
+     type_code : 14
+     code : |1-
+      // Résumé : Supprime plusieurs objets (avec gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteSupprimeSélectionCourante ( [<bCouper> est booléen])
+      //
+      // Paramètres :
+      //	bCouper (booléen - valeur par défaut=0) :Vrai si la suppression est consécutive à un couper dans le presse-papier, Faux dans le cas contraire
+      // Valeur de retour :
+      // 	entier : Nombre d'objets supprimés
+      //
+      PROCEDURE privee __MGRExécuteSupprimeSélectionCourante(LOCAL bCouper est un booléen = faux) : entier
+      	
+      	oRéférence est un Champ
+      	nNbSupprimés est un entier
+      	tabProps est un tableau de objetchamp
+      	
+      	// Conserve les propriétés des champs
+      	// Les propriétés sont conservées en dehors de la procédure FenEdDo (__MGRExécuteSuppressionDepuisProps) : une fois exécuté, les champs n'existent plus
+      	// ils ne seraient donc pas accessibles en cas d'annulation (pour les recréer), ni même lors du rétablissement de l'action (REDO) ...
+      	// car les champs auraient été recréés
+      	POUR i = 1 _a_ FenEdSelectOccurrence(MGREspace)
+      		
+      		// Référence
+      		oRéférence <- FenEdSelect(MGREspace, i)
+      				
+      		// Conserve les propriétés du champ
+      		ajoute(tabProps, __MGRObjetPropriétésSauve(oRéférence))
+      	fin
+      	
+      	// Annule la sélection des objets
+      	FenEdDésélectionneTout(mgrespace)
+      	
+      	// Exécute la suppression à partir des propriétés
+      	nNbSupprimés = __MGRExécuteSuppressionDepuisProps(tabProps, bCouper)
+      	
+      renvoyer (nNbSupprimés > 0)
+     type : 458752
+   -
+     name : __MGRObjetPropriétésSauve
+     internal_properties : CAAAAAgAAACpwccA7ySS2RG+VjSqdo02FELQMVIieosThdSz37bR7QhwvImr06c1l2gCE+pFcTfkaVYZqyzkeRg0BU4BYGWYoyghQVHEph9RpzWgboh+GetQIKhwdcOhpKs8/0ZekDnbZtgHSW8nvO3eFGYDbNPi5zksqDvhuj1XxlrVii0jPi1c50Wn9uhyWeWb8gJRT7qlWgY+WOjC7DxplAWieFDUCFybeJ6BlmyiyNqzGT4Aji3MBDM=
+     procedure_id : 1602371325125461506
+     type_code : 14
+     code : |1-
+      // Résumé : Renvoie les propriétés duplicables d'un champ
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRObjetPropriétésSauve (<oChamp> est champ)
+      //
+      // Paramètres :
+      //	oChamp (champ) :Champ dont les propriétés doivent être énumérées
+      // Valeur de retour :
+      // 	ObjetChamp : Propriétés duplicables de l'objet
+      //
+      PROCEDURE privee __MGRObjetPropriétésSauve(oChamp est un champ) : objetchamp
+      
+      	//////
+      	// CONSERVER LE SYNCHRONISME AVEC __MGRRestaureObjetPropriétés
+      	//////
+      
+      	stObjetChamp est un objetchamp
+      		
+      	// Conserve les propriétés
+      	stObjetChamp.Nom 						= oChamp..Nom
+      	stObjetChamp.Type 						= oChamp..Type
+      	stObjetChamp.Propriétés["X"] 			= oChamp..X
+      	stObjetChamp.Propriétés["Y"] 			= oChamp..Y
+      	stObjetChamp.Propriétés["Largeur"] 		= oChamp..Largeur
+      	stObjetChamp.Propriétés["Hauteur"] 		= oChamp..Hauteur
+      	stObjetChamp.Propriétés["Libellé"] 		= oChamp..Libellé
+      	stObjetChamp.Propriétés["Bulle"] 		= oChamp..Bulle
+      	stObjetChamp.Propriétés["Etat"] 		= oChamp..Etat
+      	stObjetChamp.Propriétés["Note"] 		= oChamp..Note
+      	stObjetChamp.Propriétés["Couleur"] 		= oChamp..Couleur
+      	stObjetChamp.Propriétés["CouleurFond"] 	= oChamp..CouleurFond
+      	stObjetChamp.Propriétés["Altitude"] 	= oChamp..Altitude
+      	
+      	// Propriétés spécifiques (hors champ Fil)
+      	SI stObjetChamp.Type <> typfil ALORS 
+      		
+      		stObjetChamp.Propriétés["Valeur"]   = oChamp..Valeur
+      		
+      		SI PropriétéExiste(oChamp..Nom, "Animation")			ALORS stObjetChamp.Propriétés["Animation"]   		= oChamp..Animation
+      		SI PropriétéExiste(oChamp..Nom, "CadrageHorizontal")	ALORS stObjetChamp.Propriétés["CadrageHorizontal"]  = oChamp..CadrageHorizontal
+      		SI PropriétéExiste(oChamp..Nom, "CadrageVertical")	 	ALORS stObjetChamp.Propriétés["CadrageVertical"]	= oChamp..CadrageVertical
+      		SI PropriétéExiste(oChamp..Nom, "ImageMode")	 		ALORS stObjetChamp.Propriétés["ImageMode"] 			= oChamp..ImageMode
+      		SI PropriétéExiste(oChamp..nom, "Contenu")				ALORS stObjetChamp.Propriétés["Contenu"]			= oChamp..Contenu
+      		SI PropriétéExiste(oChamp..nom, "Police") 				ALORS stObjetChamp.Propriétés["Police"]				= oChamp..Police
+      		SI PropriétéExiste(oChamp..nom, "PoliceNom") 			ALORS stObjetChamp.Propriétés["PoliceNom"]			= oChamp..PoliceNom
+      		SI PropriétéExiste(oChamp..nom, "PoliceAlphabet") 		ALORS stObjetChamp.Propriétés["PoliceAlphabet"]		= oChamp..PoliceAlphabet
+      		SI PropriétéExiste(oChamp..nom, "PoliceBarrée") 		ALORS stObjetChamp.Propriétés["PoliceBarrée"]		= oChamp..PoliceBarrée
+      		SI PropriétéExiste(oChamp..nom, "PoliceCondensée") 		ALORS stObjetChamp.Propriétés["PoliceCondensée"]	= oChamp..PoliceCondensée 
+      		SI PropriétéExiste(oChamp..nom, "PoliceEtendue") 		ALORS stObjetChamp.Propriétés["PoliceEtendue"]		= oChamp..PoliceEtendue
+      		SI PropriétéExiste(oChamp..nom, "PoliceGras") 			ALORS stObjetChamp.Propriétés["PoliceGras"]			= oChamp..PoliceGras
+      		SI PropriétéExiste(oChamp..nom, "PoliceItalique") 		ALORS stObjetChamp.Propriétés["PoliceItalique"]		= oChamp..PoliceItalique
+      		SI PropriétéExiste(oChamp..nom, "PoliceLarge") 			ALORS stObjetChamp.Propriétés["PoliceLarge"]		= oChamp..PoliceLarge
+      		SI PropriétéExiste(oChamp..nom, "PoliceSoulignée")   	ALORS stObjetChamp.Propriétés["PoliceSoulignée"]    = oChamp..PoliceSoulignée
+      		SI PropriétéExiste(oChamp..nom, "PoliceTaille") 		ALORS stObjetChamp.Propriétés["PoliceTaille"]		= oChamp..PoliceTaille
+      	FIN
+      	
+      	
+      	// Cas particuliers pour le champ fil
+      	SI PropriétéExiste(oChamp..nom, "ChampDépart") 			ALORS 
+      		
+      		oDépart est un champ <- oChamp..ChampDépart
+      		si oDépart <> null ALORS
+      			stObjetChamp.Propriétés["ChampDépart"] = oDépart..NomComplet			
+      		FIN
+      		
+      	FIN
+      	
+      	// Cas particuliers pour le champ fil
+      	SI PropriétéExiste(oChamp..nom, "ChampArrivée") 			ALORS 
+      		
+      		oArrivée est un champ <- oChamp..ChampArrivée
+      		si oArrivée <> null ALORS
+      			stObjetChamp.Propriétés["ChampArrivée"] = oArrivée..NomComplet			
+      		FIN
+      		
+      	FIN
+      	
+      	// Cas particuliers
+      	SI PropriétéExiste(oChamp..nom, "Cadre") ALORS
+      
+      		oCadre est un cadre = oChamp..Cadre
+      		
+      		// Crée une entrée pour "Cadre", mais on ne sauve que l'épaisseur et la couleur
+      		stObjetChamp.Propriétés["Cadre"] 			= "<Cadre>"
+      		stObjetChamp.Propriétés["Cadre..Epaisseur"] 	= oCadre..Epaisseur
+      		stObjetChamp.Propriétés["Cadre..Couleur"] 	= oCadre..Couleur
+      	fin
+      	
+      renvoyer stObjetChamp
+     type : 458752
+   -
+     name : __MGRObjetPropriétésRestaure
+     internal_properties : CAAAAAgAAADMBSMU52CgdRvawSLVsG59PzZRrZc+j+bsj7n6M6ZUG7SgPuNEKIMdvbx5grXIFhAHWGgCa06ymWYnU4EYZkibZszU9c0N0zvezj1/jN2q2c8zAerINIKVeTDHI97gqe6eIsqieoNDMTMJBB/j4jW6Gwwl3rWjmDcwEs0BMm51f+Oa96SRb8TdauWNGFNr25mI
+     procedure_id : 1602372514831482562
+     type_code : 14
+     code : |1-
+      // Résumé : Restaure les propriétés duplicables d'un champ
+      // Syntaxe :
+      //__MGRObjetPropriétésRestaure (<oChamp> est champ, <stObjetChamp> est ObjetChamp [, <bUniquementStyle> est booléen])
+      //
+      // Paramètres :
+      //	oChamp (champ) : Champ dont les propriétés doivent être énumérées
+      //	stObjetChamp (ObjetChamp) : Propriétés duplicables de l'objet
+      //	bUniquementStyle (booléen - valeur par défaut=0) : Vrai pour uniquement restaurer les propriétés de style, Faux pour tout restaurer (par défaut)
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE privee __MGRObjetPropriétésRestaure(oChamp est un champ, stObjetChamp est un ObjetChamp, bUniquementStyle est un booléen = faux)
+      		
+      	//////
+      	// CONSERVER LE SYNCHRONISME AVEC __MGRObjetPropriétés
+      	//////
+      
+      	// ..Nom et ..Type ne sont pas restaurables
+      	// via les propriétés, mais seulement via ChampCrée
+      		
+      	// On ne teste pas le type de champ, permet ainsi de copier les propriétés d'un champ sur un autre
+      		
+      	// Propriétés de création
+      	si bUniquementStyle = faux alors oChamp..X                   = stObjetChamp.Propriétés["X"] 			
+      	SI bUniquementStyle = Faux ALORS oChamp..Y                   = stObjetChamp.Propriétés["Y"] 			
+      	SI bUniquementStyle = Faux ALORS oChamp..Largeur             = stObjetChamp.Propriétés["Largeur"] 		
+      	SI bUniquementStyle = Faux ALORS oChamp..Hauteur             = stObjetChamp.Propriétés["Hauteur"] 		
+      	SI bUniquementStyle = Faux ALORS oChamp..Bulle               = stObjetChamp.Propriétés["Bulle"] 			
+      	SI bUniquementStyle = Faux ALORS oChamp..Etat            	 = stObjetChamp.Propriétés["Etat"] 		
+      	SI bUniquementStyle = Faux ALORS oChamp..Note                = stObjetChamp.Propriétés["Note"] 			
+      	SI bUniquementStyle = Faux ALORS oChamp..Altitude            = stObjetChamp.Propriétés["Altitude"] 		
+      	SI bUniquementStyle = Faux _et_ __MGRObjetPropriétéValide(oChamp, "Contenu", stObjetChamp) ALORS oChamp..Contenu = stObjetChamp.Propriétés["Contenu"]	 
+      	SI bUniquementStyle = Faux _ET_ __MGRObjetPropriétéValide(oChamp, "Libellé", stObjetChamp) ALORS oChamp..Libellé = stObjetChamp.Propriétés["Libellé"] 		
+      	SI bUniquementStyle = Faux _ET_ oChamp..Type <> typFil 									   ALORS oChamp..Valeur  = stObjetChamp.Propriétés["Valeur"]
+      	
+      	// Propriétés de style		
+      	oChamp..Couleur             = stObjetChamp.Propriétés["Couleur"] 		
+      	oChamp..CouleurFond         = stObjetChamp.Propriétés["CouleurFond"] 	
+      	
+      	// Propriétés de style spécifiques
+      	SI __MGRObjetPropriétéValide(oChamp, "Animation", stObjetChamp)			ALORS oChamp..Animation			= stObjetChamp.Propriétés["Animation"] 		
+      	SI __MGRObjetPropriétéValide(oChamp, "CadrageHorizontal", stObjetChamp)	ALORS oChamp..CadrageHorizontal = stObjetChamp.Propriétés["CadrageHorizontal"] 		
+      	SI __MGRObjetPropriétéValide(oChamp, "CadrageVertical", stObjetChamp)	ALORS oChamp..CadrageVertical 	= stObjetChamp.Propriétés["CadrageVertical"] 		
+      	SI __MGRObjetPropriétéValide(oChamp, "ImageMode", stObjetChamp)	 		ALORS oChamp..ImageMode         = stObjetChamp.Propriétés["ImageMode"] 		
+      	SI __MGRObjetPropriétéValide(oChamp, "Police", stObjetChamp)	 		ALORS oChamp..Police			= stObjetChamp.Propriétés["Police"]		 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceNom", stObjetChamp) 		ALORS oChamp..PoliceNom			= stObjetChamp.Propriétés["PoliceNom"]		 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceAlphabet", stObjetChamp) 	ALORS oChamp..PoliceAlphabet	= stObjetChamp.Propriétés["PoliceAlphabet"]	 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceBarrée", stObjetChamp) 		ALORS oChamp..PoliceBarrée		= stObjetChamp.Propriétés["PoliceBarrée"]	 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceCondensée", stObjetChamp) 	ALORS oChamp..PoliceCondensée	= stObjetChamp.Propriétés["PoliceCondensée"]	 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceEtendue", stObjetChamp) 	ALORS oChamp..PoliceEtendue		= stObjetChamp.Propriétés["PoliceEtendue"]	 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceGras", stObjetChamp) 		ALORS oChamp..PoliceGras		= stObjetChamp.Propriétés["PoliceGras"]		 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceItalique", stObjetChamp) 	ALORS oChamp..PoliceItalique	= stObjetChamp.Propriétés["PoliceItalique"]	 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceLarge", stObjetChamp) 		ALORS oChamp..PoliceLarge		= stObjetChamp.Propriétés["PoliceLarge"]		 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceSoulignée", stObjetChamp) 	ALORS oChamp..PoliceSoulignée	= stObjetChamp.Propriétés["PoliceSoulignée"]	 
+      	SI __MGRObjetPropriétéValide(oChamp, "PoliceTaille", stObjetChamp) 		ALORS oChamp..PoliceTaille		= stObjetChamp.Propriétés["PoliceTaille"]	 
+      	
+      	// Pour les fils
+      	si oChamp..Type = typfil ALORS
+      		
+      		// Si le champ de départ existe
+      		si champexiste(stObjetChamp.Propriétés["ChampDépart"]) ALORS
+      			oChamp..ChampDépart		= { stObjetChamp.Propriétés["ChampDépart"], indChamp }	 			
+      		FIN
+      		
+      		// Si le champ d'arrivée existe
+      		si champexiste(stObjetChamp.Propriétés["ChampArrivée"]) ALORS
+      			oChamp..ChampArrivée	= { stObjetChamp.Propriétés["ChampArrivée"], indChamp }	 			
+      		FIN
+      	FIN
+      			
+      	// Cas particuliers
+      	si __MGRObjetPropriétéValide(oChamp, "Cadre", stObjetChamp) alors
+      		
+      		// Récupère le cadre du champ
+      		oCadre est un cadre = oChamp..Cadre
+      		
+      		// Modifie les propriétés conservées
+      		oCadre..Epaisseur = stObjetChamp.Propriétés["Cadre..Epaisseur"]
+      		oCadre..Couleur = stObjetChamp.Propriétés["Cadre..Couleur"]
+      		
+      		// Cadre avec une épaisseur non nulle : trait et bord par défaut
+      		SI oCadre..Epaisseur > 0 _ET_ oCadre..Trait <> TraitContinu ALORS 
+      			oCadre..Trait = TraitContinu
+      			oCadre..Bords = BordTous
+      			oCadre..Arrondi = 0
+      		FIN
+      		
+      		// Cadre avec une épaisseur nulle : pas de trait, pas de bord
+      		SI oCadre..Epaisseur = 0 ALORS 
+      			oCadre..Trait = TraitAucun
+      			oCadre..Bords = BordAucun
+      			oCadre..Arrondi = 0
+      		FIN
+      		
+      		// Applique le nouveau cadre
+      		oChamp..Cadre = oCadre
+      	fin
+     type : 458752
+   -
+     name : MGRCopieSélection
+     internal_properties : CAAAAAgAAADOf+EZz7IkMe6CD7gvCauu6JHWFSqXGfy1m9oU8MHwt/Yj8TFXW3HkabarOfhwdiksGwWg2gQ9vGsbSHJ7+sU4HZufCKxCK967NBrldyrT2B88V/oRpDOoimTx8s9CI/K3VC71ltvC+X6C6vEV
+     procedure_id : 1602384433360377310
+     type_code : 14
+     code : |1-
+      // Résumé : Copie les champs sélectionnés dans le presse-papier
+      // Syntaxe :
+      //[ <Résultat> = ] MGRCopieSélection ( [<bUniquementStyle> est booléen])
+      //
+      // Paramètres :
+      //	bUniquementStyle (booléen - valeur par défaut=0) :<indiquez ici le rôle de bUniquementStyle>
+      // Valeur de retour :
+      // 	booléen : Vrai si la copie a eu lieu, Faux sinon
+      //
+      PROCEDURE MGRCopieSélection(bUniquementStyle est un booléen = faux)
+      
+      	oRéférence est un champ
+      	stCopie est un MémoireObjetChamp
+      	bufCopie est un buffer
+      
+      	// Il faut au moins un champ sélectionné pour gérer la duplication
+      	SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		RENVOYER Faux
+      	FIN
+      	
+      	// Pour la copie de style : une seule sélection source possible
+      	si bUniquementStyle _et_ FenEdSelectOccurrence(MGREspace) > 1 ALORS
+      		ErreurDéclenche(500, "Trop de sélection")
+      		renvoyer faux
+      	FIN
+      	
+      	// Enumération
+      	pour i = 1 _a_ FenEdSelectOccurrence(MGREspace)
+      				
+      		// Référence
+      		oRéférence <- FenEdSelect(MGREspace, i)
+      		si oRéférence..Type <> typfil alors
+      		
+      			// Récupère les propriétés et les conserve
+      			ajoute(stCopie.ListeObjets, __MGRObjetPropriétésSauve(oRéférence))
+      		fin
+      	FIN
+      	
+      	// A partir de deux objets copiés
+      	SI pas bUniquementStyle _et_ stCopie.ListeObjets..Occurrence > 1 alors
+      		
+      		// Trie les objets par altitude
+      		trie(stCopie.ListeObjets, ttFonction, __TrieParAltitude)
+      		procedure interne __TrieParAltitude(stO1 est un objetchamp, stO2 est un ObjetChamp)
+      			nAlt1, nAlt2 sont des entiers
+      			
+      			//  Récupère les altitudes
+      			nAlt1 = stO1.Propriétés["Altitude"]
+      			nAlt2 = stO2.Propriétés["Altitude"]
+      			
+      			// Comparaison
+      			si nAlt1 < nAlt2 renvoyer -1
+      			si nAlt1 > nAlt2 renvoyer 1
+      			renvoyer 0
+      		FIN
+      	fin
+      	
+      	// Renseigne le nombre d'occurrence
+      	stCopie.Occurrence = stCopie.ListeObjets..Occurrence
+      	
+      	// Sérialise et crypte
+      	serialise(stCopie, bufCopie, psdXMLAgrégé)
+      	bufCopie = crypte(bufCopie, "", crypteAnsi, encodeBASE64)
+      	
+      	// Copie dans le presse-papier
+      	renvoyer VersPressePapier(bufCopie, (bUniquementStyle ? CF_STYLECHAMP SINON CF_OBJETCHAMP))
+     type : 458752
+   -
+     name : MGRColleDepuisPressePapier
+     procedure_id : 1603371373895410502
+     type_code : 14
+     code : |1-
+      // Résumé : Colle depuis le presse-papier (avec gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] MGRColleDepuisPressePapier ( [<oPoint> est point])
+      //
+      // Paramètres :
+      //	oPoint (point) :Coordonnée à laquelle le ou les objets vont être collés (par défaut : position de la souris)
+      // Valeur de retour :
+      // 	booléen : Vrai si le collage a été effectué, Faux sinon
+      //
+      PROCEDURE MGRColleDepuisPressePapier(local oPoint est un point = [PoidsFaible(CurseurPos(cpClient)), PoidsFort(CurseurPos(cpClient))])
+      	
+      	stCopie est un MémoireObjetChamp
+      	bufCopie est un buffer
+      	tabObjCollés est un tableau de chaines
+      	
+      	// Si des données compatibles sont disponibles
+      	si PressePapierFormat(CF_OBJETCHAMP) ALORS
+      				
+      		// Récupère les données du presse-papier
+      		bufCopie = PressePapier(CF_OBJETCHAMP)				
+      		SI bufCopie <> "" ALORS
+      			
+      			// Décrypte les données
+      			bufCopie = deCrypte(bufCopie, "", crypteAnsi, encodeBASE64)
+      
+      			quand exception dans
+      				// Désérialise
+      				Désérialise(stCopie, bufCopie, psdXMLAgrégé)
+      			faire
+      				
+      				RENVOYER faux
+      			sinon
+      												
+      				// Annule toutes les sélections courantes
+      				FenEdDésélectionneTout(MGREspace)
+      				
+      				oRectangle est un rectangle = MGRRectangleSélection(stCopie.ListeObjets)
+      				nDiffX est un entier
+      				nDiffY est un entier								
+      				oPtOrg est un point = [oRectangle..X, oRectangle..Y]
+      				
+      				// Limites
+      				SI oPoint..X < MGREspace..X + 6 ALORS oPoint..X = MGREspace..X + 6
+      				SI oPoint..Y < MGREspace..Y + 6 ALORS oPoint..Y = MGREspace..Y + 6
+      				
+      				// Positionne le rectangle sous la souris, au centre
+      				oRectangle..X = oPoint..X - oRectangle..Largeur / 2 
+      				oRectangle..y = oPoint..Y - oRectangle..hauteur / 2
+      					
+      				// Limites
+      				SI oRectangle..X < MGREspace..X + 6 ALORS oRectangle..X = MGREspace..X + 6
+      				SI oRectangle..Y < MGREspace..Y + 6 ALORS oRectangle..Y = MGREspace..Y + 6
+      				SI oRectangle..X > MGREspace..X + MGREspace..Largeur - 6 ALORS oRectangle..X = MGREspace..x + (MGREspace..Largeur - 6) - oRectangle..Largeur
+      				SI oRectangle..Y > MGREspace..Y + MGREspace..Hauteur - 6 ALORS oRectangle..Y = MGREspace..Y + (MGREspace..Hauteur - 6) - oRectangle..Hauteur
+      								
+      				// Calcule le différentiel de positionnement
+      				nDiffX = oRectangle..X - oPtOrg..X
+      				nDiffY = oRectangle..y - oPtOrg..y
+      								
+      				FenEdDo(mgrespace, __ColleObjets)
+      				PROCEDURE INTERNE __ColleObjets()
+      				
+      					Empile(PileActions, "Coller")
+      					MGREspace..AffichageActif = Faux
+      					
+      					// RAZ du tableau des objets collés pour le REDO
+      					// (le REDO restaure le contexte et restaure donc le contenu des variables)
+      					supprimetout(tabObjCollés)
+      									
+      					// On restaure les champs dans l'ordre inverse de suppression
+      					// pour conserver leur altitude relative
+      					POUR i = 1 _a_ stCopie.Occurrence
+      						
+      						// Modifie le nom et la position
+      						stCopie.ListeObjets[i].Nom = MGRDonneNomUnique(stCopie.ListeObjets[i].Nom)
+      											
+      						// Crée le champ à partir des propriétés
+      						oChamp est un champ <- __MGRObjetCrée(stCopie.ListeObjets[i])
+      						
+      						// Force l'altitude maximale et la position
+      						oChamp..X += nDiffX
+      						oChamp..Y += nDiffY
+      						oChamp..Altitude = 0xFFFF
+      	
+      						// Rend le champ visible
+      						oChamp..Visible = Vrai
+      						
+      						// Sélectionne le champ
+      						FenEdSelectPlus(MGREspace, oChamp)		
+      						ajoute(tabObjCollés, oChamp..nom)			
+      					FIN
+      					
+      					MGREspace..AffichageActif = Vrai
+      					
+      					// Déclare l'annulation du collage
+      					FenEdDéclareUndo(__AnnuleColleObjets)		
+      					procedure interne __AnnuleColleObjets()
+      												
+      						depile(pileactions)
+      						
+      						// Supprime les objets collés
+      						__MGRObjetSupprime(tabObjCollés)
+      					FIN
+      				
+      					renvoyer (tabObjCollés..Occurrence > 0)
+      				FIN
+      			
+      				RENVOYER vrai
+      			fin
+      		FIN	
+      	FIN	
+      	
+      RENVOYER Faux
+     type : 458752
+   -
+     name : __MGRObjetPropriétéValide
+     procedure_id : 1603388669728741157
+     type_code : 14
+     code : |1-
+      // Résumé : Vérifie si une propriété est valide pour un champ donné
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRObjetPropriétéValide (<oChamp> est champ, <sPropriété> est chaîne, <stObjetChamp> est ObjetChamp)
+      //
+      // Paramètres :
+      //	oChamp (champ) :Champ sur lequel la propriété doit être appliquée
+      //	sPropriété (chaîne ANSI) :Nom de la propriété à appliquer
+      //	stObjetChamp (ObjetChamp) :Propriétés du champ
+      // Valeur de retour :
+      // 	booléen : Vrai si la propriété est valide
+      //
+      PROCEDURE PRIVÉE __MGRObjetPropriétéValide(oChamp est un champ, sPropriété est une chaine, stObjetChamp est un ObjetChamp) : booléen
+      
+      	// Vérifie que la propriété existe sur le champ
+      	si PropriétéExiste(oChamp..Nom, sPropriété) ALORS
+      		
+      		// Vérifie ensuite que la valeur n'est pas nulle
+      		si stObjetChamp.Propriétés[sPropriété]..vide = faux _et_ stObjetChamp.Propriétés[sPropriété] <> null ALORS
+      			renvoyer vrai
+      		FIN		
+      	FIN
+      
+      renvoyer faux
+     type : 458752
+   -
+     name : __MGRObjetSupprime
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1603410363609869123
+     type_code : 14
+     code : |1-
+      // Résumé : Supprime un objet physiquement
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRObjetSupprime (<oObjet> est champ)
+      //
+      // Paramètres :
+      //	oObjet (champ) : Objet à supprimer
+      // Valeur de retour :
+      // 	ObjetChamp : Vrai si l'objet a été supprimé, Faux sinon
+      //
+      // Traitement automatique des exceptions :   exécuter le bloc de code CAS EXCEPTION:
+      //
+      
+      PROCEDURE privee __MGRObjetSupprime(oObjet est un champ) : objetchamp
+      
+      	retour = __MGRObjetSupprime(oObjet..Nom)
+      	
+      	// Supprime le champ
+      	SI ErreurDétectée ALORS ChampSupprime(oObjet)				
+      
+      CAS EXCEPTION:
+      	renvoyer __MGRObjetChampNul()
+     type : 458752
+   -
+     name : __MGRObjetSupprime
+     procedure_id : 1603410363609869123
+     type_code : 14
+     code : |1-
+      // Résumé : Supprime plusieurs objets physiquement
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRObjetSupprime (<tabObjets> est tableau)
+      //
+      // Paramètres :
+      //	tabObjets (tableau) : Liste des objets à supprimer
+      // Valeur de retour :
+      // 	tableau : Nombre d'objets supprimés
+      //
+      PROCEDURE PRIVÉE __MGRObjetSupprime(tabObjets est un tableau de chaines) : tableau de objetchamp
+      	
+      	tabSuppressions est un tableau de ObjetChamp
+      	
+      	MGREspace..AffichageActif = Vrai	
+      	
+      	// Pour chaque champ
+      	POUR i = 1 _a_ tabObjets..Occurrence
+      		
+      		// Supprime le champ <N>
+      		ajoute(tabSuppressions, __MGRObjetSupprime(tabObjets[i]))
+      	FIN
+      	
+      	MGREspace..AffichageActif = faux
+      	
+      renvoyer tabSuppressions
+     type : 458753
+   -
+     name : __MGRObjetSupprime
+     internal_properties : CAAAAAgAAABYA3VRhWOK0aCLH7ZuEG9qWoypHWU2mfWlA/6GyLLFYRnX9bDeNjKBQo05DIirCKt8XVG75zGTP5MbeOVWXpxv1nCWVim200XurUPOfCjDsGNYQPN6ZCgR/sAmMxNhExFBLBD8uSFTS7vTReQXmzzpTZj8aXbTd9Z3y0HXH/1Sb0rI
+     procedure_id : 1603410363609869123
+     type_code : 14
+     code : |1-
+      // Résumé : Supprime un objet physiquement
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRObjetSupprime (<sNomObjet> est chaîne)
+      //
+      // Paramètres :
+      //	sNomObjet (chaîne ANSI) :Nom de l'objet à supprimer
+      // Valeur de retour :
+      // 	booléen : Vrai si l'objet a été supprimé, Faux sinon
+      //
+      // Traitement automatique des exceptions :   exécuter le bloc de code CAS EXCEPTION:
+      //
+      PROCEDURE PRIVÉE __MGRObjetSupprime(sNomObjet est une chaine) : tableau de ObjetChamp
+      
+      	bSupprimé est un booléen
+      	oRéférence est un champ
+      	tabChampsSupprimés est un tableau de ObjetChamp
+      	
+      	// Recherche
+      	POUR i = MGRObjets..Occurrence _a_ 1 pas -1
+      		
+      		// Référence
+      		oRéférence <- MGRObjets[i].MGRObjet
+      		dbgVérifieNonNull(oRéférence)
+      		
+      		
+      		// C'est le même nom
+      		SI oRéférence <> null _et_ oRéférence..Nom = sNomObjet ALORS
+      			
+      			// Mémorise les liaisons et les propriétés du champ
+      			ajoute(tabChampsSupprimés, __MGRObjetPropriétésSauve(oRéférence))
+      			tabLiaisons est un tableau de chaines = MGRObjets[i].Liaisons
+      						
+      			// Supprime le champ de la liste
+      			Supprime(MGRObjets, i)					
+      			
+      			// Si c'est un fil
+      			si oRéférence..Type = typfil ALORS
+      				
+      				// Indique aux champs départ et arrivée la suppression de la liaison
+      				__MGRObjetMémoriseLiaison(oRéférence..ChampDépart, oRéférence..Nom, faux)
+      				__MGRObjetMémoriseLiaison(oRéférence..ChampArrivée, oRéférence..Nom, Faux)				
+      				
+      			// Si le champ possède au moins une liaison
+      			sinon si tabLiaisons..Occurrence > 0 alors
+      				
+      				// Supprime les liaisons
+      				Ajoute(tabChampsSupprimés, __MGRObjetSupprime(tabLiaisons))
+      			FIN
+      			
+      			// Supprime le champ
+      			ChampSupprime(oRéférence)	
+      			bSupprimé = Vrai
+      			SORTIR
+      			
+      		// Référence invalide
+      		sinon si oRéférence = Null
+      			
+      			// Supprime la référence invalide
+      			Supprime(MGRObjets, i)				
+      		FIN
+      	FIN
+      	
+      	// ASSERT
+      	dbgAssertion(bSupprimé)
+      		
+      RENVOYER tabChampsSupprimés
+      
+      CAS EXCEPTION:
+      	RENVOYER tabChampsSupprimés
+     type : 458754
+   -
+     name : MGRRectangleSélection
+     procedure_id : 1603412025762271370
+     type_code : 14
+     code : |1-
+      // Résumé : Calcule le rectangle englobant de la sélection courante
+      // Syntaxe :
+      //[ <Résultat> = ] MGRRectangleSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	rectangle : Rectangle
+      //
+      PROCEDURE MGRRectangleSélection()
+      
+      	oPtMin est un point = [0xFFFF, 0xFFFF]
+      	oPtMax est un point
+      	oRectangle est un rectangle
+      	
+      	// Pour chaque champ sélectionné
+      	POUR i = 1 _a_ FenEdSelectOccurrence(mgrespace)
+      		
+      		// Référence
+      		oChamp est un champ <- FenEdSelect(mgrespace, i)
+      		
+      		// X Min
+      		SI oPtMin..X > oChamp..X ALORS
+      			oPtMin..X = oChamp..X
+      		FIN
+      		
+      		// Y Min
+      		SI oPtMin..Y > oChamp..Y ALORS
+      			oPtMin..Y = oChamp..Y
+      		FIN
+      		
+      		// X Max
+      		SI oPtMax..X < oChamp..X + oChamp..largeur ALORS
+      			oPtMax..X = oChamp..X + oChamp..Largeur
+      		FIN
+      		
+      		// Y Max
+      		SI oPtMax..Y < oChamp..Y + oChamp..Hauteur ALORS
+      			oPtMax..Y = oChamp..Y + oChamp..Hauteur
+      		FIN					
+      	FIN
+      	
+      	// Rectangle englobant
+      	oRectangle = [oPtMin..X, oPtMin..Y, (oPtMax..X - oPtMin..X), (oPtMax..Y - oPtMin..Y)]
+      	
+      RENVOYER oRectangle
+     type : 458752
+   -
+     name : MGRRectangleSélection
+     procedure_id : 1603412025762271370
+     type_code : 14
+     code : |1-
+      // Résumé : Calcule le rectangle englobant les champs décrits
+      // Syntaxe :
+      //[ <Résultat> = ] MGRRectangleSélection (<tabDescChamps> est tableau)
+      //
+      // Paramètres :
+      //	tabDescChamps (tableau) :Description des champs
+      // Valeur de retour :
+      // 	rectangle : Rectangle
+      //
+      PROCEDURE MGRRectangleSélection(tabDescChamps est un tableau de ObjetChamp)
+      
+      	oPtMin est un point = [0xFFFF, 0xFFFF]
+      	oPtMax est un point
+      	oRectangle est un rectangle
+      	stDesc est un ObjetChamp
+      	
+      	// Pour chaque champ décrit
+      	POUR tout stDesc de tabDescChamps
+      		
+      		// Référence
+      		oChamp est un rectangle = [stDesc.Propriétés["X"], stDesc.Propriétés["Y"], stDesc.Propriétés["Largeur"], stDesc.Propriétés["Hauteur"]]
+      		
+      		// X Min
+      		SI oPtMin..X > oChamp..X ALORS
+      			oPtMin..X = oChamp..X
+      		FIN
+      		
+      		// Y Min
+      		SI oPtMin..Y > oChamp..Y ALORS
+      			oPtMin..Y = oChamp..Y
+      		FIN
+      		
+      		// X Max
+      		SI oPtMax..X < oChamp..X + oChamp..Largeur ALORS
+      			oPtMax..X = oChamp..X + oChamp..Largeur
+      		FIN
+      		
+      		// Y Max
+      		SI oPtMax..Y < oChamp..Y + oChamp..Hauteur ALORS
+      			oPtMax..Y = oChamp..Y + oChamp..Hauteur
+      		FIN					
+      	FIN
+      	
+      	// Rectangle englobant
+      	oRectangle = [oPtMin..X, oPtMin..Y, (oPtMax..X - oPtMin..X), (oPtMax..Y - oPtMin..Y)]
+      
+      RENVOYER oRectangle
+     type : 458753
+   -
+     name : MGRRectangleSélection
+     procedure_id : 1603412025762271370
+     type_code : 14
+     code : |1-
+      // Résumé : Calcule le rectangle englobant les champs
+      // Syntaxe :
+      //[ <Résultat> = ] MGRRectangleSélection (<tabChamps> est tableau)
+      //
+      // Paramètres :
+      //	tabChamps (tableau) :Champs
+      // Valeur de retour :
+      // 	rectangle : Rectangle
+      //
+      PROCEDURE MGRRectangleSélection(tabChamps est un tableau de EspaceObjet)
+      
+      	oPtMin est un point = [0xFFFF, 0xFFFF]
+      	oPtMax est un point
+      	oRectangle est un rectangle
+      	stChamp est un EspaceObjet
+      	
+      	// Pour chaque champ décrit
+      	POUR TOUT stChamp DE tabChamps
+      		
+      		// X Min
+      		SI oPtMin..X > stChamp.MGRObjet..X ALORS
+      			oPtMin..X = stChamp.MGRObjet..X
+      		FIN
+      		
+      		// Y Min
+      		SI oPtMin..Y > stChamp.MGRObjet..Y ALORS
+      			oPtMin..Y = stChamp.MGRObjet..Y
+      		FIN
+      		
+      		// X Max
+      		SI oPtMax..X < stChamp.MGRObjet..X + stChamp.MGRObjet..Largeur ALORS
+      			oPtMax..X = stChamp.MGRObjet..X + stChamp.MGRObjet..Largeur
+      		FIN
+      		
+      		// Y Max
+      		SI oPtMax..Y < stChamp.MGRObjet..Y + stChamp.MGRObjet..Hauteur ALORS
+      			oPtMax..Y = stChamp.MGRObjet..Y + stChamp.MGRObjet..Hauteur
+      		FIN					
+      	FIN
+      	
+      	// Rectangle englobant
+      	oRectangle = [oPtMin..X, oPtMin..Y, (oPtMax..X - oPtMin..X), (oPtMax..Y - oPtMin..Y)]
+      
+      RENVOYER oRectangle
+     type : 458754
+   -
+     name : VersPressePapier
+     internal_properties : CAAAAAgAAAAW4mhs/36HWCxhfQ1Q+rfd/BJSpdzPV69wJ5hp5OOYNmEv3xt9v8ApkOs1Z3Fs8TuJwKF7pKq+iSc3zvJ18/OqcV0YA/FeS+wrOQqg8y+W5g3L098UdM7lkkuwrukPDYlNlqOhv4h2wD7lC1aURv4l8V9WSADGOFCGgE3elTz5ladpUQTUiid38vnaFGnPI6dH9N/o0hj2ZmCfmNeN4ScS4LICh/8DIhpZVqMnxzVN+SHx2t8AbPPLKi3s5PoU2Q3diPcfQhQb2h8IEkK+uITEOynGtbriU75hqlE5W1ZN6Ic2csOQij5jaWrBCc0iK32xNQ5HtDHQNn8VDnar4MNVBN5BOKGCAzPzP93klssaG9ZxRDJcwGRON4u0gFB1dWp/0FLFy6fe5K0Bx7WyG08uk1u9Qp6DX2sZQhkND4gawjdJGy7jIfpPoybdY1g3W5EkHO/f5YCEg0jHV6vI9ixAs/nY0JAs6GhJlzJ+XzLuSPeU7h905luegL17SMouRvFatSQh4sx1mvBv44XFdc4lNijSOK3aQfH79zoGPnOJwzwtnYLXAcGI9DMxzaEDIXDzH+OJidI=
+     procedure_id : 1603420654352988241
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Écrit des informations de type buffer dans le presse-papiers du système.
+      // Syntaxe :
+      //[ <Résultat> = ] VersPressePapier (<bufDonnées> est buffer [, <nFormat> est entier])
+      //
+      // Paramètres :
+      //	bufDonnées (buffer) :Données à copier
+      //	nFormat (entier - valeur par défaut=7) :Format des données à copier
+      // Valeur de retour :
+      // 	booléen : Vrai si le buffer a été copié, Faux dans le cas contraire
+      //
+      PROCEDURE VersPressePapier(bufDonnées est un buffer, local nFormat est un entier = CF_OEMTEXT) : booléen
+      
+      	// Par défaut
+      	RETOUR = Faux
+      
+      	// Ouvre le clipboard
+      	SI API("user32", "OpenClipboard", Null) ALORS
+      		
+      		// Alloue une zone mémoire pour la copie du buffer
+      		nHMem est un entier systeme = API("kernel32", "GlobalAlloc", 0x0042, (Taille(bufDonnées)))
+      		SI nHMem = Null ALORS 
+      			
+      			// Ferme le clipboard
+      			API("user32", "CloseClipboard")		
+      			RENVOYER Faux
+      		FIN
+      		
+      		// Récupère le pointeur vers la zone mémoire
+      		nHPtr est un entier systeme = api("kernel32", "GlobalLock", nHMem)
+      		SI nHPtr = Null ALORS 
+      			// Libère la mémoire
+      			api("kernel32", "GlobalFree", nHMem)
+      			
+      			// Ferme le clipboard
+      			API("user32", "CloseClipboard")		
+      			RENVOYER Faux
+      		FIN
+      		
+      		// Transfère le buffer
+      		quand exception dans
+      			Transfert(nHPtr, &bufDonnées, Taille(bufDonnées))
+      		faire
+      			// Echec du transfert
+      			RETOUR = faux
+      		sinon
+      			// Définit les données du presse-papiers
+      			API("user32", "SetClipboardData", nFormat, nHMem)
+      			retour = vrai
+      		fin
+      		
+      		// Libère le pointeur
+      		API("kernel32", "GlobalUnlock", nHMem)
+      		
+      		si retour = faux ALORS
+      			// Libère la mémoire
+      			API("kernel32", "GlobalFree", nHMem)
+      		FIN
+      		
+      		// Ferme le clipboard
+      		API("user32", "CloseClipboard")		
+      	FIN	
+      	
+      	si retour = faux alors
+      		ErreurDéclenche(500, "Echec d'ouverture du presse-papier")
+      	fin
+     type : 458752
+   -
+     name : PressePapier
+     internal_properties : CAAAAAgAAADqDDuw1/pvqsLxHi8KY6CLZrsBqszTSkX3uu0N3JzbV33u4mbhcEwrvy0VzjLheWEvMf+PCSccbpoGTN9t8Bu3gNxSH1vxUoi0tTu+dHn7FGDVhw6rIRCa63q6afXUGuw6Mh94/c1ah2U+IDB20A+aBPJGDmKdYLkpWMCZ61P4qKfsBQJUH5brK4fZLswCKF/14jazk+fVnx2VOP9xUv81MlxJB8OVWkLza8YaA6xc04DzuMf6xUrtswyrlzSyz5V6JnBw+BGJYvfeXS8nu4tJ/Lr+AxE+4ueTRbcUUCveDMYe6AbYo9khiyIq818mw+wQCZBn9+c3G6mK/gGzVjJ1xlSTbkTQk9H0BVu+sVaQocneJp4iOn47cXmeEbBTopeFbCxguHxMF+5dCoWVLfbLeOBkHn1fnqDdGvnA7ACx2o7Ln682nt6NUdW8bLeL18as8sbhRmZ59g2o0JJEIbqfTg==
+     procedure_id : 1603423355887457226
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Récupère les données contenues dans le presse-papiers du système. 
+      // Syntaxe :
+      //[ <Résultat> = ] PressePapier (<nFormat> est entier)
+      //
+      // Paramètres :
+      //	nFormat (entier) : Format des données à récupérer
+      // Valeur de retour :
+      // 	buffer : Données du presse-papier
+      //
+      PROCEDURE PressePapier(nFormat est un entier) : buffer
+      
+      	bufDonnées est un buffer
+      
+      	// Ouvre le clipboard
+      	SI API("user32", "OpenClipboard", Null) ALORS
+      		
+      		// Récupère le handle de la zone mémoire des données
+      		nHMem est un entier systeme = API("user32", "GetClipboardData", nFormat)
+      		SI nHMem = Null ALORS 
+      		
+      			// Ferme le clipboard
+      			API("user32", "CloseClipboard")	
+      			RENVOYER Faux
+      		FIN
+      		
+      		// Alloue la taille nécessaire pour la lecture
+      		bufDonnées = Répète(Caract(0), API("kernel32", "GlobalSize", nHMem))
+      		
+      		// Récupère le pointeur vers la zone mémoire
+      		nHPtr est un entier systeme = api("kernel32", "GlobalLock", nHMem)
+      		SI nHPtr = Null ALORS 
+      		
+      			// Ferme le clipboard
+      			API("user32", "CloseClipboard")	
+      			RENVOYER Faux
+      		FIN
+      		
+      		QUAND EXCEPTION DANS
+      			
+      			// Transfère vers buffer
+      			Transfert(&bufDonnées, nHPtr, Taille(bufDonnées))
+      		FAIRE
+      			
+      			bufDonnées = ""
+      		fin
+      		
+      		// Libère le pointeur
+      		API("kernel32", "GlobalUnlock", nHMem)
+      		
+      		// Ferme le clipboard
+      		API("user32", "CloseClipboard")	
+      	FIN
+      	
+      renvoyer bufDonnées
+     type : 458752
+   -
+     name : __MGRCalculeEspaceTravail
+     procedure_id : 1603455851615814540
+     type_code : 14
+     code : |1-
+      // Résumé : Calcule les dimensions de l'espace de travail
+      // Syntaxe :
+      // __MGRCalculeEspaceTravail ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE privee __MGRCalculeEspaceTravail()
+      
+      	// Calcule le rectangle englobant de tous les objets de l'espace
+      	oRectangle est un rectangle = MGRRectangleSélection(mgrobjets)
+      	
+      	// --- Vérifie si le rectangle est plus petit que le rectangle de l'écran
+      	
+      	// X min
+      	si oRectangle..X < 0 ALORS
+      		EspaceTravail..x = oRectangle..X
+      	sinon
+      		EspaceTravail..X = 0
+      	FIN
+      	
+      	// Y min
+      	si oRectangle..y < 0 ALORS
+      		EspaceTravail..y = oRectangle..y
+      	sinon
+      		EspaceTravail..y = 0
+      	FIN
+      	
+      	// Largeur max
+      	si oRectangle..x + oRectangle..largeur > EspaceVisible..largeur ALORS
+      		EspaceTravail..largeur = EspaceTravail..X + oRectangle..X + oRectangle..Largeur
+      	sinon
+      		EspaceTravail..Largeur = EspaceTravail..X + EspaceVisible..Largeur
+      	FIN
+      	
+      	// Hauteur max
+      	si oRectangle..y + oRectangle..hauteur > EspaceVisible..Hauteur ALORS
+      		EspaceTravail..Hauteur = EspaceTravail..y + oRectangle..y + oRectangle..Hauteur
+      	sinon
+      		EspaceTravail..Hauteur = EspaceTravail..y + EspaceVisible..Hauteur
+      	FIN
+      	
+      	// Largeur utile minimum
+      	si EspaceTravail..Largeur < EspaceVisible..Largeur ALORS
+      		EspaceTravail..Largeur = EspaceVisible..Largeur
+      	FIN
+      	
+      	// Hauteur utile minimum
+      	si EspaceTravail..Hauteur < EspaceVisible..Hauteur ALORS
+      		EspaceTravail..Hauteur = EspaceVisible..Hauteur
+      	FIN
+      	
+      	// Taille utile
+      	FenTailleUtile(MGREspace, EspaceTravail..Largeur, EspaceTravail..hauteur)	
+     type : 458752
+   -
+     name : MGRAdapteTailleSélection
+     procedure_id : 1603461233211416999
+     type_code : 14
+     code : |1-
+      // Résumé : Adapte la taille de la sélection (avec UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] MGRAdapteTailleSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si la taille a été adaptée, Faux sinon
+      //
+      PROCEDURE MGRAdapteTailleSélection()
+      
+      
+      	// Il ne faut qu'un seul champ sélectionné
+      	SI PAS FenEdSelectOccurrence(MGREspace) = 1 ALORS
+      		ErreurDéclenche(500, "Sélection multiple non autorisée")
+      		RENVOYER Faux
+      	FIN
+      
+      	// Enregistre l'action et exécute l'adaptation de la taille
+      	feneddo(mgrespace, __MGRExécuteAdapteTaille)
+      	
+      renvoyer vrai
+     type : 458752
+   -
+     name : __MGRExécuteAdapteTaille
+     procedure_id : 1603461559629008338
+     type_code : 14
+     code : |1-
+      // Résumé : Exécute le traitement d'adaptation à la taille
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteAdapteTaille ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si l'adaptation a été effectuée, Faux sinon
+      //
+      PROCEDURE privee __MGRExécuteAdapteTaille()
+      
+      	nLargeur, nHauteur sont des entiers
+      	oRéférence est un champ
+      	
+      	empile(PileActions, "Adapter la taille")
+      
+      	// Récupère la référence sur le champ sélectionné
+      	oRéférence <- FenEdSelect(MGREspace, 1)
+      
+      	// Conserve les dimensions
+      	nLargeur = oRéférence..largeur
+      	nHauteur = oRéférence..Hauteur
+      	
+      	// Déclare l'annulation
+      	FenEdDéclareUndo(__AnnuleAdapteTaille)
+      	PROCEDURE INTERNE __AnnuleAdapteTaille()
+      	
+      		depile(pileactions)
+      		mgrespace..AffichageActif = faux
+      	
+      		// Restaure les dimensions
+      		oRéférence..Largeur = nLargeur
+      		oRéférence..hauteur = nHauteur
+      	
+      		mgrespace..AffichageActif = vrai
+      	FIN
+      	
+      	// Selon le type du champ
+      	selon oRéférence..type
+      		// Libellé
+      		cas typLibellé
+      			
+      			// Pas de texte
+      			si oRéférence = "" ALORS
+      				// On annule
+      				RENVOYER Faux
+      			FIN
+      			
+      			MGREspace..AffichageActif = Faux
+      			
+      			// Calcule les dimensions du texte
+      			oRéférence..Largeur = TexteLargeur(oRéférence, oRéférence)
+      			oRéférence..Hauteur = TexteHauteur(oRéférence, oRéférence)
+      			
+      			MGREspace..AffichageActif = Vrai
+      			renvoyer vrai
+      			
+      		// Image
+      		cas typimage, typClicage
+      		
+      			// Récupère l'image du champ
+      			oImage est une image = oRéférence
+      			
+      			// Pas d'image
+      			si pas oImage..Valide ALORS 
+      				// On annule
+      				renvoyer faux
+      			FIN
+      		
+      			MGREspace..AffichageActif = Faux
+      			
+      			// Calcule les dimensions de l'image
+      			oRéférence..Largeur = max(12, oImage..Largeur)
+      			oRéférence..Hauteur = Max(12, oImage..Hauteur)
+      			
+      			MGREspace..AffichageActif = Vrai
+      			RENVOYER Vrai
+      		
+      		AUTRE CAS
+      			// On annule
+      			renvoyer faux	
+      	FIN
+     type : 458752
+   -
+     name : __MGRActualiseMenu
+     internal_properties : CAAAAAgAAABa63XsI0gCRSos3TSTJXfAUMfy7yJB3Xz12ZRYzM3oJSK9jbOj9S1s/SiNpQyEhqfoPbHyqqp0izqgPUHog0K1mE4elxFvHiHu+W9EjGMYnUJPBq1ClWq/7Y3qgYyjUI+aRwnM48A3zhMWfmWB
+     procedure_id : 1604523224000221749
+     type_code : 14
+     code : |1-
+      // Résumé : Met à jour le menu contextuel de l'espace de travail
+      // Syntaxe :
+      // __MGRActualiseMenu ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE privee __MGRActualiseMenu()
+      
+      	bMiseEnFormePossible est un booléen = vrai
+      	nNbSelect est un entier = FenEdSelectOccurrence(MGREspace)
+      	
+      	// UNDO (CTRL+Z)
+      	SI FaaUndoPossible() ALORS
+      		MENU_ESPACE_TRAVAIL.OPT_ED_ANNULER..Grisé = Faux
+      	SINON
+      		MENU_ESPACE_TRAVAIL.OPT_ED_ANNULER..Grisé = Vrai
+      	FIN
+      	
+      	// REDO (CTRL+Y)
+      	SI FaaRedoPossible() ALORS
+      		MENU_ESPACE_TRAVAIL.OPT_ED_RETABLIR..Grisé = Faux
+      	SINON
+      		MENU_ESPACE_TRAVAIL.OPT_ED_RETABLIR..Grisé = Vrai
+      	FIN
+      	
+      	// Couper, copier
+      	// Coller
+      	MENU_ESPACE_TRAVAIL.OPT_ED_COUPER..Grisé = (nNbSelect < 1)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_COPIER..Grisé = (nNbSelect < 1)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_COLLER..Grisé = PAS PressePapierFormat(CF_OBJETCHAMP)
+      	
+      	// Dupliquer, supprimer, style
+      	MENU_ESPACE_TRAVAIL.OPT_ED_DUPLIQUER..Grisé = (nNbSelect < 1)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_SUPPRIMER..Grisé = (nNbSelect < 1)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_STYLE..Grisé 	= (nNbSelect < 1)
+      			
+      	// Options de style
+      	MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_COULEUR..Grisé = (nNbSelect < 1)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_COULEURFOND..Grisé = (nNbSelect < 1)
+      	
+      	// Propriétés de liaison non disponible par défaut
+      	MENU_ESPACE_TRAVAIL.OPT_ED_RELIER..Grisé 	= vrai
+      	MENU_ESPACE_TRAVAIL.OPT_ED_LIAISON..Visible = faux
+      	
+      	// Au moins une sélection
+      	si nNbSelect >= 1 ALORS
+      		
+      		// Une seule sélection
+      		si nNbSelect = 1 ALORS
+      			
+      			oRéférence est un champ <- FenEdSelect(MGREspace, 1)
+      						
+      			quand exception dans
+      				// Tente de lire la propriété Epaisseur
+      				n est un entier = oRéférence..Cadre..Epaisseur	
+      				
+      				// Ou vérifie si le type n'est pas interdit pour le cadre			
+      				si oRéférence..type dans (typforme,typfil) alors ExceptionDéclenche(500, "")
+      				
+      			FAIRE
+      				MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_CADRE..Grisé = vrai
+      			sinon
+      				MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_CADRE..Grisé = faux
+      			FIN
+      			
+      			si oRéférence..EffetVisuel <> evaucun ALORS
+      				MENU_ESPACE_TRAVAIL.OPT_ED_VERROU..Libellé = "Déverrouiller"
+      			sinon
+      				MENU_ESPACE_TRAVAIL.OPT_ED_VERROU..libelle = "Verrouiller"
+      			FIN
+      			
+      			// Le champ Fil ne peut pas être mis en forme
+      			si oRéférence..Type = typfil ALORS
+      				bMiseEnFormePossible = faux
+      				MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_COULEURFOND..Grisé = vrai
+      				
+      				// Mais on peut modifier ses propres propriétés
+      				MENU_ESPACE_TRAVAIL.OPT_ED_LIAISON..Visible = vrai
+      			FIN			
+      			
+      			
+      		sinon
+      			// On verra au cas par cas
+      			MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_CADRE..Grisé = faux
+      		FIN
+      		
+      		// Deux champs nécessaires pour relier
+      		si nNbSelect = 2 ALORS
+      			MENU_ESPACE_TRAVAIL.OPT_ED_RELIER..grise = faux
+      		sinon
+      			MENU_ESPACE_TRAVAIL.OPT_ED_RELIER..grise = vrai
+      		FIN
+      		
+      		MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_CADRE.OPT_ED_CADRE_COULEUR..Grisé = MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_CADRE..Grisé
+      		MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_CADRE.OPT_ED_CADRE_EPAISSEUR..Grisé = MENU_ESPACE_TRAVAIL.OPT_ED_STYLE.OPT_ED_CADRE..Grisé		
+      	FIN
+      	
+      	// Mise en forme
+      	MENU_ESPACE_TRAVAIL.OPT_ED_VERROU..visible = (nNbSelect = 1 _et_ bMiseEnFormePossible)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_VERROU..grise = (nNbSelect <> 1 _ET_ bMiseEnFormePossible)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_ADAPTER_TAILLE..visible = (nNbSelect = 1 _ET_ bMiseEnFormePossible)
+      	MENU_ESPACE_TRAVAIL.OPT_ED_ADAPTER_TAILLE..Grisé = (nNbSelect < 1 _ET_ bMiseEnFormePossible)
+      	MENU_ESPACE_TRAVAIL.OPT_SEP_ALIGN..Visible = (MENU_ESPACE_TRAVAIL.OPT_ED_ALIGNEMENT..Visible ou MENU_ESPACE_TRAVAIL.OPT_ED_ADAPTER_TAILLE..Visible)
+      	
+      	// Options d'alignement accessibles
+      	si pas MENU_ESPACE_TRAVAIL.OPT_ED_ALIGNEMENT..Grisé ALORS
+      		
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_BORDGAUCHE..grise = (nNbSelect <= 1)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_BORDDROIT..Grisé = (nNbSelect <= 1)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_BORDHAUT..Grisé = (nNbSelect <= 1)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_BORDBAS..Grisé = (nNbSelect <= 1)		
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_CENTREH..grise = (nNbSelect <= 1)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_CENTREV..Grisé = (nNbSelect <= 1)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_SWAP..Grisé = (nNbSelect <= 1)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_MMLARG..Grisé = (nNbSelect <= 1)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_MMHAUT..Grisé = (nNbSelect <= 1)
+      				
+      		// Pour les espacements, il faut au minimum 3 champs sélectionnés
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_MMESPACEH..Grisé = (nNbSelect < 3)
+      		OPT_ED_ALIGNEMENT.OPT_ED_ALIGN_MMESPACEV..Grisé = (nNbSelect < 3)		
+      	FIN
+      	
+      	OPT_ED_ALIGNEMENT.OPT_ED_ALT_MIN..Grisé			= nNbSelect < 1
+      	OPT_ED_ALIGNEMENT.OPT_ED_ALT_MAX..Grisé			= nNbSelect < 1
+      	OPT_ED_ALIGNEMENT.OPT_ED_ALT_MONTER..Grisé		= nNbSelect < 1
+      	OPT_ED_ALIGNEMENT.OPT_ED_ALT_DESCENDRE..Grisé	= nNbSelect < 1
+      
+      	MENU_ESPACE_TRAVAIL.OPT_ED_ALIGNEMENT..visible = nNbSelect >= 1
+      	MENU_ESPACE_TRAVAIL.OPT_ED_ALIGNEMENT..grise = ( nNbSelect < 1 )
+     type : 458752
+   -
+     name : MGRCoupeSélection
+     procedure_id : 1604596659359759087
+     type_code : 14
+     code : |1+
+      // Résumé : Coupe la sélection courante vers le presse-papiers
+      // Syntaxe :
+      // MGRCoupeSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE MGRCoupeSélection()
+      	
+      	// Copie la sélection
+      	SI MGRCopieSélection() ALORS
+      		
+      		// Supprime la sélection
+      		MGRSupprimeSélection(Vrai)
+      	FIN
+     type : 458752
+   -
+     name : MGRSélectionneTout
+     procedure_id : 1604596938532697827
+     type_code : 14
+     code : |1-
+      // Résumé : Sélectionne les champs à l'écran
+      // Syntaxe :
+      // MGRSélectionneTout ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE MGRSélectionneTout()
+      	
+      	stObjet est un EspaceObjet
+      	
+      	MGREspace..AffichageActif = Faux
+      	
+      	// Pour chacun des champs présents dans l'espace de travail
+      	POUR CHAQUE stObjet DE MGRObjets
+      		
+      		// Sélectionne le champ
+      		FenEdSelectPlus(MGREspace, stObjet.MGRObjet)
+      	FIN
+      	
+      	MGREspace..AffichageActif = Vrai
+     type : 458752
+   -
+     name : MGRObjetAjoute
+     procedure_id : 1604601143307576802
+     type_code : 14
+     code : |1-
+      // Résumé : Ajoute un champ existant dans l'espace
+      // Syntaxe :
+      //MGRObjetAjoute (<oChamp> est champ)
+      //
+      // Paramètres :
+      //	oChamp (champ) :Champ à ajouter
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE MGRObjetAjoute(oChamp est un champ)
+      	
+      	stLib est un espaceobjet
+      	
+      	// Enregistre le champ
+      	stLib.MGRObjet <- oChamp	
+      	stLib.Nom = stLib.MGRObjet..Nom
+      	
+      	// Cas particulier des champs verrouillés
+      	si oChamp..EffetVisuel <> evaucun ALORS
+      		stLib.Verrouillé = vrai
+      	FIN
+      	
+      	// Ajoute
+      	Ajoute(MGRObjets, stLib)
+      	
+      	FenEdDésélectionneTout(mgrespâce)
+      	FenEdSelectPlus(mgrespace, oChamp)
+     type : 458752
+   -
+     name : __MGRObjetCrée
+     procedure_id : 1604601851977214867
+     type_code : 14
+     code : |1-
+      // Résumé : Crée un objet (SANS gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRObjetCrée (<stInfoObjet> est ObjetChamp)
+      //
+      // Paramètres :
+      //	stInfoObjet (ObjetChamp) :Infos sur l'objet à créer
+      // Valeur de retour :
+      // 	champ : Champ créé
+      //
+      PROCEDURE privee __MGRObjetCrée(stInfoObjet est un objetchamp)
+      
+      	nType est un entier = stInfoObjet.Type
+      	sNom  est une chaine = mgrespace..NomComplet + "." + MGRDonneNomUnique(stInfoObjet.Nom)
+      	stChamp est un EspaceObjet
+      	
+      	// Recrée le champ
+      	stChamp.MGRObjet <- champcree(sNom, nType, mgrespace..X, MGREspace..Y, 10, 10, faux)
+      	stChamp.Nom = stChamp.MGRObjet..nom
+      		
+      	// Restaure les propriétés
+      	__MGRObjetPropriétésRestaure(stChamp.MGRObjet, stInfoObjet)
+      		
+      	// Indique aux champs départ et arrivée la liaison
+      	si nType = typfil alors
+      		__MGRObjetMémoriseLiaison(stChamp.MGRObjet..ChampDépart, stChamp.MGRObjet..nom, Vrai)
+      		__MGRObjetMémoriseLiaison(stChamp.MGRObjet..ChampArrivée, stChamp.MGRObjet..Nom, Vrai)
+      	fin
+      	
+      	// Ajoute le champ dans la liste
+      	Ajoute(MGRObjets, stChamp)
+      	
+      renvoyer stChamp.MGRObjet
+     type : 458752
+   -
+     name : MGRObjetCrée
+     procedure_id : 1604602994426854286
+     type_code : 14
+     code : |1-
+      // Résumé : Crée un objet dans l'espace à partir d'une description
+      // Syntaxe :
+      //[ <Résultat> = ] MGRObjetCrée (<stInfoObjet> est ObjetChamp)
+      //
+      // Paramètres :
+      //	stInfoObjet (ObjetChamp) :Description du champ à créer
+      // Valeur de retour :
+      // 	champ : Champ crée
+      //
+      PROCEDURE MGRObjetCrée(stInfoObjet est un objetchamp)
+      
+      	oRéférence est un champ
+      	sNom est une chaine
+      	stLocalInfo est un ObjetChamp <= stInfoObjet
+      
+      	// Déclare l'action et crée l'objet
+      	FenEdDo(mgrespace, __CréeObjet)
+      	procedure interne __CréeObjet()
+      		
+      		empile(PileActions, "Créer")
+      		
+      		// Crée l'objet
+      		oRéférence <- __MGRObjetCrée((stLocalInfo))
+      		sNom = oRéférence..nom
+      		
+      		oRéférence..Visible = vrai
+      		
+      		FenEdDéclareUndo(__AnnuleCréeObjet)
+      		procedure interne __AnnuleCréeObjet()
+      		
+      			Dépile(PileActions)
+      		
+      			// Supprime
+      			__MGRObjetSupprime(sNom)
+      		FIN
+      		
+      		renvoyer vrai
+      	FIN
+      	
+      	
+      renvoyer oRéférence		
+     type : 458752
+   -
+     name : MGRObjetCrée
+     internal_properties : CAAAAAgAAACcx0H0F14kJ3qNtchXKjse4o5doUdQ5wsRCYJ24lxFqfEJjXAsdGRfrpuZ6FZpVB+cF5UXiVsZHddJKHn07ARHGqW9v6D/2hI5XpJHA6FOhaYBm5jVAZuizR25GI4W2gLsdatRRObOLP5MrHUGbPdGeGk3Hkl/H34PN3nPeiC2K4aM
+     procedure_id : 1604602994426854286
+     type_code : 14
+     code : |1-
+      // Résumé : Crée un objet dans l'espace à partir d'un champ existant
+      // Syntaxe :
+      //[ <Résultat> = ] MGRObjetCrée (<oSource> est champ [, <nX> est entier [, <nY> est entier]])
+      //
+      // Paramètres :
+      //	oSource (champ) :Source du champ qui sera cloné
+      //	nX (entier - valeur par défaut=6) :Position X
+      //	nY (entier - valeur par défaut=6) :Position Y
+      // Valeur de retour :
+      // 	champ : Champ crée
+      //
+      PROCEDURE MGRObjetCrée(oSource est un champ, local nX est un entier = 6, local nY est un entier = 6)
+      
+      	oRéférence est un champ
+      	sChampSource est une chaine = oSource..nomcomplet
+      	sNomSource est une chaine = oSource..Nom
+      	sNom est une chaine
+      
+      	// Déclare l'action et crée l'objet
+      	FenEdDo(mgrespace, __CréeObjet)
+      	PROCEDURE INTERNE __CréeObjet()
+      	
+      		Empile(PileActions, "Créer")
+      		
+      		// Clone la source
+      		oRéférence <- ChampClone(sChampSource, (mgrespace..NomComplet + "." + MGRDonneNomUnique(sNomSource)), nX, nY)
+      		
+      		// Autorise l'édition
+      		oRéférence..FenEditionAutorisée = vrai
+      		
+      		// Ajoute l'objet au document
+      		MGRObjetAjoute(oRéférence)
+      		sNom = oRéférence..Nom
+      		
+      		FenEdDéclareUndo(__AnnuleCréeObjet)
+      		PROCEDURE INTERNE __AnnuleCréeObjet()
+      			
+      			Dépile(PileActions)
+      			
+      			// Supprime
+      			__MGRObjetSupprime(sNom)
+      		FIN
+      		
+      		RENVOYER Vrai
+      	FIN
+      		
+      renvoyer oRéférence	
+      	
+     type : 458753
+   -
+     name : MGRObjetSupprime
+     procedure_id : 1604604484780590557
+     type_code : 14
+     code : |1-
+      // Résumé : Supprime un objet
+      // Syntaxe :
+      //[ <Résultat> = ] MGRObjetSupprime (<oRéférence> est champ)
+      //
+      // Paramètres :
+      //	oRéférence (champ) :Champ à supprimer
+      // Valeur de retour :
+      // 	booléen : Vrai si l'objet a été supprimé, Faux sinon
+      //
+      PROCEDURE MGRObjetSupprime(oRéférence est un Champ) : booléen
+      	
+      	nNbSupprimés est un entier
+      	tabProps est un tableau de objetchamp
+      	
+      	// Conserve les propriétés des champs
+      	// Les propriétés sont conservées en dehors de la procédure FenEdDo (__MGRExécuteSuppressionDepuisProps) : une fois exécuté, les champs n'existent plus
+      	// ils ne seraient donc pas accessibles en cas d'annulation (pour les recréer), ni même lors du rétablissement de l'action (REDO) ...
+      	// car les champs auraient été recréés
+      	Ajoute(tabProps, __MGRObjetPropriétésSauve(oRéférence))
+      	
+      	// Annule la sélection des objets
+      	FenEdDésélectionneTout(MGREspace)
+      	
+      	// Exécute la suppression à partir des propriétés
+      	nNbSupprimés = __MGRExécuteSuppressionDepuisProps(tabProps, faux)
+      
+      RENVOYER (nNbSupprimés > 0)
+     type : 458752
+   -
+     name : MGRObjetSupprime
+     procedure_id : 1604604484780590557
+     type_code : 14
+     code : |1-
+      // Résumé : Supprime un objet à partir de son nom
+      // Syntaxe :
+      // [ <Résultat> = ] MGRObjetSupprime (<sNom> est chaîne)
+      //
+      // Paramètres :
+      //	sNom (chaîne ANSI) : Nom de l'objet
+      // Valeur de retour :
+      // 	booléen : Vrai si l'objet a été supprimé, Faux sinon
+      //
+      PROCEDURE MGRObjetSupprime(sNom est une chaine) : booléen
+      	
+      	oRéférence est un Champ <- {sNom, indchamp}
+      	
+      	// Vérifie
+      	si oRéférence = null _ou_ oRéférence..type = 0 alors
+      		ErreurDéclenche(500, "Champ inconnu")
+      		renvoyer faux
+      	FIN
+      	
+      renvoyer MGRObjetSupprime(oRéférence)
+     type : 458753
+   -
+     name : __MGRExécuteSuppressionDepuisProps
+     procedure_id : 1604604875622705790
+     type_code : 14
+     code : |1-
+      // Résumé : Exécute une suppression depuis une liste de propriétés (avec gestion de l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteSuppressionDepuisProps (<tabProps> est tableau [, <bCouper> est booléen])
+      //
+      // Paramètres :
+      //	tabProps (tableau) : Propriétés
+      //	bCouper (booléen - valeur par défaut=0) : Vrai si la suppression est consécutive à un couper dans le presse-papier, Faux dans le cas contraire
+      // Valeur de retour :
+      // 	entier : Nombre d'objets supprimés
+      //
+      PROCEDURE privee __MGRExécuteSuppressionDepuisProps(tabProps est un tableau de ObjetChamp, LOCAL bCouper est un booléen = faux) : entier
+      
+      	oRéférence est un Champ
+      	nNbSupprimés est un entier
+      	tabPropsLocal est un tableau de ObjetChamp <= tabProps
+      
+      	// Enregistre l'action et exécute la suppression
+      	FenEdDo(MGREspace, __SuppressionDepuisProps)
+      	PROCEDURE INTERNE __SuppressionDepuisProps()
+      		
+      		Empile(PileActions, (bCouper ? "Couper" SINON "Supprimer"))
+      		
+      		// RAZ le nombre d'éléments supprimés
+      		// => lors du REDO le contexte de la procédure sera restauré, il est donc nécessaire
+      		// de réinitialiser cette variable en entrée
+      		nNbSupprimés = 0
+      		tabPropsSupprimés est un tableau de ObjetChamp
+      		
+      		MGREspace..AffichageActif = Faux
+      		
+      		POUR i = 1 _a_ tabPropsLocal..occurrence
+      			
+      			// Supprime physiquement le champ
+      			ajoute(tabPropsSupprimés, __MGRObjetSupprime(tabPropsLocal[i].Nom))
+      		FIN
+      		
+      		// Trie pour que les liaisons soient toujours en tête de liste
+      		trie(tabPropsSupprimés, ttFonction, RéordonneSuppression)
+      		procedure interne RéordonneSuppression(stUn est un objetchamp, stDeux est un objetchamp)
+      			si stUn.Type = typfil alors renvoyer -1
+      			si stDeux.Type = typfil alors renvoyer -1
+      			renvoyer 0
+      		FIN
+      		
+      		nNbSupprimés = (tabPropsSupprimés..Occurrence > 0)
+      		MGREspace..AffichageActif = Vrai
+      		
+      		// Déclare l'annulation
+      		FenEdDéclareUndo(__AnnuleSupprimeObjets)
+      		PROCEDURE INTERNE __AnnuleSupprimeObjets()
+      			
+      			Dépile(PileActions)
+      			
+      			MGREspace..AffichageActif = Faux
+      			
+      			// Annule la sélection courante
+      			FenEdDésélectionneTout(MGREspace)
+      			
+      			// On restaure les champs dans l'ordre inverse de suppression
+      			// pour conserver leur altitude relative et pour restaurer les liaisons à la fin 
+      			POUR i = tabPropsSupprimés..occurrence _a_ 1 pas -1
+      				
+      				// Ignore les champs invalides
+      				dbgVérifieDifférence(tabPropsSupprimés[i].Type, 0)
+      				SI tabPropsSupprimés[i].Type = 0 ALORS CONTINUER
+      				
+      				// Crée le champ depuis les propriétés
+      				oRéférence <- __MGRObjetCrée(tabPropsSupprimés[i])
+      				
+      				// Re-sélectionne l'objet
+      				FenEdSelectPlus(MGREspace, oRéférence)
+      				
+      				// Rend le champ visible
+      				oRéférence..Visible = Vrai				
+      			FIN
+      			
+      			MGREspace..AffichageActif = Vrai
+      		FIN
+      		
+      		RENVOYER (nNbSupprimés > 0)
+      	FIN
+      	
+      RENVOYER nNbSupprimés
+     type : 458752
+   -
+     name : Modifié
+     procedure_id : 1609321780502334136
+     type_code : 14
+     code : |1+
+      // Résumé : Renvoie l'état modifié du document
+      // Syntaxe :
+      //[ <Résultat> = ] Modifié ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si le document a été modifié, Faux sinon
+      //
+      PROCEDURE Modifié() : booléen
+      renvoyer ((FaaRedoPossible() _ou_ FaaUndoPossible()) _et_ pas Enregistré)
+     type : 458752
+   -
+     name : MGROuvreMenuAlignement
+     procedure_id : 1609348774376698037
+     type_code : 14
+     code : |1-
+      // Résumé : Ouvre le menu d'alignement
+      // Syntaxe :
+      //MGROuvreMenuAlignement (<nX> est entier, <nY> est entier)
+      //
+      // Paramètres :
+      //	nX (entier) : Position X
+      //	nY (entier) : Position Y
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE MGROuvreMenuAlignement(nX est un entier, nY est un entier)
+      
+      	// Actualise le menu
+      	__MGRActualiseMenu()
+      
+      	// Ouverture
+      	OuvreMenuContextuel(MENU_ESPACE_TRAVAIL.OPT_ED_ALIGNEMENT, nX, nY)
+     type : 458752
+   -
+     name : MGRModifiePropriétéSélection
+     internal_properties : CAAAAAgAAACJAo0TcRt7SbB51QiwfMiqAPp1sQh1Is9RWKLdg+1qHbXTXyRodkQznzmeoQ4T7U9iY23NQRy8cmImShdwDwgL7WUizbmS7nSlhBUNtkHl94VfOM6eqI02g7XIkKER3kARzb5C6hp7wjhW2MlSUYi59S4IXZwsgt9G/ngAQVIGh3ruCAX/ci9BldZY4iwrY28XuZEUrtfibPXuro14QoPF3ZgIJdbjpyLuaWErK/YWfrvS5EwfWIaXyNis++KPIz2Olg==
+     procedure_id : 1609360508227395998
+     type_code : 14
+     code : |1-
+      // Résumé : Modifie une propriété de la sélection courante
+      // Syntaxe :
+      //[ <Résultat> = ] MGRModifiePropriétéSélection (<sPropriété> est chaîne, <Valeur>)
+      //
+      // Paramètres :
+      //	sPropriété (chaîne ANSI) :Nom de la propriété à modifier
+      //	Valeur :Valeur de la propriété
+      // Valeur de retour :
+      // 	booléen : Vrai si l'action a été réalisée, Faux sinon
+      //
+      PROCEDURE MGRModifiePropriétéSélection(sPropriété est une chaine, Valeur)
+      
+      	oRéférence est un champ
+      	sNomPropriété est une chaine = sPropriété
+      	vValeurPropriété est un variant = Valeur
+      	taProps est un tableau associatif de variants
+      	tabChamps est un tableau de chaines
+      	nNbModifiés est un entier
+      
+      	// Il faut au moins un champ sélectionné
+      	SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		RENVOYER Faux
+      	FIN
+      	
+      	// Enumération
+      	POUR i = 1 _a_ FenEdSelectOccurrence(MGREspace)
+      		
+      		// Référence
+      		oRéférence <- FenEdSelect(MGREspace, i)
+      		ajoute(tabChamps, oRéférence..NomComplet)		
+      	FIN
+      
+      	// Enregistre l'action et exécute le changement de valeur de la propriété demandée	
+      	FenEdDo(MGREspace, __MGRExécutePropriétéSélection)
+      	procedure interne __MGRExécutePropriétéSélection()
+      	
+      		Empile(PileActions, "Modifier le style")
+      		
+      		MGREspace..AffichageActif = faux
+      		
+      		// Enumération
+      		pour tout sNomChamp de tabChamps
+      			
+      			oRéférence <- {sNomChamp, indChamp}
+      			
+      			// Si la propriété existe sur ce champ
+      			quand exception dans
+      				
+      				// Cas particulier du cadre
+      				si ChaîneCommencePar(sNomPropriété, "Cadre", ccSansCasse) ALORS
+      					
+      					// Récupère le cadre complet
+      					oCadre est un cadre = oRéférence..Cadre
+      										
+      					// Conserve le cadre complet
+      					taProps[sNomChamp + ".." + sNomPropriété] = oCadre
+      					
+      					// Met à jour la propriété du cadre
+      					si position(sNomPropriété, "..") > 0 ALORS
+      						
+      						// Selon la sous-propriété
+      						selon minuscule(extraitchaine(sNomPropriété, 2, ".."))
+      							cas "couleur"
+      								oCadre..Couleur = vValeurPropriété
+      								
+      								// Pour laisser apparaître la couleur, il faut un cadre d'au moins un pixel
+      								SI oCadre..Epaisseur = 0 ALORS oCadre..Epaisseur = 1
+      								
+      							cas "epaisseur"
+      								oCadre..Epaisseur = vValeurPropriété		
+      						FIN						
+      					sinon
+      						// Toutes les propriétés
+      						oCadreValeur est un cadre = vValeurPropriété
+      						oCadre..Couleur 	= oCadreValeur..Couleur
+      						oCadre..Epaisseur 	= oCadreValeur..Epaisseur
+      					FIN
+      				
+      					// Cadre avec une épaisseur non nulle : trait et bord par défaut
+      					SI oCadre..Epaisseur > 0 _ET_ oCadre..Trait <> TraitContinu ALORS 
+      						oCadre..Trait = TraitContinu
+      						oCadre..Bords = BordTous
+      						oCadre..Arrondi = 0
+      					FIN
+      					
+      					// Cadre avec une épaisseur nulle : pas de trait, pas de bord
+      					SI oCadre..Epaisseur = 0 ALORS 
+      						oCadre..Trait = TraitAucun
+      						oCadre..Bords = BordAucun
+      						oCadre..Arrondi = 0
+      					FIN
+      					
+      					// Applique le nouveau cadre
+      					oRéférence..Cadre = oCadre
+      				sinon
+      					
+      					// Conserve puis modifie la propriété
+      					ExécuteCode(chaineconstruit([
+      						taProps[sNomChamp + ".." + sNomPropriété] = oRéférence..%1
+      						oRéférence..%1 = vValeurPropriété
+      					], sNomPropriété, sNomChamp))
+      				FIN
+      				
+      				nNbModifiés ++
+      			faire
+      				continuer
+      			FIN
+      		fin
+      		
+      		MGREspace..AffichageActif = vrai
+      		
+      		// Déclare le UNDO
+      		FenEdDéclareUndo(__AnnulePropriété)
+      		procedure interne __AnnulePropriété()
+      		
+      			Dépile(PileActions)
+      			
+      			MGREspace..AffichageActif = faux
+      			
+      			// Enumération
+      			POUR TOUT sNomChamp DE tabChamps
+      				
+      				// Restauration possible ?
+      				SI taProps[sNomChamp + ".." + sNomPropriété]..vide = faux ALORS 
+      					
+      					oRéférence <- {sNomChamp, indChamp}
+      															
+      					// Cas particulier du cadre
+      					SI ChaîneCommencePar(sNomPropriété, "Cadre", ccSansCasse) ALORS
+      						
+      						// Récupère le cadre
+      						oCadre est un cadre = taProps[sNomChamp + ".." + sNomPropriété]
+      											
+      						// Cadre avec une épaisseur non nulle : trait et bord par défaut
+      						SI oCadre..Epaisseur > 0 _ET_ oCadre..Trait <> TraitContinu ALORS 
+      							oCadre..Trait = TraitContinu
+      							oCadre..bords = BordTous
+      							oCadre..Arrondi = 0
+      						FIN
+      						
+      						// Cadre avec une épaisseur nulle : pas de trait, pas de bord
+      						SI oCadre..Epaisseur = 0 alors 
+      							oCadre..Trait = TraitAucun
+      							oCadre..Bords = BordAucun
+      							oCadre..Arrondi = 0
+      						FIN
+      
+      						// Applique le nouveau cadre
+      						oRéférence..Cadre = oCadre							
+      					sinon
+      						
+      						// Restaure la propriété
+      						ExécuteCode(ChaîneConstruit([
+      							oRéférence..%1 = taProps[sNomChamp + ".." + sNomPropriété]
+      						], sNomPropriété))
+      					FIN
+      				FIN
+      			FIN	
+      			
+      			MGREspace..AffichageActif = Vrai		
+      		FIN
+      		
+      		renvoyer (nNbModifiés > 0)
+      	FIN
+      	
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : __MGREnregistreChamps
+     internal_properties : CAAAAAgAAAAPhEBrP3YMzc55lqMccD752MtN0nmrB7QLvZPVYzPxos4jWR7psN9QYmZmVxUYXczHszVbMKHmA7iNjZLTY5P0I3/ni2KxbxmfkPhZAz2Ui6leC7XfSZ4717QSeQ7Ckf+Zmz4pYAzlCOkMyuXAfqfJRGNR7xntad7hPjfOu+OAgw==
+     procedure_id : 1609729931249783247
+     type_code : 14
+     code : |1-
+      // Résumé : Enumère les champs présents et les enregistre
+      // Syntaxe :
+      //__MGREnregistreChamps ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE privee __MGREnregistreChamps()
+      
+      	n est un entier = 1
+      	sChamp est une chaine
+      	oChamp est un champ
+      	tabChampsUtiles est un tableau de chaines = [ BTN_CTRL_D..Nom, BTN_CTRL_C..Nom, BTN_CTRL_A..Nom, BTN_CTRL_0..Nom, BTN_SUPPR..nom, BTN_CTRL_X..Nom, BTN_CTRL_V..Nom, BTN_ALT_V..Nom ]
+      
+      	BOUCLE
+      		
+      		// Enumère le champ
+      		sChamp = EnumèreChamp(MGREspace, n, parOrdreDeCréation)
+      		si sChamp = "" alors sortir
+      		
+      		// Prend une référence sur le champ
+      		oChamp <- {MGREspace..nom + ["."] + sChamp, indchamp}
+      		si oChamp = null alors continuer
+      		
+      		// Champ de décor ou utile dans l'espace
+      		si tabChampsUtiles.Cherche( tccSansCasse + tcLinéaire, oChamp..nom ) > 0 alors continuer
+      						
+      		// Ajoute l'objet à l'espace
+      		MGRObjetAjoute(oChamp)	
+      		
+      		// Indique aux champs départ et arrivée la liaison
+      		SI oChamp..Type = typFil ALORS
+      			__MGRObjetMémoriseLiaison(oChamp..ChampDépart, oChamp..Nom, Vrai)
+      			__MGRObjetMémoriseLiaison(oChamp..ChampArrivée, oChamp..Nom, Vrai)
+      		FIN	
+      				
+      		continuer:
+      		n ++
+      	FIN
+     type : 458752
+   -
+     name : MGROuvreMenuStyle
+     procedure_id : 1611179555731801810
+     type_code : 14
+     code : |1-
+      // Résumé : Ouvre le menu de style
+      // Syntaxe :
+      //MGROuvreMenuStyle (<nX> est entier, <nY> est entier)
+      //
+      // Paramètres :
+      //	nX (entier) :Position X
+      //	nY (entier) :Position Y
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE MGROuvreMenuStyle(nX est un entier, nY est un entier)
+      
+      	// Actualise le menu
+      	__MGRActualiseMenu()
+      
+      	// Ouverture
+      	OuvreMenuContextuel(MENU_ESPACE_TRAVAIL.OPT_ED_STYLE, nX, nY)
+     type : 458752
+   -
+     name : MGRVerrouilleSélection
+     procedure_id : 1647539894153249482
+     type_code : 14
+     code : |1-
+      // Résumé : Verrouille/Déverrouille la sélection
+      // Syntaxe :
+      //[ <Résultat> = ] MGRVerrouilleSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si l'action a été réalisée, Faux sinon
+      //
+      PROCEDURE MGRVerrouilleSélection() : booléen
+      	
+      	// Il faut au moins un champ sélectionné
+      	SI PAS FenEdSelectOccurrence(MGREspace) >= 1 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		RENVOYER Faux
+      	FIN
+      	
+      	// Enregistre l'action et exécute le verrouillage
+      	FenEdDo(MGREspace, __MGRExécuteVerrouilleSélection)
+      
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : __MGRExécuteVerrouilleSélection
+     procedure_id : 1647540366599761308
+     type_code : 14
+     code : |1-
+      // Résumé : Exécute le verrouillage (pour l'UNDO/REDO)
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteVerrouilleSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si le verrouillage a été appliqué, Faux sinon (aucun enregistrement pour l'UNDO/REDO)
+      //
+      PROCEDURE PRIVÉE __MGRExécuteVerrouilleSélection() 
+      
+      	tabChamps 	est un tableau de champs
+      	oRéférence  est un champ
+      	bEtatVerrou est un booléen
+      	taVerrou    est un tableau associatif de booléens
+      	
+      	Empile(PileActions, "Modifier le verrou de la sélection")
+      	
+      	// Récupère les champs sélectionnés
+      	POUR i = 1 _a_ FenEdSelectOccurrence(MGREspace)
+      		oRéférence <- FenEdSelect(MGREspace, i)
+      		Ajoute(tabChamps, oRéférence)
+      	FIN
+      	
+      	// Le champ le plus haut sélectionné est le champ de référence
+      	oRéférence <- tabChamps[1]
+      	MGREspace..AffichageActif = Faux
+      	
+      	// Récupère l'état du verrou du champ de référence
+      	nChamp est un entier = cherche(MGRObjets, tcLinéaire, "Nom", oRéférence..nom)
+      	si nChamp > 0 ALORS
+      		bEtatVerrou = MGRObjets[nChamp].Verrouillé
+      	FIN	 
+      	
+      	// Pour tous les champs
+      	pour i = 1 _a_ tabChamps..Occurrence
+      		
+      		// Modifie l'état de verrou du champ
+      		nChamp = cherche(MGRObjets, tcLinéaire, "Nom", tabChamps[i]..nom)
+      		si nChamp > 0 alors
+      			
+      			// Conserve l'état précédent
+      			taVerrou[tabChamps[i]..NomComplet] = MGRObjets[nChamp].Verrouillé
+      			
+      			// Modifie l'état
+      			MGRObjets[nChamp].Verrouillé = (pas bEtatVerrou)
+      			tabChamps[i]..EffetVisuel = (PAS bEtatVerrou) ? evVoileBleu sinon evAucun
+      			
+      			// Si le champ est marqué verrouillé
+      			si bEtatVerrou = faux ALORS
+      				
+      				// On le désélectionne
+      				FenEdSelectMoins(mgrespace, tabChamps[i])
+      			FIN
+      		fin
+      	FIN
+      	
+      	MGREspace..AffichageActif = Vrai
+      	
+      	// Déclare l'annulation
+      	FenEdDéclareUndo(__AnnuleVerrou)
+      	PROCEDURE INTERNE __AnnuleVerrou()
+      	
+      		depile(PileActions)
+      		MGREspace..AffichageActif = faux
+      	
+      		// Restaure les champs
+      		POUR i = 1 _a_ tabChamps..Occurrence
+      			
+      			nChamp = Cherche(MGRObjets, tcLinéaire, "Nom", tabChamps[i]..Nom)
+      			SI nChamp > 0 ALORS
+      				
+      				// Restaure l'état
+      				MGRObjets[nChamp].Verrouillé = taVerrou[tabChamps[i]..NomComplet]
+      				tabChamps[i]..EffetVisuel = taVerrou[tabChamps[i]..NomComplet] ? evVoileBleu SINON evAucun
+      			
+      				// Si le champ est marqué verrouillé
+      				SI taVerrou[tabChamps[i]..NomComplet] ALORS
+      					
+      					// On le désélectionne
+      					FenEdSelectMoins(MGREspace, tabChamps[i])
+      				FIN
+      			FIN			
+      		FIN			
+      		
+      		MGREspace..AffichageActif = Vrai	
+      	FIN
+      	
+      renvoyer vrai
+     type : 458752
+   -
+     name : __MGRSurSélection
+     procedure_id : 1647544691632376597
+     type_code : 14
+     code : |1-
+      // Résumé : Exécuté lors de la sélection d'un objet
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRSurSélection ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si la sélection est possible, Faux sinon
+      //
+      PROCEDURE protegee __MGRSurSélection() : booléen
+      
+      	retour = vrai
+      
+      	// Récupère l'indice du dernier champ sélectionné
+      	nDernierSélect est un entier = FenEdSelectOccurrence(MGREspace)
+      	si nDernierSélect > 0 alors
+      	
+      		// Récupère le champ sélectionné
+      		oChamp est un champ <- FenEdSelect(MGREspace, nDernierSélect)
+      		si oChamp <> null ALORS
+      		
+      			// Vérifie le champ
+      			nChamp est un entier = cherche(MGRObjets, tcLinéaire, "Nom", oChamp..nom)
+      			SI nChamp > 0 ALORS
+      	
+      				// Si le champ est verrouillé
+      				si MGRObjets[nChamp].Verrouillé ALORS
+      					
+      					// On peut sélectionner le champ avec le bouton droit
+      					si pas ToucheEnfoncée(teBoutond) alors 
+      						
+      						// Empêche la sélection
+      						FenEdSelectMoins(mgrespace, oChamp)
+      						renvoyer faux
+      					fin
+      				FIN
+      			FIN	 
+      		FIN
+      	fin
+      	
+      	__MGRActualiseMenu()
+     type : 458752
+   -
+     name : __MGRSurDéplacement
+     procedure_id : 1647544708812315489
+     type_code : 14
+     code : |1-
+      // Résumé : Exécuté lors du déplacement d'un objet
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRSurDéplacement ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si le déplacement est possible, Faux sinon
+      //
+      PROCEDURE PROTÉGÉE __MGRSurDéplacement() : booléen
+      	
+      	RETOUR = Vrai
+      	
+      	empile(PileActions, "Déplacement")
+     type : 458752
+   -
+     name : __MGRSurChangementTaille
+     procedure_id : 1647544725992254162
+     type_code : 14
+     code : |1-
+      // Résumé : Exécuté lors du redimensionnement d'un objet
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRSurChangementTaille ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si le redimensionnement est possible, Faux sinon
+      //
+      PROCEDURE PROTÉGÉE __MGRSurChangementTaille() : booléen
+      	
+      	RETOUR = Vrai
+      	
+      	Empile(PileActions, "Redimensionnement")
+     type : 458752
+   -
+     name : FaaUndoLibellé
+     internal_properties : CAAAAAgAAAAeQeZWqR4YD9gNuw5ISpse4q5d4YfQh8vxSSLWonylqfGpzXAstIQfjtu5yNZJ9N/c91UXiZv53fcJCNn0zKQH2jXtD1BPimLproJX87E+1RbRiyhFUUvyPW0p6P5mipLcRRthNLb+/G4cHMU2fOcWaLmnLrlIMic+6HTcyeP/rQgO
+     procedure_id : 1658000265711786308
+     type_code : 14
+     group : 3
+     code : |1-
+      // Résumé : Renvoie le libellé de la dernière action
+      // Syntaxe :
+      //[ <Résultat> = ] FaaUndoLibellé ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	chaîne ANSI : Texte de la dernière action
+      //
+      // Traitement automatique des exceptions :   exécuter le bloc de code CAS EXCEPTION:
+      //
+      
+      PROCEDURE FaaUndoLibellé() : chaine
+      
+      	sLibellé est une chaine
+      	
+      	// Dépile l'action
+      	depile(PileActions, sLibellé)
+      	
+      	// Ré-empile l'action
+      	empile(pileactions, sLibellé)
+      
+      renvoyer sLibellé
+      
+      CAS EXCEPTION:
+      	renvoyer faux
+     type : 458752
+   -
+     name : MGRCréeLiaison
+     procedure_id : 2258336625072855995
+     type_code : 14
+     code : |1-
+      // Résumé : Crée un champ fil démarrant de l'objet sélectionné
+      // Syntaxe :
+      // MGRCréeLiaison ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure MGRCréeLiaison()
+      	
+      	// Il faut 2 champs sélectionnés
+      	SI PAS FenEdSelectOccurrence(MGREspace) = 2 ALORS
+      		ErreurDéclenche(500, "Il faut deux objets sélectionnés pour créer une liaison")
+      		RENVOYER Faux
+      	FIN
+      	
+      	// Enregistre l'action et exécute la création
+      	FenEdDo(MGREspace, __MGRExécuteCréationLiaison)
+      
+      RENVOYER Vrai
+     type : 458752
+   -
+     name : __MGRExécuteCréationLiaison
+     procedure_id : 2258337015914905004
+     type_code : 14
+     code : |1-
+      // Résumé : Exécuté lors de la création d'une liaison
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRExécuteCréationLiaison ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si l'opération a réussi, Faux sinon
+      //
+      procédure PROTÉGÉE __MGRExécuteCréationLiaison()
+      
+      	stLiaison est un objetchamp
+      	oDépart est un champ
+      	oArrivée est un champ
+      	
+      	// Récupère les champs sélectionnés
+      	POUR i = 1 _À_ FenEdSelectOccurrence(MGREspace)		
+      		si oDépart = null ALORS
+      			oDépart <- FenEdSelect(MGREspace, i)
+      		sinon si oArrivée = null alors
+      			oArrivée <- FenEdSelect(MGREspace, i)			
+      		sinon
+      			sortir
+      		FIN
+      	FIN
+      	
+      	// Si on n'a pas de champ d'arrivée, 
+      	SI oArrivée = Null ALORS
+      		ErreurDéclenche(500, "Aucun champ d'arrivée sélectionné")
+      		renvoyer faux
+      	FIN
+      
+      	Empile(PileActions, "Création d'une liaison")
+      	
+      	MGREspace..AffichageActif = Faux
+      
+      	// Décrit l'objet à créer
+      	stLiaison.Nom							= "FIL_LIAISON"
+      	stLiaison.Type							= typFil
+      	
+      	// Propriétés
+      	si oDépart <> null alors stLiaison.Propriétés["ChampDépart"] = oDépart..nomcomplet
+      	si oArrivée <> null alors stLiaison.Propriétés["ChampArrivée"] = oArrivée..nomcomplet
+      
+      	// Crée le champ fil
+      	oLiaison est un champ <- __MGRObjetCrée(stLiaison)
+      	
+      	// On le rend visible
+      	oLiaison..visible = vrai	
+      	
+      	MGREspace..AffichageActif = vrai
+      
+      	// Déclare l'annulation
+      	FenEdDéclareUndo(__AnnuleDuplication)
+      		PROCÉDURE INTERNE __AnnuleDuplication()
+      		
+      			Dépile(PileActions)
+      			
+      			// Supprime les copies
+      			__MGRObjetSupprime(oLiaison)		
+      		FIN
+      
+      renvoyer vrai
+     type : 458752
+   -
+     name : MGRFilChangeForme
+     procedure_id : 2258405378909412552
+     type_code : 14
+     code : |1+
+      // Résumé : Change la forme d'une des extrémités d'une liaison
+      // Syntaxe :
+      //[ <Résultat> = ] MGRFilChangeForme (<bDépart> est booléen, <nForme> est entier)
+      //
+      // Paramètres :
+      //	bDépart (booléen) : Vrai si on modifie l'extrémité de départ, Faux si on modifie l'extrémité d'arrivée
+      //	nForme (entier) : Forme de l'extrémité à appliquer
+      // Valeur de retour :
+      // 	booléen : Vrai si l'opération a réussi, Faux sinon
+      //
+      procédure MGRFilChangeForme( local bDépart est un booléen, local nForme est un entier ) : booléen
+      	
+      	oFil est un champ
+      	sChampFil est une chaine
+      	
+      	// Il faut un seul champ sélectionné
+      	SI PAS FenEdSelectOccurrence(MGREspace) = 1 ALORS
+      		ErreurDéclenche(500, "Aucune sélection courante")
+      		RENVOYER Faux
+      	FIN
+      	
+      	// Récupère le champ sélectionné
+      	oFil <- FenEdSelect(MGREspace, 1)
+      		
+      	si oFil..type <> typfil ALORS
+      		ErreurDéclenche(500, "Un champ fil doit être sélectionné")
+      		RENVOYER Faux
+      	FIN
+      	
+      	// Mémorise le nom complet du fil
+      	sChampFil = oFil..nomcomplet
+      	
+      	// Enregistre l'action et exécute le changement
+      	FenEdDo(MGREspace, __MGRFilChangeForme)
+      	
+      	procedure interne __MGRFilChangeForme()
+      		
+      		Empile(PileActions, "Modification des propriétés de la liaison")
+      		
+      		nFormeSauvegarde est un entier
+      		
+      		// Modifie la forme de l'extrémité choisie
+      		si bDépart ALORS
+      			
+      			nFormeSauvegarde = oFil..FormeExtrémitéDépart
+      			oFil..FormeExtrémitéDépart = nForme
+      			
+      		sinon
+      			
+      			nFormeSauvegarde = oFil..FormeExtrémitéArrivée
+      			oFil..FormeExtrémitéArrivée = nForme
+      			
+      		FIN
+      		
+      		// Déclare l'annulation
+      		FenEdDéclareUndo(__AnnuleChangeForme)
+      			PROCÉDURE INTERNE __AnnuleChangeForme()
+      			
+      				Dépile(PileActions)
+      				
+      				// Si le champ existe encore
+      				si champexiste( sChampFil ) alors
+      				
+      					// Reprend une référence sur le champ fil
+      					oFil <- { sChampFil, indchamp }
+      															
+      					// Restaure la forme de l'extrémité choisie
+      					SI bDépart ALORS
+      						
+      						oFil..FormeExtrémitéDépart	= nFormeSauvegarde
+      						
+      					SINON
+      						
+      						oFil..FormeExtrémitéArrivée	= nFormeSauvegarde
+      						
+      					FIN	
+      				fin
+      			FIN
+      	FIN
+      
+      RENVOYER Vrai
+      
+     type : 458752
+   -
+     name : __MGRObjetMémoriseLiaison
+     procedure_id : 2258421450677171439
+     type_code : 14
+     code : |1-
+      // Résumé : Mémorise une liaison pour un objet
+      // Syntaxe :
+      //__MGRObjetMémoriseLiaison (<oRéférence>, <sNomLiaison> est chaîne, <bAjouteLiaison> est booléen)
+      //
+      // Paramètres :
+      //	oRéférence : Champ de référence
+      //	sNomLiaison (chaîne ANSI) : Nom de la liaison à mémoriser
+      //	bAjouteLiaison (booléen) : Vrai si on crée la liaison, Faux si on la supprime
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure __MGRObjetMémoriseLiaison(oRéférence, sNomLiaison est une chaine, bAjouteLiaison est un booléen)
+      
+      	// Cherche l'objet dans la liste
+      	nChamp est un entier = cherche(MGRObjets, tcLinéaire, "Nom", oRéférence..nom)
+      	SI nChamp > 0 ALORS
+      		
+      		// Cherche la liaison
+      		nLiaison est un entier = Cherche(MGRObjets[nChamp].Liaisons, tcLinéaire, sNomLiaison)
+      		
+      		si bAjouteLiaison ALORS
+      			
+      			// Si la liaison n'existe pas
+      			si nLiaison < 1 ALORS			
+      				
+      				// On la crée
+      				ajoute(MGRObjets[nChamp].Liaisons, sNomLiaison)
+      			FIN		
+      		sinon
+      			
+      			// Si la liaison existe
+      			si nLiaison > 0 ALORS
+      				
+      				// On la supprime
+      				supprime(MGRObjets[nChamp].Liaisons, nLiaison)
+      			FIN
+      		FIN
+      	
+      	FIN	 
+     type : 458752
+   -
+     name : __MGRObjetChampNul
+     procedure_id : 2258427729919510049
+     type_code : 14
+     code : |1-
+      // Résumé : Renvoie un champ invalide
+      // Syntaxe :
+      //[ <Résultat> = ] __MGRObjetChampNul ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	ObjetChamp : Champ invalide
+      //
+      procédure __MGRObjetChampNul()
+      
+      	stChamp est un ObjetChamp
+      	
+      renvoyer stChamp
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x1fca459e00d42bd3
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

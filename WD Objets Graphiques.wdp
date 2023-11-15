@@ -1,0 +1,127 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Objets Graphiques
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Exécutable Windows 32 bits
+    internal_properties : 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
+    configuration_id : 7462438156927738681
+    type : 1
+    generation_name : WD Objets Graphiques.exe
+    version :
+     major_version : 1
+     generation_version : 5
+     internal_generation_version : 6
+    icon_filename : .\description.ico
+    language : 1
+ elements :
+  identifier : 0x463b38da00039433
+  elements :
+   -
+     name : FI_ESPACE_TRAVAIL
+     identifier : 0x463b393c00421351
+     internal_properties : CAAAAAgAAADtacXZ5lPbhF0KDNeM0QtH5ZbAYO5l3H+O94uyqJd/sUflaqmabu67/iaQaCjYoBD4eA==
+     physical_name : .\FI_ESPACE_TRAVAIL.wdw
+     type : 8
+   -
+     name : FEN_MAIN
+     identifier : 0x4644b6d600206c27
+     internal_properties : CAAAAAgAAAC7l+MnhMFpcn/xpdGQg7gteWhw2OfZUQ6qwMA07AqIAMgIAXuWqtzOHAT++ro2wjaepg==
+     physical_name : .\FEN_MAIN.wdw
+     type : 2
+  other_elements : []
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ data_directory : <RepDonneesCommun>
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACLI6O5bOnGEWeihuZd4To+azj5gx28dnRTd6PJJjrEqhCvhM7LSNcXPmUwtKX+mDl0jSQTeafhibfS0aSe69HU1Wh5Rea6luYXLagk/eVTNtvVF6GJzBJ/Wfll/nMdl3VlXlCm5i6GYzz/6dO/YFVx00XikobczbwQyE+87cY8
+     code : |1-
+      
+      // Altitudes gérées
+      Altitude est une énumération
+      	Monter
+      	PremierPlan
+      	Descendre	
+      	ArrièrePlan
+      FIN
+      
+      // Alignements gérés
+      Alignement est une combinaison
+      	AligneBordHaut	
+      	AligneBordBas
+      	AligneBordGauche
+      	AligneBordDroite
+      	//
+      	AligneCentreHorizontal
+      	AligneCentreVertical
+      	//
+      	AligneLargeur
+      	AligneHauteur
+      	// 
+      	AligneMêmeEspacementV
+      	AligneMêmeEspacementH
+      	//
+      	AligneJustifié = AligneBordGauche + AligneLargeur
+      	//
+      	AligneEchangePosition
+      FIN
+      
+      // Structure permettant de sérialiser un champ
+      ObjetChamp est une structure
+      	Nom			est une chaine
+      	Type		est un entier
+      	Propriétés	est un tableau associatif de variant
+      FIN
+      
+      MémoireObjetChamp est une structure
+      	Occurrence	est un entier
+      	ListeObjets	est un tableau de ObjetChamp
+      FIN
+      
+      // Crée un format de presse-papier pour la copie des champ et la copie de style des champ
+      CF_OBJETCHAMP est un entier systeme = api("user32", "RegisterClipboardFormat" + (wlchaine = wlChaîneUnicode ? "W" sinon "A"), "WD_OBJETCHAMP")
+      CF_STYLECHAMP est un entier systeme = api("user32", "RegisterClipboardFormat" + (wlchaine = wlChaîneUnicode ? "W" sinon "A"), "WD_STYLECHAMP")
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Exécutable Windows 32 bits
+     identifier : 0x463b38da00049462
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
